@@ -738,7 +738,7 @@ def ozet_yaz(d, sonuc, uyum, madde, pay, art, siniflama, bch, uzak, etiketler, s
     s.append("## Kararlar (Karar Defteri biçiminde)\n")
     s.append("L1. Göstergeler ve kategoriler. Karar: HE090 (2: karşılayabilir / karşılayamaz), meyve ve sebze 6 → 4 kategori (hiç veya haftada birden az / haftada 1–3 / haftada 4–6 / "
              f"her gün: günde bir ve günde iki+ birleşik), et-tavuk-balık 4 → 3 kategori (kod 0 vejetaryen/vegan {int((d.et_tavuk_balik_siklik == 0).sum())} kişi, %0,34, "
-             "'haftada birden az' ile birleştirildi). Gerekçe: talimattaki 4 kategorili meyve-sebze tanımı; vejetaryen kategorisi tek başına sınıflara bilgi taşımayacak kadar seyrek ve "
+             "'haftada birden az' ile birleştirildi). Gerekçe: analiz planındaki 4 kategorili meyve-sebze tanımı; vejetaryen kategorisi tek başına sınıflara bilgi taşımayacak kadar seyrek ve "
              "et tüketimi açısından 'haftada birden az' ile aynı düzeyde. Alternatif: kod 0'ı ayrı tutmak (ihmal edilebilir etki). Etki: 96 olası yanıt deseni, hepsi gözlendi.\n")
     s.append("L2. Ağırlık ve kestirim. Karar: FB030, ortalaması 1 olacak biçimde ölçeklendi (toplam = n); ağırlıklı sözde olabilirlik, yanıt desenlerine toplanmış veride (ağırlıklı frekans) "
              "stepmix EM (categorical). Gerekçe: kategorik göstergelerde birey ve desen düzeyi olabilirlik aynıdır; desen düzeyi çok sayıda başlangıcı ucuzlatır. "
@@ -754,10 +754,10 @@ def ozet_yaz(d, sonuc, uyum, madde, pay, art, siniflama, bch, uzak, etiketler, s
              "(en çok 3.000 yineleme); benzetim n = 57.899 ağırlıksız. Gerekçe: stepmix'in blrt işlevi örneklem ağırlığını desteklemiyor. Sınırlılık: gözlenen istatistik ağırlıklı "
              "sözde olabilirlikten, null dağılımı ağırlıksız benzetimden; bu büyüklükte örneklemde BLRT her K artışını anlamlı bulmaya yatkın (bütün p = 1/101), seçimde belirleyici kullanılmadı.\n")
     s.append(f"L5. Yerel bağımsızlık ve ana model. Karar: ana LCA, HE090 ile et-tavuk-balık sıklığını tek bir 6 kategorili ortak göstergede (karşılanabilirlik × et sıklığı) birleştiren "
-             f"üç göstergeli model (ortak gösterge, meyve, sebze); dört ayrı göstergeli model duyarlılık analizi. Gerekçe: dört göstergeli modelde (talimattaki tanım) HE090 × et çiftinde "
+             f"üç göstergeli model (ortak gösterge, meyve, sebze); dört ayrı göstergeli model duyarlılık analizi. Gerekçe: dört göstergeli modelde (analiz planındaki tanım) HE090 × et çiftinde "
              f"güçlü artık bağımlılık var: K = {Kd - 1} BVR {f1(he_et(Kd - 1).BVR)}, en büyük |z| {f1(he_et(Kd - 1).max_abs_z)}; K = {Kd} BVR {f1(he_et(Kd).BVR)}, |z| {f1(he_et(Kd).max_abs_z)}; "
              f"K = {Kd + 1} BVR {f1(he_et(Kd + 1).BVR)}, |z| {f1(he_et(Kd + 1).max_abs_z)}. İki madde içerikçe örtüşür (HE090 iki günde bir et-tavuk-balık içeren öğünü karşılayabilmeyi sorar). "
-             "Talimattaki sıra (Bölüm 6, adım 10; orada meyve–sebze için yazılmış) bağımlılığı gösteren çifte uygulandı: önce sınıf sayısı bir artırıldı (bağımlılık sürdü), sonra iki gösterge "
+             "Analiz planındaki sıra (Bölüm 6, adım 10; orada meyve–sebze için yazılmış) bağımlılığı gösteren çifte uygulandı: önce sınıf sayısı bir artırıldı (bağımlılık sürdü), sonra iki gösterge "
              "tek göstergede birleştirildi; bu, sınıf içinde HE090–et ilişkisine serbest bir parametre tanımakla eşdeğerdir (yerel bağımlılığın modellenmesi). Meyve–sebze çiftinde "
              "hiçbir çözümde |z| > 3 yok. Ortak göstergeli modelde bütün çiftlerde |z| < 2. Alternatifler: dört göstergeli K = 5 (ekte, tam BCH sonuçlarıyla) ve K = 6.\n")
     s.append(f"L6. Sınıf sayısı (ana model). Karar: K = {Ka}. Gerekçe: BIC ve CAIC K = {int(ua.loc[ua.BIC.idxmin(), 'K'])}'te en küçük (gerçek minimum); aBIC en küçük K = "
@@ -770,14 +770,14 @@ def ozet_yaz(d, sonuc, uyum, madde, pay, art, siniflama, bch, uzak, etiketler, s
              "Kovaryat modeli: BCH ağırlıklı çok terimli lojit (Newton). Uzak sonuçlar: (i) BCH ağırlıklı oran (düzeltmesiz); (ii) BCH ağırlıklı genişletilmiş veride lojistik model "
              "(sınıf + kovaryatlar), g-hesaplamayla standardize sınıf yaygınlıkları; (iii) yalnız ana modelde ayrıca A (HE090) eklenmiş model: sınıf farkları A'dan, A farkı sınıftan arındırılmış "
              "standardize yaygınlıklar (bu modelde D, A katmanlarında ayrı hesaplandı; A göstergenin parçası olduğundan). Kovaryatlar: gelir dilimi, yaş grubu (18–29, 30–44, 45–64, 65+), "
-             f"cinsiyet, eğitim (5), bölge (İBBS-1), hane tipi; odeme_tibbi'de (329 olay) olay/parametre oranını korumak için yalnız gelir dilimi, yaş grubu ve cinsiyet (talimattaki küçültülmüş set mantığı; tam setle nokta tahminleri benzer). Doğrulama: kovaryatsız lojistik model düzeltmesiz BCH ortalamalarını birebir verir (günlükte 'BCH denetim'). "
+             f"cinsiyet, eğitim (5), bölge (İBBS-1), hane tipi; odeme_tibbi'de (329 olay) olay/parametre oranını korumak için yalnız gelir dilimi, yaş grubu ve cinsiyet (analiz planındaki küçültülmüş set mantığı; tam setle nokta tahminleri benzer). Doğrulama: kovaryatsız lojistik model düzeltmesiz BCH ortalamalarını birebir verir (günlükte 'BCH denetim'). "
              "BCH ağırlıklı ortalama 0'ın altına düşebilir; bu durumda tahmin/sınır 0'da kesildi ve işaretlendi; referans sınıfın yaygınlığı 0'dan ayırt edilemiyorsa PR verilmedi. GA: hane kümeli Rao-Wu bootstrap (B = {B_BOOT}; n_h − 1 hane iadeli, ağırlık × n/(n−1) × çokluk), sonsal olasılıklar sabit "
              "(ölçme modeli tekrarlarda yeniden kestirilmedi; GA'lar bu belirsizliği içermez). Modal sınıfta ağırlıksız n < 20 hücrede tahmin verilmez (hiçbir hücre bu sınırın altında kalmadı).\n")
     rd = bch["dort"]["ref"]
     kis = [k for k in range(Kd) if marjinal(MODELLER["dort"], sonuc["dort"]["cozum"][Kd]["theta"])["pa"][k] >= 0.5]
     s.append(f"L8. Karşılaştırma. Ana modelde 'karşılayabilen ama seyrek tüketen' ayrı bir sınıf çıkmadı: sınıflar tüketim sıklığı boyunca diziliyor, karşılayamama payı sıklık azaldıkça artıyor. "
              "En yakın karşılaştırma olarak (a) her sınıf, en sık tüketen sınıf 1'e karşı ve (b) A = 1 ile A = 0, sınıftan arındırılmış olarak verildi; böylece yükün tüketim boyutunu mu, "
-             f"karşılanabilirlik boyutunu mu izlediği aynı modelde ayrıştırılıyor. Dört göstergeli duyarlılık modelinde talimattaki karşılaştırma yapıldı: referans '{rd + 1} {etiketler['dort'][Kd][rd]}'; "
+             f"karşılanabilirlik boyutunu mu izlediği aynı modelde ayrıştırılıyor. Dört göstergeli duyarlılık modelinde analiz planındaki karşılaştırma yapıldı: referans '{rd + 1} {etiketler['dort'][Kd][rd]}'; "
              "P(karşılayamaz) ≥ 0,5 sınıflar: " + ", ".join(f"{k + 1} {etiketler['dort'][Kd][k]}" for k in kis) + ".\n")
     s.append("\n## Uyum ölçütleri: ana model (ortak gösterge, meyve, sebze)\n")
     uyum_tablosu(s, ua)

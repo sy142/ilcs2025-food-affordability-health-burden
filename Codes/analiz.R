@@ -17,6 +17,7 @@ suppressPackageStartupMessages({
 })
 set.seed(20251025)
 baslangic <- Sys.time()
+py <- Sys.getenv("PYTHON", "python3")
 dir.create("Results/log", showWarnings = FALSE, recursive = TRUE)
 sink("Results/log/analiz_log.txt", split = TRUE)
 cat("analiz.R basladi:", format(baslangic), "\n")
@@ -894,7 +895,7 @@ for (v in h2_y) {
   h2_ana[v] <- ana
   h2_tab[[paste(v, "baglanti")]] <- data.table(olcu = names(baglanti), tahmin = baglanti, sonuc = v, model = "baglanti",
                                                se_if = c(gl$nihai$g$s$se[["PD"]], 100 * unname(SE(lpm)["A"]), gl$nihai_esnek$g$s$se[["PD"]]))
-  prot_ekle("4. Baglanti fonksiyonu ve model bicimi", "Ilk kural: uc tahmin farki < 0,5 puan ise ana model korunur. Inceltilmis kural (sonuclar goruldukten sonra, kullanici karari): adim 6 taramasinda p < 0,01 heterojenlik varsa esnek model ana model; yoksa ana etkili model ana model, esnek model ve LPM duyarlilik",
+  prot_ekle("4. Baglanti fonksiyonu ve model bicimi", "Ilk kural: uc tahmin farki < 0,5 puan ise ana model korunur. Inceltilmis kural (sonuclar goruldukten sonra, yazar karari): adim 6 taramasinda p < 0,01 heterojenlik varsa esnek model ana model; yoksa ana etkili model ana model, esnek model ve LPM duyarlilik",
             paste0("PD: lojistik ", fm(baglanti[1]), ", LPM ", fm(baglanti[2]), ", esnek ", fm(baglanti[3]), "; en buyuk fark ", fm(fark), "; adim 6 en kucuk p ", formatC(min(em), format = "g", digits = 3)),
             if (ana == "nihai") "Heterojenlik yok: ana etkili lojistik + g-comp ana model" else "Heterojenlik var (p < 0,01): esnek lojistik + g-comp ana model; ana etkili model ve LPM duyarlilik", paste0("H2 ", v))
   gl[[ana]]$B <- boot_uzat(paste0("h2_", v, "_", ana), gl[[ana]]$g, ix, if (ana == "nihai_esnek") olcu_A_gelir else olcu_A, gl[[ana]]$B, grup = if (ana == "nihai_esnek") dt$gelir_dilim5 else NULL)
@@ -1125,7 +1126,7 @@ baglanti_h1 <- c(lojistik = h1_gl$cekirdek_ihtiyac$g$r$olc[["Delta"]], dogrusal_
 fark_h1 <- max(baglanti_h1) - min(baglanti_h1)
 h1_ana <- if (any(em_h1 < 0.01)) "cekirdek_esnek" else "cekirdek_ihtiyac"
 h1_tab[["baglanti"]] <- data.table(olcu = names(baglanti_h1), tahmin = baglanti_h1, se_if = c(h1_gl$cekirdek_ihtiyac$g$s$se[["Delta"]], 100 * unname(SE(lpm_h1)["A:C_hane"]), h1_gl$cekirdek_esnek$g$s$se[["Delta"]]), model = "baglanti", duzey = "hane")
-prot_ekle("4. Baglanti fonksiyonu ve model bicimi", "Ilk kural: uc tahmin farki < 0,5 puan ise ana model korunur. Inceltilmis kural (sonuclar goruldukten sonra, kullanici karari): adim 6'da p < 0,01 heterojenlik varsa esnek model ana model; yoksa ana etkili model ana model, esnek model ve LPM duyarlilik",
+prot_ekle("4. Baglanti fonksiyonu ve model bicimi", "Ilk kural: uc tahmin farki < 0,5 puan ise ana model korunur. Inceltilmis kural (sonuclar goruldukten sonra, yazar karari): adim 6'da p < 0,01 heterojenlik varsa esnek model ana model; yoksa ana etkili model ana model, esnek model ve LPM duyarlilik",
           paste0("Ana kovaryat seti (cekirdek + ihtiyac) ile Delta: lojistik ", fm(baglanti_h1[1]), ", LPM ", fm(baglanti_h1[2]), ", esnek ", fm(baglanti_h1[3]), "; en buyuk fark ", fm(fark_h1),
                  ". Tam duzeltilmis set ile: lojistik ", fm(h1_gl$nihai$g$r$olc[["Delta"]]), ", LPM ", fm(100 * unname(coef(lpm_h1_tam)["A:C_hane"])), ", esnek ", fm(h1_gl$nihai_esnek$g$r$olc[["Delta"]])),
           if (h1_ana == "cekirdek_ihtiyac") "Adim 6'da heterojenlik yok: ana etkili lojistik + g-comp (cekirdek + ihtiyac) ana model; esnek model ve LPM duyarlilik (Table S6, S11)" else "Heterojenlik var: esnek model ana model", "H1 hane")
@@ -1250,7 +1251,7 @@ baglanti_h1y <- c(lojistik = h1y_gl$cekirdek_ihtiyac$g$r$olc[["Delta"]], dogrusa
 fark_h1y <- max(baglanti_h1y) - min(baglanti_h1y)
 h1y_ana <- if (any(em_h1y < 0.01)) "cekirdek_esnek" else "cekirdek_ihtiyac"
 h1y_tab[["baglanti"]] <- data.table(olcu = names(baglanti_h1y), tahmin = baglanti_h1y, se_if = c(h1y_gl$cekirdek_ihtiyac$g$s$se[["Delta"]], 100 * unname(SE(lpm_h1y)["A:C_fert"]), h1y_gl$cekirdek_esnek$g$s$se[["Delta"]]), model = "baglanti", duzey = "yetiskin")
-prot_ekle("4. Baglanti fonksiyonu ve model bicimi", "Inceltilmis kural (sonuclar goruldukten sonra, kullanici karari): adim 6'da p < 0,01 heterojenlik varsa esnek model ana model; yoksa ana etkili model ana model",
+prot_ekle("4. Baglanti fonksiyonu ve model bicimi", "Inceltilmis kural (sonuclar goruldukten sonra, yazar karari): adim 6'da p < 0,01 heterojenlik varsa esnek model ana model; yoksa ana etkili model ana model",
           paste0("Ana kovaryat seti ile Delta: lojistik ", fm(baglanti_h1y[1]), ", LPM ", fm(baglanti_h1y[2]), ", esnek ", fm(baglanti_h1y[3]), "; en buyuk fark ", fm(fark_h1y),
                  ". Tam duzeltilmis set ile: lojistik ", fm(h1y_gl$nihai$g$r$olc[["Delta"]]), ", LPM ", fm(100 * unname(coef(lpm_h1y_tam)["A:C_fert"])), ", esnek ", fm(h1y_gl$nihai_esnek$g$r$olc[["Delta"]])),
           if (h1y_ana == "cekirdek_ihtiyac") "Heterojenlik yok: ana etkili lojistik + g-comp (cekirdek + ihtiyac) ana model; esnek model ve LPM duyarlilik" else "Heterojenlik var: esnek model ana model", "H1 yetiskin")
@@ -1987,7 +1988,7 @@ tablo_cikar(s17, "TableS17", "Table S17. Household subjective burden of medical 
 lca_gerekli <- c(file.path(ddir, "lca_siniflar.parquet"), "Results/lca_uyum.csv", "Results/lca_madde_olasiliklari.csv", "Results/lca_bch_uzak_sonuclar.csv")
 if (!all(file.exists(lca_gerekli))) {
   t0 <- Sys.time()
-  system2("/Users/salim/veri-ortami/bin/python3", "Codes/lca.py", stdout = "Results/log/lca_konsol.txt", stderr = "Results/log/lca_konsol.txt")
+  system2(py, "Codes/lca.py", stdout = "Results/log/lca_konsol.txt", stderr = "Results/log/lca_konsol.txt")
   cat("lca.py suresi (dk):", round(as.numeric(difftime(Sys.time(), t0, units = "mins")), 2), "\n")
 }
 lca_uyum <- fread("Results/lca_uyum.csv")
@@ -2064,7 +2065,7 @@ prot_ekle("10. LCA capraz kontrol", "Agirliksiz poLCA ile StepMix modal siniflar
           "StepMix cozumu poLCA ile yeniden uretildi (agirliksiz; agirlikli paylardan fark beklenir)", "LCA ana model")
 fwrite(rbindlist(protokol), "Results/model_protokolu.csv")
 saveWorkbook(wb, "Results/tablolar_tumu.xlsx", overwrite = TRUE)
-system2("/Users/salim/veri-ortami/bin/python3", c("-I", "Codes/xlsx_simge.py", shQuote("Results/tablolar_tumu.xlsx")))
+system2(py, c("-I", "Codes/xlsx_simge.py", shQuote("Results/tablolar_tumu.xlsx")))
 sj <- function(tb, k) {
   x <- tb[olcu == k]
   if (!nrow(x)) return(NULL)
@@ -2120,7 +2121,7 @@ writeLines(toJSON(sayilar, auto_unbox = TRUE, pretty = TRUE, digits = NA, na = "
 writeLines(capture.output(sessionInfo()), "Results/sessionInfo.txt")
 pk <- c("base", "data.table", "arrow", "readxl", "survey", "splines", "flextable", "officer", "future", "furrr", "jsonlite", "car", "logistf", "poLCA", "openxlsx", "MASS")
 atif <- unlist(lapply(pk, function(x) c(paste0("==== ", x, " ", if (x == "base") as.character(getRversion()) else as.character(packageVersion(x)), " ===="), capture.output(print(citation(x), style = "text")), "")))
-py_surum <- tryCatch(system2("/Users/salim/veri-ortami/bin/python3", c("-I", "-c", shQuote("import importlib.metadata as m;print(';'.join(f'{p}={m.version(p)}' for p in ['numpy','pandas','scipy','matplotlib','pyarrow','stepmix','scikit-learn','python-docx','pillow']))")), stdout = TRUE), error = function(e) "")
+py_surum <- tryCatch(system2(py, c("-I", "-c", shQuote("import importlib.metadata as m;print(';'.join(f'{p}={m.version(p)}' for p in ['numpy','pandas','scipy','matplotlib','pyarrow','stepmix','scikit-learn','python-docx','pillow']))")), stdout = TRUE), error = function(e) "")
 py_atif <- c("==== Python kutuphaneleri ====", paste("Surumler:", py_surum),
              "Python: Python Software Foundation. Python Language Reference, version 3.13. https://www.python.org",
              "StepMix: Morin S, Legault R, Laliberte F, Bakk Z, Giguere CE, de la Sablonniere R, Lacourse E. StepMix: A Python package for pseudo-likelihood estimation of generalized mixture models with external variables. arXiv:2304.03853 (2023). https://doi.org/10.48550/arXiv.2304.03853",
@@ -2132,8 +2133,8 @@ py_atif <- c("==== Python kutuphaneleri ====", paste("Surumler:", py_surum),
              "Apache Arrow (pyarrow): Apache Software Foundation. Apache Arrow. https://arrow.apache.org",
              "Not: StepMix icin hakemli dergi surumu cikmis olabilir; gonderimden once paketin README atif onerisiyle karsilastirin.")
 writeLines(c(atif, py_atif), "Results/paket_atiflari.txt")
-py_env <- tryCatch(system2("/Users/salim/.local/bin/uv", c("pip", "list", "--python", "/Users/salim/veri-ortami/bin/python3"), stdout = TRUE, stderr = TRUE), error = function(e) "uv pip list calismadi")
-writeLines(c("Python: /Users/salim/veri-ortami/bin/python3 (uv sanal ortami)", system2("/Users/salim/veri-ortami/bin/python3", "--version", stdout = TRUE, stderr = TRUE), "", py_env), "Results/python_ortam.txt")
+py_env <- tryCatch(system2(py, c("-I", "-c", shQuote("import importlib.metadata as m;print('\\n'.join(sorted(d.metadata['Name'] + '==' + d.version for d in m.distributions())))")), stdout = TRUE, stderr = TRUE), error = function(e) "paket listesi alinamadi")
+writeLines(c(system2(py, "--version", stdout = TRUE, stderr = TRUE), "Paketler (importlib.metadata):", "", py_env), "Results/python_ortam.txt")
 cat("analiz.R bitti. Toplam sure (dk):", round(as.numeric(difftime(Sys.time(), baslangic, units = "mins")), 2), "\n")
 sink()
 an <- setNames(akis$n, akis$adim)
