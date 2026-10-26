@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code or these outputs, please cite the manuscript and this repository."
+title: "Food affordability and the household burden of health spending in Türkiye: analysis code and aggregated outputs"
+type: software
+authors:
+  - family-names: "Yılmaz"
+    given-names: "Salim"
+    affiliation: "Acıbadem Mehmet Ali Aydınlar University, Istanbul, Türkiye"
+    orcid: "https://orcid.org/0000-0003-2405-5084"
+  - family-names: "Günal"
+    given-names: "Ahmet Murat"
+    affiliation: "Haliç University, Istanbul, Türkiye"
+    orcid: "https://orcid.org/0000-0001-9109-1080"
+version: "1.0.0"
+date-released: "2026-10-26"
+repository-code: "https://github.com/sy142/ilcs2025-food-affordability-health-burden"
+license: MIT
+keywords:
+  - EU-SILC
+  - food affordability
+  - material deprivation
+  - out-of-pocket health expenditure
+  - additive interaction
+  - g-computation
+  - latent class analysis
+  - Türkiye
