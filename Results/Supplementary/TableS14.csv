@@ -1,0 +1,16 @@
+Outcome,Model,Threshold,OR (95% CI),Events
+"Meat, chicken or fish less than once a week",Proportional odds (svyolr),All,"2.98 (2.74, 3.23)",""
+"Meat, chicken or fish less than once a week",Cut-point logistic,"<= Weekly, not daily","2.36 (1.95, 2.87)","54,367"
+"Meat, chicken or fish less than once a week",Cut-point logistic,<= Less than once a week,"3.01 (2.76, 3.28)","19,564"
+Fruit less than once a day,Proportional odds (svyolr),All,"1.74 (1.63, 1.85)",""
+Fruit less than once a day,Cut-point logistic,<= Once a day,"1.52 (1.20, 1.91)","56,220"
+Fruit less than once a day,Cut-point logistic,<= 4–6 times a week,"1.79 (1.66, 1.94)","36,725"
+Fruit less than once a day,Cut-point logistic,<= 1–3 times a week,"1.74 (1.62, 1.88)","24,841"
+Fruit less than once a day,Cut-point logistic,<= Less than once a week,"1.71 (1.53, 1.91)","5,738"
+Fruit less than once a day,Cut-point logistic,<= Never,"1.53 (1.24, 1.90)",942
+Vegetables or salad less than once a day,Proportional odds (svyolr),All,"1.57 (1.47, 1.69)",""
+Vegetables or salad less than once a day,Cut-point logistic,<= Once a day,"1.58 (1.26, 1.99)","55,878"
+Vegetables or salad less than once a day,Cut-point logistic,<= 4–6 times a week,"1.56 (1.45, 1.69)","32,326"
+Vegetables or salad less than once a day,Cut-point logistic,<= 1–3 times a week,"1.56 (1.44, 1.68)","18,927"
+Vegetables or salad less than once a day,Cut-point logistic,<= Less than once a week,"1.68 (1.44, 1.95)","3,484"
+Vegetables or salad less than once a day,Cut-point logistic,<= Never,"1.09 (0.76, 1.57)",306

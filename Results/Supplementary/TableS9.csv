@@ -1,0 +1,9 @@
+Group,n,Events,Standardized % (95% CI)
+"Can afford, daily fruit and vegetables","13,051",12,<20 events
+"Can afford, not both daily","20,791",42,"0.18 (0.11, 0.25)†"
+"Cannot afford, daily fruit and vegetables","4,494",35,"0.59 (0.35, 0.87)†"
+"Cannot afford, not both daily","15,098",240,"0.98 (0.79, 1.20)"
+"Additive interaction Δ, pp","","","0.31 (−0.02, 0.63)"
+Difference cannot vs can afford (pp),"","","0.71 (0.54, 0.90)"
+Prevalence ratio cannot vs can afford,"","","5.63 (3.88, 8.88)"
+Events per model parameter,"","",13.7

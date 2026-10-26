@@ -1,0 +1,27 @@
+Variable,Source variables,Coding,Universe,Missing data rule
+A,HE090,"1 = household cannot afford a meal with meat, chicken or fish every second day (HE090 = 2); 0 = can afford (HE090 = 1)",All households; written to every member,No missing
+C_hane,"FS020, FK070, f_kayit",1 = at least one adult (FK070 >= 18) with individual record reports a chronic illness (FS020 = 1),Households,Adults without individual record counted as not chronic; 30 households with unknown status flagged (kronik_bilinmeyen)
+C_fert,FS020,1 = adult reports a chronic illness,Adults 18+ with individual record,No missing
+Y_saglik_yuk,"MODUL1_H_1, MODUL1_H_3","1 = medical or medicine expenditure was a heavy burden (code 1 in either); 0 = codes 2, 3, 4",2025 households,No missing
+Y_tibbi_yuk,MODUL1_H_1,1 = code 1 (heavy burden),2025 households,No missing
+Y_ilac_yuk,MODUL1_H_3,1 = code 1 (heavy burden),2025 households,No missing
+Y_saglik_yuk_genis,"MODUL1_H_1, MODUL1_H_3",1 = heavy or some burden (code 1 or 2 in either),2025 households,No missing
+Y_dis_yuk,MODUL1_H_2,1 = dental expenditure was a heavy burden; code 4 (no dental expenditure) analyzed separately,2025 households,No missing
+"meyve_siklik, sebze_siklik","MODUL1_F_8, MODUL1_F_9","Ordinal 0-5: never, <1/week, 1-3/week, 4-6/week, once a day, >=2 a day",2025 adults,No missing
+et_tavuk_balik_siklik,MODUL2_F_5,"Ordinal 0-3: never (vegetarian/vegan), <1/week, weekly not daily, daily",2025 adults,No missing
+"meyve_gunluk_degil, sebze_gunluk_degil","gunluk_meyve, gunluk_sebze",1 = less than once a day,2025 adults,No missing
+et_haftada_az,et_tavuk_balik_siklik,1 = less than once a week (code 1); 0 = weekly or daily (codes 2-3),2025 adults; vegetarians (code 0) excluded in main analysis,Code 0 set to missing (sensitivity: counted as 1)
+B,"gunluk_meyve, gunluk_sebze",1 = not both fruit and vegetables daily,2025 adults,No missing
+diyet_skor,meyve_siklik + sebze_siklik,Sum 0-10,2025 adults,No missing
+ihtiyac_var,FS050,1 = needed medical examination or treatment in past 12 months (FS050 = 1 or 2),Adults,Universe of unmet-need analyses
+odeme_tibbi,"FS050, FS060",1 = unmet medical need because of cost (FS050 = 1 and FS060 = 1),ihtiyac_var = 1,Missing outside universe
+odeme_dis,"FS070, FS080",1 = unmet dental need because of cost (FS070 = 1 and FS080 = 1),Dental need (FS070 = 1 or 2),Missing outside universe
+odeme_herhangi,"odeme_tibbi, odeme_dis",1 = unmet medical or dental need because of cost,Medical or dental need,Missing outside universe
+neden_grubu,FS060,"1 = cost (code 1); 2 = system (3 distance/transport, 5 late appointment); 3 = personal (2, 4, 6, 7, 8)",FS050 = 1,Missing outside universe
+uzman_hic,MODUL1_F_3,1 = no specialist visit in past 12 months (code 6); 0 = codes 7-10,Adults; analyzed among C_fert = 1,Blanks (only FS050 = 3) missing; sensitivity: blanks = never
+karsilanamayan_tibbi_ihtiyac,"FS050, FS060",Eurostat-compatible: cost or distance (FS060 = 1 or 3),Adults,Provided in data
+gelir_dilim5,esdeger_gelir,"Equivalized disposable income quintile, FK050-weighted within year (income reference year 2024)",All,No missing
+egitim5 / egitim_max,FE030,"1 = no diploma (0-1), 2 = primary (2-3), 3 = lower secondary (4), 4 = upper secondary (5-6), 5 = tertiary (7-10); household: highest among adults",Adults with individual record,Household without adult record: missing (1 household)
+calisma7,FI010,"1 = employed (1-4), 2 = seeking work (5), 3 = student (6), 4 = retired (7), 5 = unable to work (8), 6 = domestic tasks/care (9), 7 = other (10)",Adults,No missing
+"n_yetiskin, n_kronik, n_gali, n_calisan, n_gorusmesiz","FK070, FS020, FS030, FI010, f_kayit","Counts of adults (FK070 >= 18) in household: all, chronic, GALI-limited (FS030 = 1-2), employed (FI010 = 1-4), without individual record",Households,Computed from all 2025 rows
+"reis_yas, reis_cinsiyet","FK070, FK090",Age and sex of household reference person (hane_reisi = 1),Households,No missing

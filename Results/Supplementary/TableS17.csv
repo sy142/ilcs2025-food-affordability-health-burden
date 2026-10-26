@@ -1,0 +1,13 @@
+Group,n,Events,Crude %,Core covariates,+ Adults with chronic illness
+"Households (n = 25,835)","","","","",""
+"Can afford, no adult with activity limitation","9,695",441,5.0,"4.3 (3.8, 4.8)","4.7 (4.2, 5.3)"
+"Can afford, adult with activity limitation","6,076",431,7.6,"8.3 (7.4, 9.2)","7.4 (6.6, 8.3)"
+"Cannot afford, no adult with activity limitation","4,611",402,8.7,"8.9 (7.8, 10.0)","9.5 (8.3, 10.6)"
+"Cannot afford, adult with activity limitation","5,453",756,13.8,"16.5 (15.0, 18.1)","14.7 (13.2, 16.3)"
+"Expected p11 under additivity, %","","","","12.9 (11.5, 14.4)","12.1 (10.7, 13.6)"
+"Additive interaction Δ, pp","","","","3.6 (1.8, 5.6)","2.5 (0.8, 4.4)"
+RERI,"","","","0.84 (0.42, 1.30)","0.54 (0.16, 0.95)"
+Attributable proportion (AP),"","","","0.22 (0.11, 0.32)","0.17 (0.05, 0.28)"
+"Prevalence ratio, cannot vs can afford","","","","2.04 (1.81, 2.30)","2.00 (1.77, 2.25)"
+"Difference, cannot vs can afford: no adult with activity limitation, pp","","","","4.6 (3.4, 5.8)","4.8 (3.5, 6.0)"
+"Difference, cannot vs can afford: adult with activity limitation, pp","","","","8.2 (6.5, 10.1)","7.3 (5.7, 9.0)"

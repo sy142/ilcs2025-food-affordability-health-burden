@@ -1,0 +1,103 @@
+Outcome,Adjustment,Class,Measure,Estimate (95% CI),Modal n,Modal events
+Lives in a household where medical or medicine spending was a heavy burden,unadjusted,Daily fruit and vegetables,prevalence,"6.50 (5.85, 7.10)","22,715","1,429"
+Lives in a household where medical or medicine spending was a heavy burden,unadjusted,Near-daily fruit and vegetables,prevalence,"6.93 (6.02, 7.86)","14,875","1,002"
+Lives in a household where medical or medicine spending was a heavy burden,unadjusted,Weekly (1–3 times) fruit and vegetables,prevalence,"9.64 (8.69, 10.72)","16,285","1,521"
+Lives in a household where medical or medicine spending was a heavy burden,unadjusted,"Very infrequent fruit, vegetables and meat",prevalence,"12.82 (10.98, 14.86)","4,024",525
+Lives in a household where medical or medicine spending was a heavy burden,unadjusted,Near-daily fruit and vegetables,PD vs reference,"0.43 (−0.65, 1.48)","14,875","1,002"
+Lives in a household where medical or medicine spending was a heavy burden,unadjusted,Near-daily fruit and vegetables,PR vs reference,"1.07 (0.90, 1.24)","14,875","1,002"
+Lives in a household where medical or medicine spending was a heavy burden,unadjusted,Weekly (1–3 times) fruit and vegetables,PD vs reference,"3.14 (1.97, 4.27)","16,285","1,521"
+Lives in a household where medical or medicine spending was a heavy burden,unadjusted,Weekly (1–3 times) fruit and vegetables,PR vs reference,"1.48 (1.29, 1.69)","16,285","1,521"
+Lives in a household where medical or medicine spending was a heavy burden,unadjusted,"Very infrequent fruit, vegetables and meat",PD vs reference,"6.31 (4.43, 8.45)","4,024",525
+Lives in a household where medical or medicine spending was a heavy burden,unadjusted,"Very infrequent fruit, vegetables and meat",PR vs reference,"1.97 (1.65, 2.38)","4,024",525
+Lives in a household where medical or medicine spending was a heavy burden,adjusted,Daily fruit and vegetables,prevalence,"6.76 (6.07, 7.40)","22,715","1,429"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted,Near-daily fruit and vegetables,prevalence,"6.85 (5.93, 7.77)","14,875","1,002"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted,Weekly (1–3 times) fruit and vegetables,prevalence,"9.33 (8.38, 10.30)","16,285","1,521"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted,"Very infrequent fruit, vegetables and meat",prevalence,"12.43 (10.65, 14.39)","4,024",525
+Lives in a household where medical or medicine spending was a heavy burden,adjusted,Near-daily fruit and vegetables,PD vs reference,"0.09 (−1.02, 1.14)","14,875","1,002"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted,Near-daily fruit and vegetables,PR vs reference,"1.01 (0.86, 1.18)","14,875","1,002"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted,Weekly (1–3 times) fruit and vegetables,PD vs reference,"2.57 (1.42, 3.64)","16,285","1,521"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted,Weekly (1–3 times) fruit and vegetables,PR vs reference,"1.38 (1.20, 1.58)","16,285","1,521"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted,"Very infrequent fruit, vegetables and meat",PD vs reference,"5.68 (3.75, 7.67)","4,024",525
+Lives in a household where medical or medicine spending was a heavy burden,adjusted,"Very infrequent fruit, vegetables and meat",PR vs reference,"1.84 (1.53, 2.20)","4,024",525
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,Daily fruit and vegetables,prevalence,"7.17 (6.43, 7.87)","22,715","1,429"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,Near-daily fruit and vegetables,prevalence,"7.16 (6.25, 8.08)","14,875","1,002"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,Weekly (1–3 times) fruit and vegetables,prevalence,"8.63 (7.77, 9.56)","16,285","1,521"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,"Very infrequent fruit, vegetables and meat",prevalence,"11.31 (9.68, 12.99)","4,024",525
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,Near-daily fruit and vegetables,PD vs reference,"−0.00 (−1.15, 1.12)","14,875","1,002"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,Near-daily fruit and vegetables,PR vs reference,"1.00 (0.85, 1.16)","14,875","1,002"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,Weekly (1–3 times) fruit and vegetables,PD vs reference,"1.47 (0.35, 2.57)","16,285","1,521"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,Weekly (1–3 times) fruit and vegetables,PR vs reference,"1.20 (1.05, 1.38)","16,285","1,521"
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,"Very infrequent fruit, vegetables and meat",PD vs reference,"4.14 (2.35, 5.98)","4,024",525
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,"Very infrequent fruit, vegetables and meat",PR vs reference,"1.58 (1.32, 1.89)","4,024",525
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,A = 0 (standardized over class and covariates),prevalence by A,"5.79 (5.26, 6.28)","36,765",NA
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,A = 1 (standardized over class and covariates),prevalence by A,"12.42 (11.25, 13.63)","21,134",NA
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,"A = 1 vs A = 0, net of class",PD A1 vs A0,"6.63 (5.26, 8.03)",NA,NA
+Lives in a household where medical or medicine spending was a heavy burden,adjusted + A,"A = 1 vs A = 0, net of class",PR A1 vs A0,"2.14 (1.87, 2.47)",NA,NA
+Unmet medical need because of cost (among adults with medical need),unadjusted,Daily fruit and vegetables,prevalence,"0.23 (0.15, 0.33)","21,011",62
+Unmet medical need because of cost (among adults with medical need),unadjusted,Near-daily fruit and vegetables,prevalence,"0.25 (0.13, 0.40)","13,702",48
+Unmet medical need because of cost (among adults with medical need),unadjusted,Weekly (1–3 times) fruit and vegetables,prevalence,"0.80 (0.61, 1.01)","15,008",141
+Unmet medical need because of cost (among adults with medical need),unadjusted,"Very infrequent fruit, vegetables and meat",prevalence,"1.66 (1.14, 2.26)","3,713",78
+Unmet medical need because of cost (among adults with medical need),unadjusted,Near-daily fruit and vegetables,PD vs reference,"0.02 (−0.13, 0.19)","13,702",48
+Unmet medical need because of cost (among adults with medical need),unadjusted,Near-daily fruit and vegetables,PR vs reference,"1.08 (0.54, 2.21)","13,702",48
+Unmet medical need because of cost (among adults with medical need),unadjusted,Weekly (1–3 times) fruit and vegetables,PD vs reference,"0.57 (0.35, 0.80)","15,008",141
+Unmet medical need because of cost (among adults with medical need),unadjusted,Weekly (1–3 times) fruit and vegetables,PR vs reference,"3.46 (2.15, 5.68)","15,008",141
+Unmet medical need because of cost (among adults with medical need),unadjusted,"Very infrequent fruit, vegetables and meat",PD vs reference,"1.43 (0.90, 2.04)","3,713",78
+Unmet medical need because of cost (among adults with medical need),unadjusted,"Very infrequent fruit, vegetables and meat",PR vs reference,"7.14 (4.23, 12.21)","3,713",78
+Unmet medical need because of cost (among adults with medical need),adjusted,Daily fruit and vegetables,prevalence,"0.28 (0.18, 0.42)","21,011",62
+Unmet medical need because of cost (among adults with medical need),adjusted,Near-daily fruit and vegetables,prevalence,"0.27 (0.14, 0.42)","13,702",48
+Unmet medical need because of cost (among adults with medical need),adjusted,Weekly (1–3 times) fruit and vegetables,prevalence,"0.67 (0.52, 0.85)","15,008",141
+Unmet medical need because of cost (among adults with medical need),adjusted,"Very infrequent fruit, vegetables and meat",prevalence,"1.10 (0.74, 1.49)","3,713",78
+Unmet medical need because of cost (among adults with medical need),adjusted,Near-daily fruit and vegetables,PD vs reference,"−0.01 (−0.18, 0.18)","13,702",48
+Unmet medical need because of cost (among adults with medical need),adjusted,Near-daily fruit and vegetables,PR vs reference,"0.96 (0.49, 1.93)","13,702",48
+Unmet medical need because of cost (among adults with medical need),adjusted,Weekly (1–3 times) fruit and vegetables,PD vs reference,"0.39 (0.18, 0.60)","15,008",141
+Unmet medical need because of cost (among adults with medical need),adjusted,Weekly (1–3 times) fruit and vegetables,PR vs reference,"2.38 (1.43, 3.92)","15,008",141
+Unmet medical need because of cost (among adults with medical need),adjusted,"Very infrequent fruit, vegetables and meat",PD vs reference,"0.82 (0.45, 1.23)","3,713",78
+Unmet medical need because of cost (among adults with medical need),adjusted,"Very infrequent fruit, vegetables and meat",PR vs reference,"3.91 (2.31, 6.94)","3,713",78
+Unmet medical need because of cost (among adults with medical need),adjusted + A,Daily fruit and vegetables,prevalence,"0.33 (0.22, 0.48)","21,011",62
+Unmet medical need because of cost (among adults with medical need),adjusted + A,Near-daily fruit and vegetables,prevalence,"0.32 (0.18, 0.47)","13,702",48
+Unmet medical need because of cost (among adults with medical need),adjusted + A,Weekly (1–3 times) fruit and vegetables,prevalence,"0.60 (0.46, 0.77)","15,008",141
+Unmet medical need because of cost (among adults with medical need),adjusted + A,"Very infrequent fruit, vegetables and meat",prevalence,"0.93 (0.62, 1.26)","3,713",78
+Unmet medical need because of cost (among adults with medical need),adjusted + A,Near-daily fruit and vegetables,PD vs reference,"−0.01 (−0.19, 0.18)","13,702",48
+Unmet medical need because of cost (among adults with medical need),adjusted + A,Near-daily fruit and vegetables,PR vs reference,"0.96 (0.53, 1.80)","13,702",48
+Unmet medical need because of cost (among adults with medical need),adjusted + A,Weekly (1–3 times) fruit and vegetables,PD vs reference,"0.27 (0.05, 0.48)","15,008",141
+Unmet medical need because of cost (among adults with medical need),adjusted + A,Weekly (1–3 times) fruit and vegetables,PR vs reference,"1.81 (1.12, 2.96)","15,008",141
+Unmet medical need because of cost (among adults with medical need),adjusted + A,"Very infrequent fruit, vegetables and meat",PD vs reference,"0.60 (0.25, 0.96)","3,713",78
+Unmet medical need because of cost (among adults with medical need),adjusted + A,"Very infrequent fruit, vegetables and meat",PR vs reference,"2.79 (1.67, 4.83)","3,713",78
+Unmet medical need because of cost (among adults with medical need),adjusted + A,A = 0 (standardized over class and covariates),prevalence by A,"0.16 (0.11, 0.22)","33,842",NA
+Unmet medical need because of cost (among adults with medical need),adjusted + A,A = 1 (standardized over class and covariates),prevalence by A,"0.84 (0.69, 1.01)","19,592",NA
+Unmet medical need because of cost (among adults with medical need),adjusted + A,"A = 1 vs A = 0, net of class",PD A1 vs A0,"0.68 (0.51, 0.87)",NA,NA
+Unmet medical need because of cost (among adults with medical need),adjusted + A,"A = 1 vs A = 0, net of class",PR A1 vs A0,"5.37 (3.73, 8.43)",NA,NA
+Bad or very bad self-rated health,unadjusted,Daily fruit and vegetables,prevalence,"5.77 (5.36, 6.18)","22,715","1,418"
+Bad or very bad self-rated health,unadjusted,Near-daily fruit and vegetables,prevalence,"6.75 (6.16, 7.36)","14,875","1,131"
+Bad or very bad self-rated health,unadjusted,Weekly (1–3 times) fruit and vegetables,prevalence,"8.68 (8.09, 9.34)","16,285","1,631"
+Bad or very bad self-rated health,unadjusted,"Very infrequent fruit, vegetables and meat",prevalence,"17.47 (15.74, 19.46)","4,024",709
+Bad or very bad self-rated health,unadjusted,Near-daily fruit and vegetables,PD vs reference,"0.98 (0.22, 1.76)","14,875","1,131"
+Bad or very bad self-rated health,unadjusted,Near-daily fruit and vegetables,PR vs reference,"1.17 (1.04, 1.31)","14,875","1,131"
+Bad or very bad self-rated health,unadjusted,Weekly (1–3 times) fruit and vegetables,PD vs reference,"2.91 (2.19, 3.75)","16,285","1,631"
+Bad or very bad self-rated health,unadjusted,Weekly (1–3 times) fruit and vegetables,PR vs reference,"1.50 (1.36, 1.67)","16,285","1,631"
+Bad or very bad self-rated health,unadjusted,"Very infrequent fruit, vegetables and meat",PD vs reference,"11.69 (9.89, 13.64)","4,024",709
+Bad or very bad self-rated health,unadjusted,"Very infrequent fruit, vegetables and meat",PR vs reference,"3.03 (2.68, 3.43)","4,024",709
+Bad or very bad self-rated health,adjusted,Daily fruit and vegetables,prevalence,"6.42 (5.98, 6.87)","22,715","1,418"
+Bad or very bad self-rated health,adjusted,Near-daily fruit and vegetables,prevalence,"7.01 (6.39, 7.60)","14,875","1,131"
+Bad or very bad self-rated health,adjusted,Weekly (1–3 times) fruit and vegetables,prevalence,"7.95 (7.43, 8.54)","16,285","1,631"
+Bad or very bad self-rated health,adjusted,"Very infrequent fruit, vegetables and meat",prevalence,"13.39 (12.02, 14.79)","4,024",709
+Bad or very bad self-rated health,adjusted,Near-daily fruit and vegetables,PD vs reference,"0.59 (−0.13, 1.30)","14,875","1,131"
+Bad or very bad self-rated health,adjusted,Near-daily fruit and vegetables,PR vs reference,"1.09 (0.98, 1.21)","14,875","1,131"
+Bad or very bad self-rated health,adjusted,Weekly (1–3 times) fruit and vegetables,PD vs reference,"1.53 (0.86, 2.28)","16,285","1,631"
+Bad or very bad self-rated health,adjusted,Weekly (1–3 times) fruit and vegetables,PR vs reference,"1.24 (1.13, 1.37)","16,285","1,631"
+Bad or very bad self-rated health,adjusted,"Very infrequent fruit, vegetables and meat",PD vs reference,"6.97 (5.40, 8.47)","4,024",709
+Bad or very bad self-rated health,adjusted,"Very infrequent fruit, vegetables and meat",PR vs reference,"2.09 (1.81, 2.35)","4,024",709
+Bad or very bad self-rated health,adjusted + A,Daily fruit and vegetables,prevalence,"6.55 (6.11, 6.99)","22,715","1,418"
+Bad or very bad self-rated health,adjusted + A,Near-daily fruit and vegetables,prevalence,"7.10 (6.48, 7.70)","14,875","1,131"
+Bad or very bad self-rated health,adjusted + A,Weekly (1–3 times) fruit and vegetables,prevalence,"7.79 (7.27, 8.36)","16,285","1,631"
+Bad or very bad self-rated health,adjusted + A,"Very infrequent fruit, vegetables and meat",prevalence,"13.10 (11.77, 14.46)","4,024",709
+Bad or very bad self-rated health,adjusted + A,Near-daily fruit and vegetables,PD vs reference,"0.54 (−0.16, 1.27)","14,875","1,131"
+Bad or very bad self-rated health,adjusted + A,Near-daily fruit and vegetables,PR vs reference,"1.08 (0.98, 1.20)","14,875","1,131"
+Bad or very bad self-rated health,adjusted + A,Weekly (1–3 times) fruit and vegetables,PD vs reference,"1.24 (0.57, 1.97)","16,285","1,631"
+Bad or very bad self-rated health,adjusted + A,Weekly (1–3 times) fruit and vegetables,PR vs reference,"1.19 (1.08, 1.31)","16,285","1,631"
+Bad or very bad self-rated health,adjusted + A,"Very infrequent fruit, vegetables and meat",PD vs reference,"6.54 (5.03, 8.03)","4,024",709
+Bad or very bad self-rated health,adjusted + A,"Very infrequent fruit, vegetables and meat",PR vs reference,"2.00 (1.73, 2.26)","4,024",709
+Bad or very bad self-rated health,adjusted + A,A = 0 (standardized over class and covariates),prevalence by A,"6.83 (6.48, 7.20)","36,765",NA
+Bad or very bad self-rated health,adjusted + A,A = 1 (standardized over class and covariates),prevalence by A,"8.51 (8.04, 8.95)","21,134",NA
+Bad or very bad self-rated health,adjusted + A,"A = 1 vs A = 0, net of class",PD A1 vs A0,"1.68 (1.14, 2.28)",NA,NA
+Bad or very bad self-rated health,adjusted + A,"A = 1 vs A = 0, net of class",PR A1 vs A0,"1.25 (1.16, 1.35)",NA,NA
