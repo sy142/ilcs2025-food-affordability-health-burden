@@ -1,0 +1,43 @@
+duzey,degisken,eksik,n,eksik_yuzde
+yetiskin,FK070,0,57899,0
+yetiskin,FK090,0,57899,0
+yetiskin,FE030,0,57899,0
+yetiskin,FB100,0,57899,0
+yetiskin,FI010,0,57899,0
+yetiskin,HB050,0,57899,0
+yetiskin,hane_buyuklugu,0,57899,0
+yetiskin,hane_0_17,0,57899,0
+yetiskin,hane_65plus,0,57899,0
+yetiskin,HB030,0,57899,0
+yetiskin,gelir_dilim5,0,57899,0
+yetiskin,esdeger_gelir,0,57899,0
+yetiskin,HH020,0,57899,0
+yetiskin,FS020,0,57899,0
+yetiskin,FS030,0,57899,0
+yetiskin,FS010,0,57899,0
+yetiskin,wg_engellilik,0,57899,0
+yetiskin,meyve_siklik,0,57899,0
+yetiskin,sebze_siklik,0,57899,0
+yetiskin,et_tavuk_balik_siklik,0,57899,0
+yetiskin,HE090,0,57899,0
+yetiskin,MODUL1_H_1,0,57899,0
+yetiskin,MODUL1_H_3,0,57899,0
+hane,gelir_dilim5,0,25836,0
+hane,n_yetiskin,0,25836,0
+hane,hane_0_17,0,25836,0
+hane,hane_65plus,0,25836,0
+hane,HB050,0,25836,0
+hane,reis_yas,0,25836,0
+hane,reis_cinsiyet,0,25836,0
+hane,egitim_max,1,25836,0.00387056819941167
+hane,n_calisan,0,25836,0
+hane,n_gali,0,25836,0
+hane,HB030,0,25836,0
+hane,HH020,0,25836,0
+hane,reis_medeni,13,25836,0.0503173865923518
+hane,HE090,0,25836,0
+hane,MODUL1_H_1,0,25836,0
+hane,MODUL1_H_3,0,25836,0
+yetiskin,uzman_hic (MODUL1_F_3),2326,57899,4.01734054128741
+yetiskin,pratisyen_hic (MODUL1_F_2),2326,57899,4.01734054128741
+yetiskin,dis_hekimi_hic (MODUL1_F_1),14652,57899,25.3061365481269

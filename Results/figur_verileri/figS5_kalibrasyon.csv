@@ -1,0 +1,81 @@
+dec,gozlenen,tahmin,n,model,dosya
+1,0.0241476047657553,0.0185741110998486,2416,H1 hane,kalibrasyon_h1_hane.csv
+2,0.0295988606703734,0.0283661147127318,2559,H1 hane,kalibrasyon_h1_hane.csv
+3,0.0332899692028172,0.0377394962402147,2710,H1 hane,kalibrasyon_h1_hane.csv
+4,0.0448472910102736,0.0481615484873392,2587,H1 hane,kalibrasyon_h1_hane.csv
+5,0.0514535136483779,0.0587802624561193,2559,H1 hane,kalibrasyon_h1_hane.csv
+6,0.0798987213154369,0.0705488955745396,2623,H1 hane,kalibrasyon_h1_hane.csv
+7,0.0895528424913675,0.0848754730269763,2568,H1 hane,kalibrasyon_h1_hane.csv
+8,0.0934777731442248,0.104086788370006,2581,H1 hane,kalibrasyon_h1_hane.csv
+9,0.137053369178675,0.134141502881136,2610,H1 hane,kalibrasyon_h1_hane.csv
+10,0.212239640131698,0.210279688648631,2622,H1 hane,kalibrasyon_h1_hane.csv
+1,0.0230477809751823,0.0210794670434575,5344,H1 yetiskin,kalibrasyon_h1_yetiskin.csv
+2,0.0315103926700921,0.0302946602477259,5838,H1 yetiskin,kalibrasyon_h1_yetiskin.csv
+3,0.0387912543251766,0.0385932258296831,6144,H1 yetiskin,kalibrasyon_h1_yetiskin.csv
+4,0.0426835624120592,0.0488582911987317,6019,H1 yetiskin,kalibrasyon_h1_yetiskin.csv
+5,0.0539656880512307,0.0598996482603253,5706,H1 yetiskin,kalibrasyon_h1_yetiskin.csv
+6,0.079341427965938,0.0711132979706374,5661,H1 yetiskin,kalibrasyon_h1_yetiskin.csv
+7,0.0806493295745876,0.0841857729858745,5795,H1 yetiskin,kalibrasyon_h1_yetiskin.csv
+8,0.108065480879951,0.100322592816317,5760,H1 yetiskin,kalibrasyon_h1_yetiskin.csv
+9,0.123953096125704,0.128869234168583,5939,H1 yetiskin,kalibrasyon_h1_yetiskin.csv
+10,0.208030565115534,0.206821928868064,5693,H1 yetiskin,kalibrasyon_h1_yetiskin.csv
+1,0.130881031915749,0.122110834774388,6580,H2 et_haftada_az nihai_esnek,kalibrasyon_h2_et_haftada_az_nihai_esnek.csv
+2,0.161261024850068,0.161758619177808,5433,H2 et_haftada_az nihai_esnek,kalibrasyon_h2_et_haftada_az_nihai_esnek.csv
+3,0.184828999529053,0.198248178772913,5516,H2 et_haftada_az nihai_esnek,kalibrasyon_h2_et_haftada_az_nihai_esnek.csv
+4,0.227778248463549,0.230888248517549,5449,H2 et_haftada_az nihai_esnek,kalibrasyon_h2_et_haftada_az_nihai_esnek.csv
+5,0.264987422001019,0.266045273694011,5228,H2 et_haftada_az nihai_esnek,kalibrasyon_h2_et_haftada_az_nihai_esnek.csv
+6,0.32363320214805,0.316478102781152,5785,H2 et_haftada_az nihai_esnek,kalibrasyon_h2_et_haftada_az_nihai_esnek.csv
+7,0.410113044506517,0.404991368565419,5856,H2 et_haftada_az nihai_esnek,kalibrasyon_h2_et_haftada_az_nihai_esnek.csv
+8,0.49953970266784,0.498423622750465,5297,H2 et_haftada_az nihai_esnek,kalibrasyon_h2_et_haftada_az_nihai_esnek.csv
+9,0.55499177916468,0.562341846309947,5672,H2 et_haftada_az nihai_esnek,kalibrasyon_h2_et_haftada_az_nihai_esnek.csv
+10,0.640283563319639,0.637010888430636,6888,H2 et_haftada_az nihai_esnek,kalibrasyon_h2_et_haftada_az_nihai_esnek.csv
+1,0.133881165163498,0.129329397702409,6516,H2 et_haftada_az nihai,kalibrasyon_h2_et_haftada_az_nihai.csv
+2,0.157653736647495,0.169004424269902,5522,H2 et_haftada_az nihai,kalibrasyon_h2_et_haftada_az_nihai.csv
+3,0.187698927852358,0.203766192752791,5364,H2 et_haftada_az nihai,kalibrasyon_h2_et_haftada_az_nihai.csv
+4,0.223531991795371,0.234438716238512,5206,H2 et_haftada_az nihai,kalibrasyon_h2_et_haftada_az_nihai.csv
+5,0.283229900354858,0.266974360704616,5234,H2 et_haftada_az nihai,kalibrasyon_h2_et_haftada_az_nihai.csv
+6,0.319560822595789,0.308828192166233,5606,H2 et_haftada_az nihai,kalibrasyon_h2_et_haftada_az_nihai.csv
+7,0.40644096559012,0.389641918389909,6353,H2 et_haftada_az nihai,kalibrasyon_h2_et_haftada_az_nihai.csv
+8,0.500356135622584,0.493621275746054,5732,H2 et_haftada_az nihai,kalibrasyon_h2_et_haftada_az_nihai.csv
+9,0.555467616853741,0.559707249123802,5776,H2 et_haftada_az nihai,kalibrasyon_h2_et_haftada_az_nihai.csv
+10,0.63048884991909,0.642997742112874,6395,H2 et_haftada_az nihai,kalibrasyon_h2_et_haftada_az_nihai.csv
+1,0.4280547519473,0.421315637143856,5940,H2 meyve_gunluk_degil nihai_esnek,kalibrasyon_h2_meyve_gunluk_degil_nihai_esnek.csv
+2,0.492519474354155,0.496806062239022,6365,H2 meyve_gunluk_degil nihai_esnek,kalibrasyon_h2_meyve_gunluk_degil_nihai_esnek.csv
+3,0.545423105708335,0.547719683803679,6000,H2 meyve_gunluk_degil nihai_esnek,kalibrasyon_h2_meyve_gunluk_degil_nihai_esnek.csv
+4,0.590580755259152,0.587553000409281,5368,H2 meyve_gunluk_degil nihai_esnek,kalibrasyon_h2_meyve_gunluk_degil_nihai_esnek.csv
+5,0.612318476899907,0.620068743755339,5102,H2 meyve_gunluk_degil nihai_esnek,kalibrasyon_h2_meyve_gunluk_degil_nihai_esnek.csv
+6,0.643349184852537,0.649420915146933,5320,H2 meyve_gunluk_degil nihai_esnek,kalibrasyon_h2_meyve_gunluk_degil_nihai_esnek.csv
+7,0.689376491294458,0.681435706976665,5561,H2 meyve_gunluk_degil nihai_esnek,kalibrasyon_h2_meyve_gunluk_degil_nihai_esnek.csv
+8,0.715967523148337,0.71823584105254,5786,H2 meyve_gunluk_degil nihai_esnek,kalibrasyon_h2_meyve_gunluk_degil_nihai_esnek.csv
+9,0.774068747514517,0.764402632914885,5687,H2 meyve_gunluk_degil nihai_esnek,kalibrasyon_h2_meyve_gunluk_degil_nihai_esnek.csv
+10,0.827466796510661,0.832164683097684,6770,H2 meyve_gunluk_degil nihai_esnek,kalibrasyon_h2_meyve_gunluk_degil_nihai_esnek.csv
+1,0.43307599955939,0.416099901320623,5868,H2 meyve_gunluk_degil nihai,kalibrasyon_h2_meyve_gunluk_degil_nihai.csv
+2,0.492979712439282,0.497446883315618,6362,H2 meyve_gunluk_degil nihai,kalibrasyon_h2_meyve_gunluk_degil_nihai.csv
+3,0.545645516419037,0.551597089963167,5912,H2 meyve_gunluk_degil nihai,kalibrasyon_h2_meyve_gunluk_degil_nihai.csv
+4,0.590422819175021,0.593364911765771,5259,H2 meyve_gunluk_degil nihai,kalibrasyon_h2_meyve_gunluk_degil_nihai.csv
+5,0.617007996822342,0.625824423019835,5097,H2 meyve_gunluk_degil nihai,kalibrasyon_h2_meyve_gunluk_degil_nihai.csv
+6,0.638643544526041,0.653856743451188,5357,H2 meyve_gunluk_degil nihai,kalibrasyon_h2_meyve_gunluk_degil_nihai.csv
+7,0.687028670558206,0.683778200455803,5734,H2 meyve_gunluk_degil nihai,kalibrasyon_h2_meyve_gunluk_degil_nihai.csv
+8,0.724322888461557,0.717667764128901,6007,H2 meyve_gunluk_degil nihai,kalibrasyon_h2_meyve_gunluk_degil_nihai.csv
+9,0.770313666141252,0.760196159072768,5695,H2 meyve_gunluk_degil nihai,kalibrasyon_h2_meyve_gunluk_degil_nihai.csv
+10,0.819683571080854,0.819291179941558,6608,H2 meyve_gunluk_degil nihai,kalibrasyon_h2_meyve_gunluk_degil_nihai.csv
+1,0.358364741514589,0.362359343554254,6088,H2 sebze_gunluk_degil nihai_esnek,kalibrasyon_h2_sebze_gunluk_degil_nihai_esnek.csv
+2,0.41174470244709,0.417965233443154,5231,H2 sebze_gunluk_degil nihai_esnek,kalibrasyon_h2_sebze_gunluk_degil_nihai_esnek.csv
+3,0.468321496047576,0.455549866862657,5018,H2 sebze_gunluk_degil nihai_esnek,kalibrasyon_h2_sebze_gunluk_degil_nihai_esnek.csv
+4,0.501996190936852,0.491620998065083,5111,H2 sebze_gunluk_degil nihai_esnek,kalibrasyon_h2_sebze_gunluk_degil_nihai_esnek.csv
+5,0.511592215992553,0.526349838518196,5588,H2 sebze_gunluk_degil nihai_esnek,kalibrasyon_h2_sebze_gunluk_degil_nihai_esnek.csv
+6,0.552893264425506,0.560284796464304,5758,H2 sebze_gunluk_degil nihai_esnek,kalibrasyon_h2_sebze_gunluk_degil_nihai_esnek.csv
+7,0.583684013198249,0.592935265397584,5480,H2 sebze_gunluk_degil nihai_esnek,kalibrasyon_h2_sebze_gunluk_degil_nihai_esnek.csv
+8,0.63826112635499,0.626655857765784,5334,H2 sebze_gunluk_degil nihai_esnek,kalibrasyon_h2_sebze_gunluk_degil_nihai_esnek.csv
+9,0.688393025661971,0.668599904210304,5474,H2 sebze_gunluk_degil nihai_esnek,kalibrasyon_h2_sebze_gunluk_degil_nihai_esnek.csv
+10,0.74462574580345,0.757563332096917,8817,H2 sebze_gunluk_degil nihai_esnek,kalibrasyon_h2_sebze_gunluk_degil_nihai_esnek.csv
+1,0.359983934341714,0.36975066255126,6258,H2 sebze_gunluk_degil nihai,kalibrasyon_h2_sebze_gunluk_degil_nihai.csv
+2,0.425877368159062,0.421281489598438,5240,H2 sebze_gunluk_degil nihai,kalibrasyon_h2_sebze_gunluk_degil_nihai.csv
+3,0.46132574331253,0.456706612047768,4650,H2 sebze_gunluk_degil nihai,kalibrasyon_h2_sebze_gunluk_degil_nihai.csv
+4,0.496486272415883,0.492210608102145,4832,H2 sebze_gunluk_degil nihai,kalibrasyon_h2_sebze_gunluk_degil_nihai.csv
+5,0.529743083905973,0.526767789126028,5468,H2 sebze_gunluk_degil nihai,kalibrasyon_h2_sebze_gunluk_degil_nihai.csv
+6,0.544934698696452,0.558557516525898,5805,H2 sebze_gunluk_degil nihai,kalibrasyon_h2_sebze_gunluk_degil_nihai.csv
+7,0.593776239339313,0.591464121192287,5549,H2 sebze_gunluk_degil nihai,kalibrasyon_h2_sebze_gunluk_degil_nihai.csv
+8,0.636267196108998,0.626116645395976,5579,H2 sebze_gunluk_degil nihai,kalibrasyon_h2_sebze_gunluk_degil_nihai.csv
+9,0.675699697358098,0.671551536503801,6241,H2 sebze_gunluk_degil nihai,kalibrasyon_h2_sebze_gunluk_degil_nihai.csv
+10,0.735817235849358,0.745506748622165,8277,H2 sebze_gunluk_degil nihai,kalibrasyon_h2_sebze_gunluk_degil_nihai.csv

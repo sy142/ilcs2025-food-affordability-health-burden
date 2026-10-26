@@ -1,0 +1,30 @@
+adim,etiket,n
+kaynak,"ILCS cross-sections 2023-2025, persons",239985
+kaynak_hane,"ILCS cross-sections 2023-2025, households",76693
+yil_2023_kisi,Persons 2023,79052
+yil_2024_kisi,Persons 2024,80727
+yil_2025_kisi,Persons 2025,80206
+yil_2023_hane,Households 2023,24932
+yil_2024_hane,Households 2024,25925
+yil_2025_hane,Households 2025,25836
+k2025_hane,2025 households,25836
+k2025_kisi,2025 persons,80206
+k2025_fkayit,2025 individual questionnaires (aged 15+),61812
+dis_0_14,Aged <15 years,18281
+dis_15_17,Aged 15-17 years (FK070) with individual record,3913
+dis_15plus_kayitsiz,Aged 15+ without individual record,113
+dis_18plus_kayitsiz,Aged 18+ without individual record,103
+dis_hane_yetiskinsiz,Households without an adult member,1
+analitik_hane,Household analytic sample,25835
+analitik_yetiskin,Adult analytic sample (FK070 >= 18),57899
+et_vejetaryen_dislandi,Vegetarian or vegan adults excluded from meat outcome,195
+bki_supheli_dislandi,Implausible height/weight excluded from BMI description,105
+ihtiyac_var,Adults reporting a medical care need (unmet-need universe),53434
+dis_ihtiyac_var,Adults reporting a dental care need,29575
+kronik_yetiskin,Adults with chronic illness (specialist-visit universe),24315
+hane_A1,Households unable to afford the meal,10064
+hane_A0,Households able to afford the meal,15771
+hane_C1,Households with an adult with chronic illness,16362
+yetiskin_A1,Adults in households unable to afford the meal,21134
+yetiskin_A0,Adults in households able to afford the meal,36765
+Y_olay_hane,Households reporting heavy medical or medicine burden,2030
