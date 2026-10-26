@@ -1,0 +1,15 @@
+{
+  "title": "Food affordability and the household burden of health spending in Türkiye: analysis code, analysis plan and aggregated outputs (ILCS/EU-SILC 2023–2025)",
+  "upload_type": "software",
+  "description": "<p>Analysis code (R 4.6.1, Python 3.13), the written analysis plan, the decision log and all aggregated outputs (tables, figures, machine-readable results) for the manuscript <em>Food affordability and the household burden of health spending in Türkiye</em> by Salim Yılmaz and Ahmet Murat Günal, submitted to <em>Foods</em> (MDPI). The study analyzes the 2023–2025 cross-sections of the Income and Living Conditions Survey of the Turkish Statistical Institute (TurkStat). The microdata are not included: they are released by TurkStat under a microdata user agreement and cannot be redistributed (Statistical Law No. 5429, Articles 13 and 14).</p>",
+  "creators": [
+    {"name": "Yılmaz, Salim", "affiliation": "Acıbadem Mehmet Ali Aydınlar University, Istanbul, Türkiye", "orcid": "0000-0003-2405-5084"},
+    {"name": "Günal, Ahmet Murat", "affiliation": "Haliç University, Istanbul, Türkiye", "orcid": "0000-0001-9109-1080"}
+  ],
+  "keywords": ["EU-SILC", "ILCS", "food affordability", "material deprivation", "food insecurity", "out-of-pocket health expenditure", "financial protection", "chronic illness", "additive interaction", "g-computation", "latent class analysis", "plasmode simulation", "Türkiye"],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "version": "1.0.0",
+  "notes": "Version 1.0.0 corresponds to the manuscript as submitted. The TurkStat microdata are not part of this archive."
+}
