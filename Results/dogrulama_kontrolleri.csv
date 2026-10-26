@@ -1,0 +1,44 @@
+kontrol,beklenen,bulunan,durum
+Satir sayisi,239985,239985,Tuttu
+Sutun sayisi,266,266,Tuttu
+2025 hane (hane_reisi == 1),25836,25836,Tuttu
+2025 fert anketi (f_kayit == 1),61812,61812,Tuttu
+2025 tum fert,80206,80206,Tuttu
+2025 HE090 = 1 (hane),15772,15772,Tuttu
+2025 HE090 = 2 (hane),10064,10064,Tuttu
+2025 FS050 = 1,3950,3950,Tuttu
+2025 FS050 = 2,52977,52977,Tuttu
+2025 FS050 = 3,4885,4885,Tuttu
+2025 FS060 = 1,340,340,Tuttu
+2025 FS060 = 5,2531,2531,Tuttu
+2025 FS080 = 1,497,497,Tuttu
+2025 MODUL1_H_1 = 1,1573,1573,Tuttu
+2025 MODUL1_H_1 = 2,13126,13126,Tuttu
+2025 MODUL1_H_1 = 3,10484,10484,Tuttu
+2025 MODUL1_H_1 = 4,653,653,Tuttu
+2025 MODUL1_H_3 = 1,1377,1377,Tuttu
+2025 MODUL1_H_3 = 4,20,20,Tuttu
+2025 MODUL1_H_2 = 1,1256,1256,Tuttu
+2025 MODUL1_H_2 = 4,7946,7946,Tuttu
+2025 FS020 = 1,24674,24674,Tuttu
+2025 gunluk_meyve = 1,22527,22527,Tuttu
+2025 gunluk_sebze = 1,27222,27222,Tuttu
+2025 et_tavuk_balik_siklik = 0,214,214,Tuttu
+2025 et_tavuk_balik_siklik = 1,20893,20893,Tuttu
+2025 et_tavuk_balik_siklik = 2,37122,37122,Tuttu
+2025 et_tavuk_balik_siklik = 3,3583,3583,Tuttu
+2025 bki_grup = 1 (18+),1128,1128,Tuttu
+2025 bki_grup = 2 (18+),21718,21718,Tuttu
+2025 bki_grup = 3 (18+),22470,22470,Tuttu
+2025 bki_grup = 4 (18+),12583,12583,Tuttu
+2023 HB031 = TR63 hane,0,0,Tuttu
+"2025 FK050 toplami (milyon kisi, ~84)",84,84.14,Tuttu
+"2025 FB030 toplami (milyon, 65-66)",65.5,66.39,Tutmadi
+2025 FB030 toplami = FK070 >= 15 FK050 toplami (milyon),66.395,66.395,Tuttu
+"2025 HB040 toplami (milyon hane, 26,7-27,2)",26.95,27.2,Tuttu
+"2025 yoksul_60 (FK050, tum fertler, %)",20.6,20.6,Tuttu
+"2025 Gini (esdeger gelir, FK050)",0.41,0.41,Tuttu
+"2025 karsilanamayan_tibbi_ihtiyac (FB030, 16+, %)",0.7,0.7,Tuttu
+2023 HE090 = 2 kisi payi (FK050) = Eurostat ilc_mdes03 TR (%),39.1,39.1,Tuttu
+2024 HE090 = 2 kisi payi (FK050) = Eurostat ilc_mdes03 TR (%),39.3,39.3,Tuttu
+2025 HE090 = 2 kisi payi (FK050) = Eurostat ilc_mdes03 TR (%),35.1,35.1,Tuttu

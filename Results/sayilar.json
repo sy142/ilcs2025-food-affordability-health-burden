@@ -1,0 +1,4322 @@
+{
+  "orneklem": {
+    "hane_2025": 25836,
+    "hane_analitik": 25835,
+    "yetiskin_analitik": 57899,
+    "fert_2025": 80206,
+    "fert_anketi_2025": 61812,
+    "hane_A1": 10064,
+    "hane_C1": 16362,
+    "yetiskin_A1": 21134,
+    "Y_olay_hane": 2030,
+    "Y_olay_yetiskin": 4477,
+    "vejetaryen": 195,
+    "ihtiyac_var": 53434
+  },
+  "agirlikli_yuzde": {
+    "Y_saglik_yuk_hane": [
+      {
+        "yuzde": 7.956,
+        "alt": 7.571,
+        "ust": 8.359
+      }
+    ],
+    "Y_tibbi_yuk_hane": [
+      {
+        "yuzde": 6.101,
+        "alt": 5.76,
+        "ust": 6.46
+      }
+    ],
+    "Y_ilac_yuk_hane": [
+      {
+        "yuzde": 5.133,
+        "alt": 4.83,
+        "ust": 5.454
+      }
+    ],
+    "A_hane_2025": 36.965,
+    "A_yetiskin_2025": 33.596,
+    "A_kisi_yil": {
+      "2023": 39.142,
+      "2024": 39.337,
+      "2025": 35.072
+    },
+    "A_hane_yil": {
+      "2023": 37.377,
+      "2024": 38.3,
+      "2025": 36.964
+    },
+    "A_kisi_2025_gelir": {
+      "Q1": 72.081,
+      "Q2": 51.441,
+      "Q3": 32.913,
+      "Q4": 16.09,
+      "Q5": 2.829
+    }
+  },
+  "H1_hane": {
+    "model": "cekirdek_ihtiyac",
+    "n": 25835,
+    "olay": 2030,
+    "hucre_ham": [
+      {
+        "A": 0,
+        "C_hane": 0,
+        "n": 6593,
+        "olay": 283,
+        "ham_yuzde": 4.454
+      },
+      {
+        "A": 0,
+        "C_hane": 1,
+        "n": 9178,
+        "olay": 589,
+        "ham_yuzde": 7.033
+      },
+      {
+        "A": 1,
+        "C_hane": 0,
+        "n": 2880,
+        "olay": 249,
+        "ham_yuzde": 8.52
+      },
+      {
+        "A": 1,
+        "C_hane": 1,
+        "n": 7184,
+        "olay": 909,
+        "ham_yuzde": 12.567
+      }
+    ],
+    "p00": {
+      "tahmin": 4.4609,
+      "alt": 3.8172,
+      "ust": 5.1834,
+      "se_boot": 0.3553,
+      "se_dogrusallastirma": 0.3494
+    },
+    "p01": {
+      "tahmin": 6.6418,
+      "alt": 5.9548,
+      "ust": 7.3202,
+      "se_boot": 0.3429,
+      "se_dogrusallastirma": 0.3458
+    },
+    "p10": {
+      "tahmin": 9.8943,
+      "alt": 8.3518,
+      "ust": 11.6023,
+      "se_boot": 0.8063,
+      "se_dogrusallastirma": 0.8327
+    },
+    "p11": {
+      "tahmin": 12.8385,
+      "alt": 11.7034,
+      "ust": 14.0917,
+      "se_boot": 0.6175,
+      "se_dogrusallastirma": 0.622
+    },
+    "beklenti11": {
+      "tahmin": 12.0751,
+      "alt": 10.4498,
+      "ust": 13.7415,
+      "se_boot": 0.8455,
+      "se_dogrusallastirma": 0.8628
+    },
+    "Delta": {
+      "tahmin": 0.7634,
+      "alt": -1.0917,
+      "ust": 2.6217,
+      "se_boot": 0.9742,
+      "se_dogrusallastirma": 1.0076
+    },
+    "RERI": {
+      "tahmin": 0.1711,
+      "alt": -0.252,
+      "ust": 0.5899,
+      "se_boot": 0.2185,
+      "se_dogrusallastirma": 0.225
+    },
+    "AP": {
+      "tahmin": 0.0595,
+      "alt": -0.0899,
+      "ust": 0.1958,
+      "se_boot": 0.0746,
+      "se_dogrusallastirma": 0.077
+    },
+    "PR10": {
+      "tahmin": 2.218,
+      "alt": 1.8046,
+      "ust": 2.7131,
+      "se_boot": 0.2328,
+      "se_dogrusallastirma": 0.2335
+    },
+    "PR01": {
+      "tahmin": 1.4889,
+      "alt": 1.2193,
+      "ust": 1.8139,
+      "se_boot": 0.1533,
+      "se_dogrusallastirma": 0.1504
+    },
+    "PR11": {
+      "tahmin": 2.878,
+      "alt": 2.3473,
+      "ust": 3.5113,
+      "se_boot": 0.2991,
+      "se_dogrusallastirma": 0.297
+    },
+    "PD_A": {
+      "tahmin": 5.9125,
+      "alt": 4.8104,
+      "ust": 7.0629,
+      "se_boot": 0.5675,
+      "se_dogrusallastirma": 0.568
+    },
+    "PR_A": {
+      "tahmin": 2.0093,
+      "alt": 1.7814,
+      "ust": 2.2669,
+      "se_boot": 0.1235,
+      "se_dogrusallastirma": 0.1236
+    },
+    "OR_carpim": {
+      "tahmin": 0.883,
+      "alt": 0.6885,
+      "ust": 1.1386,
+      "se_boot": 0.1139,
+      "se_dogrusallastirma": 0.1133
+    },
+    "mde_gozlenen_se": 2.423,
+    "modeller": {
+      "minimal": {
+        "tahmin": 2.7749,
+        "alt": 1.0426,
+        "ust": 4.5995,
+        "se_boot": 0.9145,
+        "se_dogrusallastirma": 0.9271
+      },
+      "cekirdek": {
+        "tahmin": 2.6486,
+        "alt": 0.8906,
+        "ust": 4.4645,
+        "se_boot": 0.9135,
+        "se_dogrusallastirma": 0.927
+      },
+      "cekirdek_ihtiyac_ana": {
+        "tahmin": 0.7634,
+        "alt": -1.0917,
+        "ust": 2.6217,
+        "se_boot": 0.9742,
+        "se_dogrusallastirma": 1.0076
+      },
+      "tam_duzeltilmis": {
+        "tahmin": 0.3363,
+        "alt": -1.5066,
+        "ust": 2.2024,
+        "se_boot": 0.9756,
+        "se_dogrusallastirma": 1.0029
+      },
+      "esnek_tam": {
+        "tahmin": -0.717,
+        "alt": -3.3249,
+        "ust": 1.8945,
+        "se_boot": 1.3364,
+        "se_dogrusallastirma": 1.3584
+      },
+      "esnek_cekirdek": {
+        "tahmin": -0.6701,
+        "alt": -3.3447,
+        "ust": 1.9473,
+        "se_boot": 1.3526,
+        "se_dogrusallastirma": 1.3707
+      }
+    },
+    "cekirdek_ihtiyacsiz": {
+      "p00": {
+        "tahmin": 3.748,
+        "alt": 3.2319,
+        "ust": 4.3156,
+        "se_boot": 0.2751,
+        "se_dogrusallastirma": 0.2679
+      },
+      "p01": {
+        "tahmin": 7.3047,
+        "alt": 6.6034,
+        "ust": 8.0153,
+        "se_boot": 0.3532,
+        "se_dogrusallastirma": 0.3582
+      },
+      "p10": {
+        "tahmin": 8.2629,
+        "alt": 6.9854,
+        "ust": 9.6083,
+        "se_boot": 0.6567,
+        "se_dogrusallastirma": 0.6633
+      },
+      "p11": {
+        "tahmin": 14.4682,
+        "alt": 13.2488,
+        "ust": 15.7503,
+        "se_boot": 0.655,
+        "se_dogrusallastirma": 0.6427
+      },
+      "Delta": {
+        "tahmin": 2.6486,
+        "alt": 0.8906,
+        "ust": 4.4645,
+        "se_boot": 0.9135,
+        "se_dogrusallastirma": 0.927
+      },
+      "RERI": {
+        "tahmin": 0.7067,
+        "alt": 0.2395,
+        "ust": 1.1897,
+        "se_boot": 0.2399,
+        "se_dogrusallastirma": 0.2428
+      },
+      "AP": {
+        "tahmin": 0.1831,
+        "alt": 0.067,
+        "ust": 0.2925,
+        "se_boot": 0.0587,
+        "se_dogrusallastirma": 0.0597
+      },
+      "PR_A": {
+        "tahmin": 2.0497,
+        "alt": 1.8169,
+        "ust": 2.3058,
+        "se_boot": 0.1265,
+        "se_dogrusallastirma": 0.1261
+      }
+    },
+    "lpm_cekirdek": {
+      "tahmin": 0.9719,
+      "se": 0.8932
+    },
+    "etki_degisimi_p": {
+      "gelir": 0.717,
+      "bolge": 0.149,
+      "reis_cinsiyet": 0.598
+    },
+    "baglanti": {
+      "lojistik": 0.763,
+      "dogrusal_olasilik": 0.972,
+      "esnek_lojistik": -0.67
+    }
+  },
+  "H1_gali_kesifsel": {
+    "hucre_ham": [
+      {
+        "A": 0,
+        "C_hane_gali": 0,
+        "n": 9695,
+        "olay": 441,
+        "ham_yuzde": 4.953
+      },
+      {
+        "A": 0,
+        "C_hane_gali": 1,
+        "n": 6076,
+        "olay": 431,
+        "ham_yuzde": 7.606
+      },
+      {
+        "A": 1,
+        "C_hane_gali": 0,
+        "n": 4611,
+        "olay": 402,
+        "ham_yuzde": 8.735
+      },
+      {
+        "A": 1,
+        "C_hane_gali": 1,
+        "n": 5453,
+        "olay": 756,
+        "ham_yuzde": 13.801
+      }
+    ],
+    "cekirdek": {
+      "p00": {
+        "tahmin": 4.2864,
+        "alt": 3.8306,
+        "ust": 4.7837,
+        "se_boot": 0.2428,
+        "se_dogrusallastirma": 0.2417
+      },
+      "p01": {
+        "tahmin": 8.3029,
+        "alt": 7.4378,
+        "ust": 9.226,
+        "se_boot": 0.4596,
+        "se_dogrusallastirma": 0.4708
+      },
+      "p10": {
+        "tahmin": 8.9086,
+        "alt": 7.814,
+        "ust": 9.9824,
+        "se_boot": 0.5598,
+        "se_dogrusallastirma": 0.5502
+      },
+      "p11": {
+        "tahmin": 16.5229,
+        "alt": 15.0462,
+        "ust": 18.1276,
+        "se_boot": 0.7924,
+        "se_dogrusallastirma": 0.7795
+      },
+      "Delta": {
+        "tahmin": 3.5978,
+        "alt": 1.7966,
+        "ust": 5.5657,
+        "se_boot": 0.9691,
+        "se_dogrusallastirma": 0.9698
+      },
+      "RERI": {
+        "tahmin": 0.8393,
+        "alt": 0.4249,
+        "ust": 1.3029,
+        "se_boot": 0.2237,
+        "se_dogrusallastirma": 0.2231
+      },
+      "AP": {
+        "tahmin": 0.2177,
+        "alt": 0.1133,
+        "ust": 0.3165,
+        "se_boot": 0.0522,
+        "se_dogrusallastirma": 0.0525
+      },
+      "PD_C0": {
+        "tahmin": 4.6222,
+        "alt": 3.4005,
+        "ust": 5.8489,
+        "se_boot": 0.6165,
+        "se_dogrusallastirma": 0.6132
+      },
+      "PD_C1": {
+        "tahmin": 8.22,
+        "alt": 6.5187,
+        "ust": 10.0682,
+        "se_boot": 0.9099,
+        "se_dogrusallastirma": 0.9015
+      },
+      "PR_A": {
+        "tahmin": 2.0414,
+        "alt": 1.8091,
+        "ust": 2.296,
+        "se_boot": 0.1257,
+        "se_dogrusallastirma": 0.1254
+      }
+    },
+    "kronik_duzeltilmis": {
+      "p00": {
+        "tahmin": 4.7137,
+        "alt": 4.1721,
+        "ust": 5.3031,
+        "se_boot": 0.2842,
+        "se_dogrusallastirma": 0.286
+      },
+      "p01": {
+        "tahmin": 7.3834,
+        "alt": 6.5943,
+        "ust": 8.2724,
+        "se_boot": 0.4354,
+        "se_dogrusallastirma": 0.4499
+      },
+      "p10": {
+        "tahmin": 9.478,
+        "alt": 8.3053,
+        "ust": 10.6361,
+        "se_boot": 0.597,
+        "se_dogrusallastirma": 0.5874
+      },
+      "p11": {
+        "tahmin": 14.6709,
+        "alt": 13.2459,
+        "ust": 16.2907,
+        "se_boot": 0.7838,
+        "se_dogrusallastirma": 0.7757
+      },
+      "Delta": {
+        "tahmin": 2.5233,
+        "alt": 0.7525,
+        "ust": 4.3927,
+        "se_boot": 0.941,
+        "se_dogrusallastirma": 0.9375
+      },
+      "RERI": {
+        "tahmin": 0.5353,
+        "alt": 0.1569,
+        "ust": 0.9544,
+        "se_boot": 0.199,
+        "se_dogrusallastirma": 0.1973
+      },
+      "AP": {
+        "tahmin": 0.172,
+        "alt": 0.0544,
+        "ust": 0.2837,
+        "se_boot": 0.0587,
+        "se_dogrusallastirma": 0.0587
+      },
+      "PD_C0": {
+        "tahmin": 4.7642,
+        "alt": 3.4763,
+        "ust": 6.047,
+        "se_boot": 0.6524,
+        "se_dogrusallastirma": 0.6491
+      },
+      "PD_C1": {
+        "tahmin": 7.2875,
+        "alt": 5.7145,
+        "ust": 9.0263,
+        "se_boot": 0.8454,
+        "se_dogrusallastirma": 0.835
+      },
+      "PR_A": {
+        "tahmin": 1.9982,
+        "alt": 1.7731,
+        "ust": 2.2492,
+        "se_boot": 0.1234,
+        "se_dogrusallastirma": 0.1231
+      }
+    }
+  },
+  "H1_yetiskin": {
+    "model": "cekirdek_ihtiyac",
+    "n": 57899,
+    "olay": 4477,
+    "p00": {
+      "tahmin": 5.0881,
+      "alt": 4.5699,
+      "ust": 5.6459,
+      "se_boot": 0.2752,
+      "se_dogrusallastirma": 0.2756
+    },
+    "p01": {
+      "tahmin": 6.8962,
+      "alt": 6.105,
+      "ust": 7.6887,
+      "se_boot": 0.406,
+      "se_dogrusallastirma": 0.4069
+    },
+    "p10": {
+      "tahmin": 11.6242,
+      "alt": 10.2705,
+      "ust": 13.0706,
+      "se_boot": 0.7163,
+      "se_dogrusallastirma": 0.7268
+    },
+    "p11": {
+      "tahmin": 13.5885,
+      "alt": 12.1163,
+      "ust": 15.2103,
+      "se_boot": 0.7865,
+      "se_dogrusallastirma": 0.7856
+    },
+    "Delta": {
+      "tahmin": 0.1561,
+      "alt": -1.3899,
+      "ust": 1.6829,
+      "se_boot": 0.7677,
+      "se_dogrusallastirma": 0.777
+    },
+    "RERI": {
+      "tahmin": 0.0307,
+      "alt": -0.2746,
+      "ust": 0.331,
+      "se_boot": 0.1514,
+      "se_dogrusallastirma": 0.1527
+    },
+    "AP": {
+      "tahmin": 0.0115,
+      "alt": -0.1056,
+      "ust": 0.1187,
+      "se_boot": 0.0563,
+      "se_dogrusallastirma": 0.0568
+    },
+    "PR_A": {
+      "tahmin": 2.1309,
+      "alt": 1.8534,
+      "ust": 2.4481,
+      "se_boot": 0.1502,
+      "se_dogrusallastirma": 0.15
+    },
+    "OR_carpim": {
+      "tahmin": 0.8656,
+      "alt": 0.7374,
+      "ust": 1.0234,
+      "se_boot": 0.0739,
+      "se_dogrusallastirma": 0.0731
+    },
+    "mde_gozlenen_se": 1.909,
+    "tasarim_etkisi_kumeleme": 1.232,
+    "modeller": {
+      "minimal": {
+        "tahmin": 1.8831,
+        "alt": 0.4198,
+        "ust": 3.4316,
+        "se_boot": 0.7788,
+        "se_dogrusallastirma": 0.7777
+      },
+      "cekirdek": {
+        "tahmin": 1.9199,
+        "alt": 0.4724,
+        "ust": 3.4779,
+        "se_boot": 0.7676,
+        "se_dogrusallastirma": 0.7652
+      },
+      "cekirdek_ihtiyac_ana": {
+        "tahmin": 0.1561,
+        "alt": -1.3899,
+        "ust": 1.6829,
+        "se_boot": 0.7677,
+        "se_dogrusallastirma": 0.777
+      },
+      "tam_duzeltilmis": {
+        "tahmin": -1.4681,
+        "alt": -3.0576,
+        "ust": 0.0761,
+        "se_boot": 0.7739,
+        "se_dogrusallastirma": 0.7748
+      },
+      "esnek_tam": {
+        "tahmin": -2.2857,
+        "alt": -4.7329,
+        "ust": 0.1405,
+        "se_boot": 1.2608,
+        "se_dogrusallastirma": 1.301
+      },
+      "esnek_cekirdek": {
+        "tahmin": -0.6875,
+        "alt": -2.7968,
+        "ust": 1.4384,
+        "se_boot": 1.0991,
+        "se_dogrusallastirma": 1.1273
+      }
+    },
+    "cekirdek_ihtiyacsiz": {
+      "p00": {
+        "tahmin": 4.6886,
+        "alt": 4.2216,
+        "ust": 5.1689,
+        "se_boot": 0.244,
+        "se_dogrusallastirma": 0.245
+      },
+      "p01": {
+        "tahmin": 7.7139,
+        "alt": 6.9304,
+        "ust": 8.5236,
+        "se_boot": 0.4127,
+        "se_dogrusallastirma": 0.4169
+      },
+      "p10": {
+        "tahmin": 10.6461,
+        "alt": 9.4093,
+        "ust": 11.9099,
+        "se_boot": 0.6507,
+        "se_dogrusallastirma": 0.653
+      },
+      "p11": {
+        "tahmin": 15.5914,
+        "alt": 14.0487,
+        "ust": 17.2894,
+        "se_boot": 0.8281,
+        "se_dogrusallastirma": 0.8136
+      },
+      "Delta": {
+        "tahmin": 1.9199,
+        "alt": 0.4724,
+        "ust": 3.4779,
+        "se_boot": 0.7676,
+        "se_dogrusallastirma": 0.7652
+      },
+      "RERI": {
+        "tahmin": 0.4095,
+        "alt": 0.1005,
+        "ust": 0.7482,
+        "se_boot": 0.1636,
+        "se_dogrusallastirma": 0.1635
+      },
+      "AP": {
+        "tahmin": 0.1231,
+        "alt": 0.0316,
+        "ust": 0.211,
+        "se_boot": 0.0457,
+        "se_dogrusallastirma": 0.0457
+      },
+      "PR_A": {
+        "tahmin": 2.1554,
+        "alt": 1.8757,
+        "ust": 2.4664,
+        "se_boot": 0.1519,
+        "se_dogrusallastirma": 0.1518
+      }
+    },
+    "etki_degisimi_p": {
+      "gelir": 0.601,
+      "bolge": 0.18,
+      "cinsiyet": 0.207
+    }
+  },
+  "H2": {
+    "et_haftada_az": {
+      "model": "nihai_esnek",
+      "n": 57704,
+      "olay": 19564,
+      "p0": {
+        "tahmin": 25.2384,
+        "alt": 24.259,
+        "ust": 26.1845,
+        "se_boot": 0.4825,
+        "se_dogrusallastirma": 0.4801
+      },
+      "p1": {
+        "tahmin": 51.6949,
+        "alt": 49.3132,
+        "ust": 54.0118,
+        "se_boot": 1.2085,
+        "se_dogrusallastirma": 1.2179
+      },
+      "PD": {
+        "tahmin": 26.4565,
+        "alt": 23.9299,
+        "ust": 29.0027,
+        "se_boot": 1.3021,
+        "se_dogrusallastirma": 1.3096
+      },
+      "PR": {
+        "tahmin": 2.0483,
+        "alt": 1.9326,
+        "ust": 2.1738,
+        "se_boot": 0.062,
+        "se_dogrusallastirma": 0.0621
+      },
+      "sirali_OR": {
+        "OR": 2.9792,
+        "alt": 2.7437,
+        "ust": 3.2348
+      },
+      "orantili_odds": "Orantili odds varsayimi kabul edilebilir: svyolr OR raporlanir",
+      "gelir": [
+        {
+          "gelir": "T",
+          "PD": 26.456,
+          "PD_alt": 23.93,
+          "PD_ust": 29.003,
+          "PR": 2.0483
+        },
+        {
+          "gelir": "1",
+          "PD": 28.148,
+          "PD_alt": 24.185,
+          "PD_ust": 32.196,
+          "PR": 1.9408
+        },
+        {
+          "gelir": "2",
+          "PD": 23.858,
+          "PD_alt": 20.05,
+          "PD_ust": 27.338,
+          "PR": 1.8213
+        },
+        {
+          "gelir": "3",
+          "PD": 21.281,
+          "PD_alt": 17.688,
+          "PD_ust": 24.991,
+          "PR": 1.7308
+        },
+        {
+          "gelir": "4",
+          "PD": 24.083,
+          "PD_alt": 19.939,
+          "PD_ust": 28.287,
+          "PR": 2.0008
+        },
+        {
+          "gelir": "5",
+          "PD": 34.687,
+          "PD_alt": 26.166,
+          "PD_ust": 42.787,
+          "PR": 3.1786
+        }
+      ]
+    },
+    "meyve_gunluk_degil": {
+      "model": "nihai_esnek",
+      "n": 57899,
+      "olay": 36725,
+      "p0": {
+        "tahmin": 59.0478,
+        "alt": 58.084,
+        "ust": 59.9815,
+        "se_boot": 0.486,
+        "se_dogrusallastirma": 0.4858
+      },
+      "p1": {
+        "tahmin": 72.1336,
+        "alt": 70.2447,
+        "ust": 73.8834,
+        "se_boot": 0.9341,
+        "se_dogrusallastirma": 0.9351
+      },
+      "PD": {
+        "tahmin": 13.0857,
+        "alt": 10.9832,
+        "ust": 15.0941,
+        "se_boot": 1.0582,
+        "se_dogrusallastirma": 1.0499
+      },
+      "PR": {
+        "tahmin": 1.2216,
+        "alt": 1.1844,
+        "ust": 1.2579,
+        "se_boot": 0.0189,
+        "se_dogrusallastirma": 0.0187
+      },
+      "sirali_OR": {
+        "OR": 1.7377,
+        "alt": 1.6294,
+        "ust": 1.8532
+      },
+      "orantili_odds": "Orantili odds varsayimi kabul edilebilir: svyolr OR raporlanir",
+      "gelir": [
+        {
+          "gelir": "T",
+          "PD": 13.086,
+          "PD_alt": 10.983,
+          "PD_ust": 15.094,
+          "PR": 1.2216
+        },
+        {
+          "gelir": "1",
+          "PD": 11.522,
+          "PD_alt": 7.847,
+          "PD_ust": 15.444,
+          "PR": 1.178
+        },
+        {
+          "gelir": "2",
+          "PD": 12.882,
+          "PD_alt": 9.568,
+          "PD_ust": 15.968,
+          "PR": 1.2151
+        },
+        {
+          "gelir": "3",
+          "PD": 11.484,
+          "PD_alt": 8.366,
+          "PD_ust": 14.495,
+          "PR": 1.1917
+        },
+        {
+          "gelir": "4",
+          "PD": 11.82,
+          "PD_alt": 8.437,
+          "PD_ust": 15.313,
+          "PR": 1.2047
+        },
+        {
+          "gelir": "5",
+          "PD": 17.202,
+          "PD_alt": 10.175,
+          "PD_ust": 23.525,
+          "PR": 1.3152
+        }
+      ]
+    },
+    "sebze_gunluk_degil": {
+      "model": "nihai_esnek",
+      "n": 57899,
+      "olay": 32326,
+      "p0": {
+        "tahmin": 51.0388,
+        "alt": 50.0229,
+        "ust": 52.0482,
+        "se_boot": 0.511,
+        "se_dogrusallastirma": 0.5132
+      },
+      "p1": {
+        "tahmin": 62.7951,
+        "alt": 60.5558,
+        "ust": 64.7981,
+        "se_boot": 1.091,
+        "se_dogrusallastirma": 1.0956
+      },
+      "PD": {
+        "tahmin": 11.7563,
+        "alt": 9.2534,
+        "ust": 14.0761,
+        "se_boot": 1.223,
+        "se_dogrusallastirma": 1.2096
+      },
+      "PR": {
+        "tahmin": 1.2303,
+        "alt": 1.18,
+        "ust": 1.2784,
+        "se_boot": 0.0251,
+        "se_dogrusallastirma": 0.0248
+      },
+      "sirali_OR": {
+        "OR": 1.5741,
+        "alt": 1.4686,
+        "ust": 1.687
+      },
+      "orantili_odds": "Orantili odds bozuk: kesme noktasi bazli ikili OR'ler ana raporlama, svyolr ekte",
+      "gelir": [
+        {
+          "gelir": "T",
+          "PD": 11.756,
+          "PD_alt": 9.253,
+          "PD_ust": 14.076,
+          "PR": 1.2303
+        },
+        {
+          "gelir": "1",
+          "PD": 10.389,
+          "PD_alt": 6.475,
+          "PD_ust": 14.463,
+          "PR": 1.1747
+        },
+        {
+          "gelir": "2",
+          "PD": 10.686,
+          "PD_alt": 6.969,
+          "PD_ust": 14.184,
+          "PR": 1.204
+        },
+        {
+          "gelir": "3",
+          "PD": 8.918,
+          "PD_alt": 5.245,
+          "PD_ust": 12.346,
+          "PR": 1.1702
+        },
+        {
+          "gelir": "4",
+          "PD": 9.284,
+          "PD_alt": 5.274,
+          "PD_ust": 13.238,
+          "PR": 1.1888
+        },
+        {
+          "gelir": "5",
+          "PD": 18.849,
+          "PD_alt": 10.803,
+          "PD_ust": 25.713,
+          "PR": 1.4272
+        }
+      ]
+    }
+  },
+  "H2_gida_karsilastirma": [
+    {
+      "karsilastirma": "et_haftada_az vs meyve_gunluk_degil",
+      "olcu": "PR",
+      "fark": 0.8266,
+      "fark_alt": 0.7191,
+      "fark_ust": 0.9403,
+      "oran": 1.6767,
+      "p_boot": 0
+    },
+    {
+      "karsilastirma": "et_haftada_az vs meyve_gunluk_degil",
+      "olcu": "PD",
+      "fark": 13.3707,
+      "fark_alt": 10.8856,
+      "fark_ust": 15.847,
+      "oran": 2.0218,
+      "p_boot": 0
+    },
+    {
+      "karsilastirma": "et_haftada_az vs sebze_gunluk_degil",
+      "olcu": "PR",
+      "fark": 0.8179,
+      "fark_alt": 0.7101,
+      "fark_ust": 0.9348,
+      "oran": 1.6648,
+      "p_boot": 0
+    },
+    {
+      "karsilastirma": "et_haftada_az vs sebze_gunluk_degil",
+      "olcu": "PD",
+      "fark": 14.7001,
+      "fark_alt": 11.8939,
+      "fark_ust": 17.4795,
+      "oran": 2.2504,
+      "p_boot": 0
+    },
+    {
+      "karsilastirma": "meyve_gunluk_degil vs sebze_gunluk_degil",
+      "olcu": "PR",
+      "fark": -0.0087,
+      "fark_alt": -0.0454,
+      "fark_ust": 0.0274,
+      "oran": 0.9929,
+      "p_boot": 0.626
+    },
+    {
+      "karsilastirma": "meyve_gunluk_degil vs sebze_gunluk_degil",
+      "olcu": "PD",
+      "fark": 1.3294,
+      "fark_alt": -0.5166,
+      "fark_ust": 3.192,
+      "oran": 1.1131,
+      "p_boot": 0.155
+    }
+  ],
+  "ikincil": [
+    {
+      "analiz": "odeme_tibbi_AxC",
+      "olcu": "p00",
+      "tahmin": 0.0773,
+      "alt": 0.0389,
+      "ust": 0.1233,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "odeme_tibbi_AxC",
+      "olcu": "p01",
+      "tahmin": 0.2829,
+      "alt": 0.1625,
+      "ust": 0.4255,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "odeme_tibbi_AxC",
+      "olcu": "p10",
+      "tahmin": 0.5558,
+      "alt": 0.3981,
+      "ust": 0.7285,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "odeme_tibbi_AxC",
+      "olcu": "p11",
+      "tahmin": 1.2934,
+      "alt": 0.9881,
+      "ust": 1.6586,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "odeme_tibbi_AxC",
+      "olcu": "Delta",
+      "tahmin": 0.532,
+      "alt": 0.1915,
+      "ust": 0.9047,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "odeme_tibbi_AxC",
+      "olcu": "PD_A",
+      "tahmin": 0.6901,
+      "alt": 0.5232,
+      "ust": 0.8708,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "odeme_tibbi_AxC",
+      "olcu": "PR_A",
+      "tahmin": 5.3425,
+      "alt": 3.6627,
+      "ust": 8.5379,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "odeme_herhangi_AxC",
+      "olcu": "p00",
+      "tahmin": 0.3258,
+      "alt": 0.2344,
+      "ust": 0.4319,
+      "n": 54372,
+      "olay": 699
+    },
+    {
+      "analiz": "odeme_herhangi_AxC",
+      "olcu": "p01",
+      "tahmin": 0.6641,
+      "alt": 0.4894,
+      "ust": 0.8488,
+      "n": 54372,
+      "olay": 699
+    },
+    {
+      "analiz": "odeme_herhangi_AxC",
+      "olcu": "p10",
+      "tahmin": 1.6378,
+      "alt": 1.3366,
+      "ust": 1.9786,
+      "n": 54372,
+      "olay": 699
+    },
+    {
+      "analiz": "odeme_herhangi_AxC",
+      "olcu": "p11",
+      "tahmin": 2.4859,
+      "alt": 2.0715,
+      "ust": 2.9493,
+      "n": 54372,
+      "olay": 699
+    },
+    {
+      "analiz": "odeme_herhangi_AxC",
+      "olcu": "Delta",
+      "tahmin": 0.5098,
+      "alt": 0.0129,
+      "ust": 1.0199,
+      "n": 54372,
+      "olay": 699
+    },
+    {
+      "analiz": "odeme_herhangi_AxC",
+      "olcu": "PD_A",
+      "tahmin": 1.5284,
+      "alt": 1.2345,
+      "ust": 1.8494,
+      "n": 54372,
+      "olay": 699
+    },
+    {
+      "analiz": "odeme_herhangi_AxC",
+      "olcu": "PR_A",
+      "tahmin": 4.2541,
+      "alt": 3.3261,
+      "ust": 5.5559,
+      "n": 54372,
+      "olay": 699
+    },
+    {
+      "analiz": "uzman_hic_kronik_A",
+      "olcu": "p0",
+      "tahmin": 8.6556,
+      "alt": 7.9882,
+      "ust": 9.3461,
+      "n": 23860,
+      "olay": 2025
+    },
+    {
+      "analiz": "uzman_hic_kronik_A",
+      "olcu": "p1",
+      "tahmin": 10.5718,
+      "alt": 9.569,
+      "ust": 11.5322,
+      "n": 23860,
+      "olay": 2025
+    },
+    {
+      "analiz": "uzman_hic_kronik_A",
+      "olcu": "PD",
+      "tahmin": 1.9161,
+      "alt": 0.6865,
+      "ust": 3.1657,
+      "n": 23860,
+      "olay": 2025
+    },
+    {
+      "analiz": "uzman_hic_kronik_A",
+      "olcu": "PR",
+      "tahmin": 1.2214,
+      "alt": 1.0746,
+      "ust": 1.3872,
+      "n": 23860,
+      "olay": 2025
+    },
+    {
+      "analiz": "uzman_hic_kronik_A_boslar_hic",
+      "olcu": "p0",
+      "tahmin": 10.5454,
+      "alt": 9.8421,
+      "ust": 11.3075,
+      "n": 24315,
+      "olay": 2480
+    },
+    {
+      "analiz": "uzman_hic_kronik_A_boslar_hic",
+      "olcu": "p1",
+      "tahmin": 12.4637,
+      "alt": 11.4558,
+      "ust": 13.4812,
+      "n": 24315,
+      "olay": 2480
+    },
+    {
+      "analiz": "uzman_hic_kronik_A_boslar_hic",
+      "olcu": "PD",
+      "tahmin": 1.9183,
+      "alt": 0.6517,
+      "ust": 3.2764,
+      "n": 24315,
+      "olay": 2480
+    },
+    {
+      "analiz": "uzman_hic_kronik_A_boslar_hic",
+      "olcu": "PR",
+      "tahmin": 1.1819,
+      "alt": 1.0577,
+      "ust": 1.3281,
+      "n": 24315,
+      "olay": 2480
+    },
+    {
+      "analiz": "dis_yuk_A",
+      "olcu": "p0",
+      "tahmin": 4.2795,
+      "alt": 3.9061,
+      "ust": 4.658,
+      "n": 25835,
+      "olay": 1256
+    },
+    {
+      "analiz": "dis_yuk_A",
+      "olcu": "p1",
+      "tahmin": 7.0388,
+      "alt": 6.2813,
+      "ust": 7.8552,
+      "n": 25835,
+      "olay": 1256
+    },
+    {
+      "analiz": "dis_yuk_A",
+      "olcu": "PD",
+      "tahmin": 2.7593,
+      "alt": 1.8129,
+      "ust": 3.7444,
+      "n": 25835,
+      "olay": 1256
+    },
+    {
+      "analiz": "dis_yuk_A",
+      "olcu": "PR",
+      "tahmin": 1.6448,
+      "alt": 1.4049,
+      "ust": 1.9185,
+      "n": 25835,
+      "olay": 1256
+    },
+    {
+      "analiz": "dis_harcama_yok_A",
+      "olcu": "p0",
+      "tahmin": 33.0356,
+      "alt": 32.1486,
+      "ust": 33.8978,
+      "n": 25835,
+      "olay": 7946
+    },
+    {
+      "analiz": "dis_harcama_yok_A",
+      "olcu": "p1",
+      "tahmin": 34.2426,
+      "alt": 33.014,
+      "ust": 35.506,
+      "n": 25835,
+      "olay": 7946
+    },
+    {
+      "analiz": "dis_harcama_yok_A",
+      "olcu": "PD",
+      "tahmin": 1.207,
+      "alt": -0.3336,
+      "ust": 2.8354,
+      "n": 25835,
+      "olay": 7946
+    },
+    {
+      "analiz": "dis_harcama_yok_A",
+      "olcu": "PR",
+      "tahmin": 1.0365,
+      "alt": 0.9902,
+      "ust": 1.0878,
+      "n": 25835,
+      "olay": 7946
+    },
+    {
+      "analiz": "dis_yuk_A_harcama_var",
+      "olcu": "p0",
+      "tahmin": 6.3767,
+      "alt": 5.8284,
+      "ust": 6.9414,
+      "n": 17889,
+      "olay": 1256
+    },
+    {
+      "analiz": "dis_yuk_A_harcama_var",
+      "olcu": "p1",
+      "tahmin": 10.7869,
+      "alt": 9.6575,
+      "ust": 12.0296,
+      "n": 17889,
+      "olay": 1256
+    },
+    {
+      "analiz": "dis_yuk_A_harcama_var",
+      "olcu": "PD",
+      "tahmin": 4.4102,
+      "alt": 3.0485,
+      "ust": 5.8784,
+      "n": 17889,
+      "olay": 1256
+    },
+    {
+      "analiz": "dis_yuk_A_harcama_var",
+      "olcu": "PR",
+      "tahmin": 1.6916,
+      "alt": 1.4535,
+      "ust": 1.9619,
+      "n": 17889,
+      "olay": 1256
+    },
+    {
+      "analiz": "yanitlayici_odeme_tibbi_reis_degil",
+      "olcu": "p0",
+      "tahmin": 0.1109,
+      "alt": 0.0596,
+      "ust": 0.1708,
+      "n": 29577,
+      "olay": 143
+    },
+    {
+      "analiz": "yanitlayici_odeme_tibbi_reis_degil",
+      "olcu": "p1",
+      "tahmin": 0.6833,
+      "alt": 0.5092,
+      "ust": 0.914,
+      "n": 29577,
+      "olay": 143
+    },
+    {
+      "analiz": "yanitlayici_odeme_tibbi_reis_degil",
+      "olcu": "PD",
+      "tahmin": 0.5724,
+      "alt": 0.3947,
+      "ust": 0.7975,
+      "n": 29577,
+      "olay": 143
+    },
+    {
+      "analiz": "yanitlayici_odeme_tibbi_reis_degil",
+      "olcu": "PR",
+      "tahmin": 6.1607,
+      "alt": 3.8152,
+      "ust": 11.6508,
+      "n": 29577,
+      "olay": 143
+    },
+    {
+      "analiz": "yanitlayici_odeme_dis_reis_degil",
+      "olcu": "p0",
+      "tahmin": 0.5501,
+      "alt": 0.3852,
+      "ust": 0.7281,
+      "n": 16647,
+      "olay": 211
+    },
+    {
+      "analiz": "yanitlayici_odeme_dis_reis_degil",
+      "olcu": "p1",
+      "tahmin": 2.0691,
+      "alt": 1.602,
+      "ust": 2.6263,
+      "n": 16647,
+      "olay": 211
+    },
+    {
+      "analiz": "yanitlayici_odeme_dis_reis_degil",
+      "olcu": "PD",
+      "tahmin": 1.519,
+      "alt": 1.0133,
+      "ust": 2.1051,
+      "n": 16647,
+      "olay": 211
+    },
+    {
+      "analiz": "yanitlayici_odeme_dis_reis_degil",
+      "olcu": "PR",
+      "tahmin": 3.7614,
+      "alt": 2.5447,
+      "ust": 5.7375,
+      "n": 16647,
+      "olay": 211
+    },
+    {
+      "analiz": "yanitlayici_uzman_hic_reis_degil",
+      "olcu": "p0",
+      "tahmin": 14.4097,
+      "alt": 13.5414,
+      "ust": 15.2694,
+      "n": 30648,
+      "olay": 3880
+    },
+    {
+      "analiz": "yanitlayici_uzman_hic_reis_degil",
+      "olcu": "p1",
+      "tahmin": 16.057,
+      "alt": 14.8474,
+      "ust": 17.32,
+      "n": 30648,
+      "olay": 3880
+    },
+    {
+      "analiz": "yanitlayici_uzman_hic_reis_degil",
+      "olcu": "PD",
+      "tahmin": 1.6474,
+      "alt": 0.0817,
+      "ust": 3.3023,
+      "n": 30648,
+      "olay": 3880
+    },
+    {
+      "analiz": "yanitlayici_uzman_hic_reis_degil",
+      "olcu": "PR",
+      "tahmin": 1.1143,
+      "alt": 1.0055,
+      "ust": 1.2384,
+      "n": 30648,
+      "olay": 3880
+    },
+    {
+      "analiz": "yanitlayici_odeme_tibbi_reis",
+      "olcu": "p0",
+      "tahmin": 0.2109,
+      "alt": 0.1311,
+      "ust": 0.2975,
+      "n": 23857,
+      "olay": 186
+    },
+    {
+      "analiz": "yanitlayici_odeme_tibbi_reis",
+      "olcu": "p1",
+      "tahmin": 1.0744,
+      "alt": 0.8498,
+      "ust": 1.3256,
+      "n": 23857,
+      "olay": 186
+    },
+    {
+      "analiz": "yanitlayici_odeme_tibbi_reis",
+      "olcu": "PD",
+      "tahmin": 0.8636,
+      "alt": 0.624,
+      "ust": 1.1291,
+      "n": 23857,
+      "olay": 186
+    },
+    {
+      "analiz": "yanitlayici_odeme_tibbi_reis",
+      "olcu": "PR",
+      "tahmin": 5.0953,
+      "alt": 3.3379,
+      "ust": 8.545,
+      "n": 23857,
+      "olay": 186
+    },
+    {
+      "analiz": "yanitlayici_odeme_dis_reis",
+      "olcu": "p0",
+      "tahmin": 0.8504,
+      "alt": 0.6026,
+      "ust": 1.1255,
+      "n": 12928,
+      "olay": 276
+    },
+    {
+      "analiz": "yanitlayici_odeme_dis_reis",
+      "olcu": "p1",
+      "tahmin": 3.7747,
+      "alt": 3.0802,
+      "ust": 4.536,
+      "n": 12928,
+      "olay": 276
+    },
+    {
+      "analiz": "yanitlayici_odeme_dis_reis",
+      "olcu": "PD",
+      "tahmin": 2.9243,
+      "alt": 2.1567,
+      "ust": 3.7344,
+      "n": 12928,
+      "olay": 276
+    },
+    {
+      "analiz": "yanitlayici_odeme_dis_reis",
+      "olcu": "PR",
+      "tahmin": 4.4389,
+      "alt": 3.0877,
+      "ust": 6.5762,
+      "n": 12928,
+      "olay": 276
+    },
+    {
+      "analiz": "yanitlayici_uzman_hic_reis",
+      "olcu": "p0",
+      "tahmin": 14.0749,
+      "alt": 13.3788,
+      "ust": 14.8178,
+      "n": 24925,
+      "olay": 3448
+    },
+    {
+      "analiz": "yanitlayici_uzman_hic_reis",
+      "olcu": "p1",
+      "tahmin": 16.7249,
+      "alt": 15.6682,
+      "ust": 17.8276,
+      "n": 24925,
+      "olay": 3448
+    },
+    {
+      "analiz": "yanitlayici_uzman_hic_reis",
+      "olcu": "PD",
+      "tahmin": 2.65,
+      "alt": 1.2468,
+      "ust": 4.0535,
+      "n": 24925,
+      "olay": 3448
+    },
+    {
+      "analiz": "yanitlayici_uzman_hic_reis",
+      "olcu": "PR",
+      "tahmin": 1.1883,
+      "alt": 1.0869,
+      "ust": 1.2984,
+      "n": 24925,
+      "olay": 3448
+    },
+    {
+      "analiz": "eski_hipotez_AxB",
+      "olcu": "p00",
+      "tahmin": 0.1027,
+      "alt": 0.0369,
+      "ust": 0.1821,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "eski_hipotez_AxB",
+      "olcu": "p01",
+      "tahmin": 0.1752,
+      "alt": 0.1118,
+      "ust": 0.2474,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "eski_hipotez_AxB",
+      "olcu": "p10",
+      "tahmin": 0.5935,
+      "alt": 0.35,
+      "ust": 0.8681,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "eski_hipotez_AxB",
+      "olcu": "p11",
+      "tahmin": 0.9805,
+      "alt": 0.7941,
+      "ust": 1.2028,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "eski_hipotez_AxB",
+      "olcu": "Delta",
+      "tahmin": 0.3145,
+      "alt": -0.0152,
+      "ust": 0.6253,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "eski_hipotez_AxB",
+      "olcu": "PD_A",
+      "tahmin": 0.7079,
+      "alt": 0.5397,
+      "ust": 0.8951,
+      "n": 53434,
+      "olay": 329
+    },
+    {
+      "analiz": "eski_hipotez_AxB",
+      "olcu": "PR_A",
+      "tahmin": 5.6331,
+      "alt": 3.8758,
+      "ust": 8.8844,
+      "n": 53434,
+      "olay": 329
+    }
+  ],
+  "duyarlilik_H1": [
+    {
+      "analiz": "00_ana",
+      "olcu": "Delta",
+      "tahmin": 0.763,
+      "alt": -1.092,
+      "ust": 2.622,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "00a_minimal",
+      "olcu": "Delta",
+      "tahmin": 2.775,
+      "alt": 1.043,
+      "ust": 4.599,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "00b_cekirdek",
+      "olcu": "Delta",
+      "tahmin": 2.649,
+      "alt": 0.891,
+      "ust": 4.465,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "00b_tam",
+      "olcu": "Delta",
+      "tahmin": 0.336,
+      "alt": -1.507,
+      "ust": 2.202,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "00c_esnek_tam",
+      "olcu": "Delta",
+      "tahmin": -0.717,
+      "alt": -3.325,
+      "ust": 1.895,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "00d_esnek_cekirdek",
+      "olcu": "Delta",
+      "tahmin": -0.67,
+      "alt": -3.345,
+      "ust": 1.947,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "00e_lpm",
+      "olcu": "Delta",
+      "tahmin": 0.972,
+      "alt": -0.779,
+      "ust": 2.723,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "01_HE040",
+      "olcu": "Delta",
+      "tahmin": 0.159,
+      "alt": -1.567,
+      "ust": 1.837,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "02_genis_sonuc",
+      "olcu": "Delta",
+      "tahmin": 1.151,
+      "alt": -2.262,
+      "ust": 4.302,
+      "n": 25835,
+      "olay": 16259
+    },
+    {
+      "analiz": "03_harcamasiz_dislandi",
+      "olcu": "Delta",
+      "tahmin": 0.412,
+      "alt": -1.615,
+      "ust": 2.402,
+      "n": 25182,
+      "olay": 1998
+    },
+    {
+      "analiz": "04a_kronik_sayisi",
+      "olcu": "Delta_1v0",
+      "tahmin": 0.652,
+      "alt": -1.545,
+      "ust": 2.683,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "04a_kronik_sayisi",
+      "olcu": "Delta_2v0",
+      "tahmin": 1.304,
+      "alt": -1.055,
+      "ust": 3.943,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "04b_kronik_oran",
+      "olcu": "Delta",
+      "tahmin": 1.279,
+      "alt": -1.036,
+      "ust": 3.867,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "04c_gali",
+      "olcu": "Delta",
+      "tahmin": 3.598,
+      "alt": 1.797,
+      "ust": 5.566,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "04d_gali_kronik",
+      "olcu": "Delta",
+      "tahmin": 2.523,
+      "alt": 0.752,
+      "ust": 4.393,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "05_yas17",
+      "olcu": "Delta",
+      "tahmin": 0.816,
+      "alt": -1.053,
+      "ust": 2.695,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "08_ibbs2_sozde_tabaka",
+      "olcu": "Delta",
+      "tahmin": 0.763,
+      "alt": -1.266,
+      "ust": 2.663,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "09_log_gelir_spline",
+      "olcu": "Delta",
+      "tahmin": 0.807,
+      "alt": -1.008,
+      "ust": 2.642,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "11a_bolgesiz",
+      "olcu": "Delta",
+      "tahmin": 1.099,
+      "alt": -0.812,
+      "ust": 3.036,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "11b_ibbs2_sabit_etki",
+      "olcu": "Delta",
+      "tahmin": 0.475,
+      "alt": -1.393,
+      "ust": 2.352,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "12_kronik_bilinmeyen_dislandi",
+      "olcu": "Delta",
+      "tahmin": 0.727,
+      "alt": -1.122,
+      "ust": 2.592,
+      "n": 25805,
+      "olay": 2029
+    },
+    {
+      "analiz": "13_yoksunluk_kovaryatlari",
+      "olcu": "Delta",
+      "tahmin": 0.132,
+      "alt": -1.475,
+      "ust": 1.821,
+      "n": 25835,
+      "olay": 2030
+    },
+    {
+      "analiz": "14_ortusen_tabakalar",
+      "olcu": "Delta",
+      "tahmin": -0.475,
+      "alt": -3.756,
+      "ust": 2.47,
+      "n": 7798,
+      "olay": 563
+    },
+    {
+      "analiz": "15_tibbi_bilesen",
+      "olcu": "Delta",
+      "tahmin": -0.083,
+      "alt": -1.853,
+      "ust": 1.682,
+      "n": 25835,
+      "olay": 1573
+    },
+    {
+      "analiz": "16_ilac_bilesen",
+      "olcu": "Delta",
+      "tahmin": 1.322,
+      "alt": -0.333,
+      "ust": 2.898,
+      "n": 25835,
+      "olay": 1377
+    },
+    {
+      "analiz": "10m_yetiskin_minimal",
+      "olcu": "Delta",
+      "tahmin": 1.883,
+      "alt": 0.42,
+      "ust": 3.432,
+      "n": 57899,
+      "olay": 4477
+    },
+    {
+      "analiz": "10n_yetiskin_cekirdek",
+      "olcu": "Delta",
+      "tahmin": 1.92,
+      "alt": 0.472,
+      "ust": 3.478,
+      "n": 57899,
+      "olay": 4477
+    },
+    {
+      "analiz": "10a_yetiskin_ana",
+      "olcu": "Delta",
+      "tahmin": 0.156,
+      "alt": -1.39,
+      "ust": 1.683,
+      "n": 57899,
+      "olay": 4477
+    },
+    {
+      "analiz": "10b_yetiskin_tam",
+      "olcu": "Delta",
+      "tahmin": -1.468,
+      "alt": -3.058,
+      "ust": 0.076,
+      "n": 57899,
+      "olay": 4477
+    },
+    {
+      "analiz": "10c_yetiskin_esnek",
+      "olcu": "Delta",
+      "tahmin": -2.286,
+      "alt": -4.733,
+      "ust": 0.141,
+      "n": 57899,
+      "olay": 4477
+    }
+  ],
+  "agirlik": [
+    {
+      "agirlik": "HB040 (hane)",
+      "max_medyan": 3.624,
+      "kish_neff": 18508.7
+    },
+    {
+      "agirlik": "FB030 (18+ yetiskin)",
+      "max_medyan": 3.462,
+      "kish_neff": 40847
+    }
+  ],
+  "ortusme": [
+    {
+      "model": "H2 et_haftada_az",
+      "tabakalama": "gelir x bolge",
+      "tabaka": 60,
+      "seyrek_tabaka": 5,
+      "seyrek_nufus_payi": 2.55
+    },
+    {
+      "model": "H2 et_haftada_az",
+      "tabakalama": "gelir x egitim (3)",
+      "tabaka": 15,
+      "seyrek_tabaka": 0,
+      "seyrek_nufus_payi": 0
+    },
+    {
+      "model": "H2 et_haftada_az",
+      "tabakalama": "gelir x bolge x egitim (3)",
+      "tabaka": 180,
+      "seyrek_tabaka": 50,
+      "seyrek_nufus_payi": 18.94
+    },
+    {
+      "model": "H2 et_haftada_az",
+      "tabakalama": "gelir x bolge x egitim (5)",
+      "tabaka": 300,
+      "seyrek_tabaka": 109,
+      "seyrek_nufus_payi": 22.31
+    },
+    {
+      "model": "H2 meyve_gunluk_degil",
+      "tabakalama": "gelir x bolge",
+      "tabaka": 60,
+      "seyrek_tabaka": 5,
+      "seyrek_nufus_payi": 2.55
+    },
+    {
+      "model": "H2 meyve_gunluk_degil",
+      "tabakalama": "gelir x egitim (3)",
+      "tabaka": 15,
+      "seyrek_tabaka": 0,
+      "seyrek_nufus_payi": 0
+    },
+    {
+      "model": "H2 meyve_gunluk_degil",
+      "tabakalama": "gelir x bolge x egitim (3)",
+      "tabaka": 180,
+      "seyrek_tabaka": 49,
+      "seyrek_nufus_payi": 18.83
+    },
+    {
+      "model": "H2 meyve_gunluk_degil",
+      "tabakalama": "gelir x bolge x egitim (5)",
+      "tabaka": 300,
+      "seyrek_tabaka": 108,
+      "seyrek_nufus_payi": 22.2
+    },
+    {
+      "model": "H2 sebze_gunluk_degil",
+      "tabakalama": "gelir x bolge",
+      "tabaka": 60,
+      "seyrek_tabaka": 5,
+      "seyrek_nufus_payi": 2.55
+    },
+    {
+      "model": "H2 sebze_gunluk_degil",
+      "tabakalama": "gelir x egitim (3)",
+      "tabaka": 15,
+      "seyrek_tabaka": 0,
+      "seyrek_nufus_payi": 0
+    },
+    {
+      "model": "H2 sebze_gunluk_degil",
+      "tabakalama": "gelir x bolge x egitim (3)",
+      "tabaka": 180,
+      "seyrek_tabaka": 49,
+      "seyrek_nufus_payi": 18.83
+    },
+    {
+      "model": "H2 sebze_gunluk_degil",
+      "tabakalama": "gelir x bolge x egitim (5)",
+      "tabaka": 300,
+      "seyrek_tabaka": 108,
+      "seyrek_nufus_payi": 22.2
+    },
+    {
+      "model": "H1 hane (dort A x C hucresi)",
+      "tabakalama": "gelir x bolge",
+      "tabaka": 60,
+      "seyrek_tabaka": 21,
+      "seyrek_nufus_payi": 29.63
+    },
+    {
+      "model": "H1 hane (dort A x C hucresi)",
+      "tabakalama": "gelir x egitim (3)",
+      "tabaka": 15,
+      "seyrek_tabaka": 1,
+      "seyrek_nufus_payi": 1.82
+    },
+    {
+      "model": "H1 hane (dort A x C hucresi)",
+      "tabakalama": "gelir x bolge x egitim (3)",
+      "tabaka": 180,
+      "seyrek_tabaka": 147,
+      "seyrek_nufus_payi": 69.43
+    },
+    {
+      "model": "H1 hane (dort A x C hucresi)",
+      "tabakalama": "gelir x bolge x egitim (5)",
+      "tabaka": 299,
+      "seyrek_tabaka": 275,
+      "seyrek_nufus_payi": 81.71
+    }
+  ],
+  "model_bicimi_kurali": "Inceltilmis (sonuclar goruldukten sonra): etki degisimi taramasinda p < 0,01 heterojenlik varsa esnek model ana model, yoksa ana etkili model ana model. H1 ana kovaryat seti: cekirdek + ihtiyac.",
+  "dogrulama": [
+    {
+      "kontrol": "Satir sayisi",
+      "beklenen": "239985",
+      "bulunan": "239985",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "Sutun sayisi",
+      "beklenen": "266",
+      "bulunan": "266",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 hane (hane_reisi == 1)",
+      "beklenen": "25836",
+      "bulunan": "25836",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 fert anketi (f_kayit == 1)",
+      "beklenen": "61812",
+      "bulunan": "61812",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 tum fert",
+      "beklenen": "80206",
+      "bulunan": "80206",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 HE090 = 1 (hane)",
+      "beklenen": "15772",
+      "bulunan": "15772",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 HE090 = 2 (hane)",
+      "beklenen": "10064",
+      "bulunan": "10064",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 FS050 = 1",
+      "beklenen": "3950",
+      "bulunan": "3950",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 FS050 = 2",
+      "beklenen": "52977",
+      "bulunan": "52977",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 FS050 = 3",
+      "beklenen": "4885",
+      "bulunan": "4885",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 FS060 = 1",
+      "beklenen": "340",
+      "bulunan": "340",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 FS060 = 5",
+      "beklenen": "2531",
+      "bulunan": "2531",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 FS080 = 1",
+      "beklenen": "497",
+      "bulunan": "497",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 MODUL1_H_1 = 1",
+      "beklenen": "1573",
+      "bulunan": "1573",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 MODUL1_H_1 = 2",
+      "beklenen": "13126",
+      "bulunan": "13126",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 MODUL1_H_1 = 3",
+      "beklenen": "10484",
+      "bulunan": "10484",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 MODUL1_H_1 = 4",
+      "beklenen": "653",
+      "bulunan": "653",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 MODUL1_H_3 = 1",
+      "beklenen": "1377",
+      "bulunan": "1377",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 MODUL1_H_3 = 4",
+      "beklenen": "20",
+      "bulunan": "20",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 MODUL1_H_2 = 1",
+      "beklenen": "1256",
+      "bulunan": "1256",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 MODUL1_H_2 = 4",
+      "beklenen": "7946",
+      "bulunan": "7946",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 FS020 = 1",
+      "beklenen": "24674",
+      "bulunan": "24674",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 gunluk_meyve = 1",
+      "beklenen": "22527",
+      "bulunan": "22527",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 gunluk_sebze = 1",
+      "beklenen": "27222",
+      "bulunan": "27222",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 et_tavuk_balik_siklik = 0",
+      "beklenen": "214",
+      "bulunan": "214",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 et_tavuk_balik_siklik = 1",
+      "beklenen": "20893",
+      "bulunan": "20893",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 et_tavuk_balik_siklik = 2",
+      "beklenen": "37122",
+      "bulunan": "37122",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 et_tavuk_balik_siklik = 3",
+      "beklenen": "3583",
+      "bulunan": "3583",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 bki_grup = 1 (18+)",
+      "beklenen": "1128",
+      "bulunan": "1128",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 bki_grup = 2 (18+)",
+      "beklenen": "21718",
+      "bulunan": "21718",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 bki_grup = 3 (18+)",
+      "beklenen": "22470",
+      "bulunan": "22470",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 bki_grup = 4 (18+)",
+      "beklenen": "12583",
+      "bulunan": "12583",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2023 HB031 = TR63 hane",
+      "beklenen": "0",
+      "bulunan": "0",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 FK050 toplami (milyon kisi, ~84)",
+      "beklenen": "84",
+      "bulunan": "84.14",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 FB030 toplami (milyon, 65-66)",
+      "beklenen": "65.5",
+      "bulunan": "66.39",
+      "durum": "Tutmadi"
+    },
+    {
+      "kontrol": "2025 FB030 toplami = FK070 >= 15 FK050 toplami (milyon)",
+      "beklenen": "66.395",
+      "bulunan": "66.395",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 HB040 toplami (milyon hane, 26,7-27,2)",
+      "beklenen": "26.95",
+      "bulunan": "27.2",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 yoksul_60 (FK050, tum fertler, %)",
+      "beklenen": "20.6",
+      "bulunan": "20.6",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 Gini (esdeger gelir, FK050)",
+      "beklenen": "0.41",
+      "bulunan": "0.41",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 karsilanamayan_tibbi_ihtiyac (FB030, 16+, %)",
+      "beklenen": "0.7",
+      "bulunan": "0.7",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2023 HE090 = 2 kisi payi (FK050) = Eurostat ilc_mdes03 TR (%)",
+      "beklenen": "39.1",
+      "bulunan": "39.1",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2024 HE090 = 2 kisi payi (FK050) = Eurostat ilc_mdes03 TR (%)",
+      "beklenen": "39.3",
+      "bulunan": "39.3",
+      "durum": "Tuttu"
+    },
+    {
+      "kontrol": "2025 HE090 = 2 kisi payi (FK050) = Eurostat ilc_mdes03 TR (%)",
+      "beklenen": "35.1",
+      "bulunan": "35.1",
+      "durum": "Tuttu"
+    }
+  ],
+  "bootstrap": {
+    "B_ana": 4000,
+    "B_diger": 2000,
+    "tohum": [20251025, 20251026, 20251027],
+    "yontem": "Rao-Wu-Yue-Beaumont, n-1 households with replacement"
+  },
+  "LCA": {
+    "model": "ortak",
+    "K": 4,
+    "siniflar": [
+      {
+        "sinif": 1,
+        "sinif_ad": "Daily fruit and vegetables",
+        "sinif_payi": 39.7667565298157
+      },
+      {
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "sinif_payi": 25.8739532468101
+      },
+      {
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "sinif_payi": 27.7884246710624
+      },
+      {
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "sinif_payi": 6.57086555231182
+      }
+    ],
+    "uyum": [
+      {
+        "K": 1,
+        "LL": -226612.33295723,
+        "npar": 11,
+        "AIC": 453246.665914461,
+        "BIC": 453345.296923775,
+        "aBIC": 453310.338711607,
+        "CAIC": 453356.296923775,
+        "L2": 57834.7941189544,
+        "df_L2": 84,
+        "rel_entropi": null,
+        "en_kucuk_sinif_yuzde": 99.9999999999999,
+        "baslangic": 1,
+        "yakinsayan": 1,
+        "en_iyi_tekrar_yuzde": 100,
+        "sure_sn": 0.748840808868408,
+        "model": "ortak",
+        "BLRT_istatistik": null,
+        "BLRT_p": null,
+        "BLRT_null_en_buyuk": null,
+        "delta_BIC": null,
+        "delta_aBIC": null
+      },
+      {
+        "K": 2,
+        "LL": -209749.330425962,
+        "npar": 23,
+        "AIC": 419544.660851925,
+        "BIC": 419750.889325946,
+        "aBIC": 419677.794882322,
+        "CAIC": 419773.889325946,
+        "L2": 24108.7890564184,
+        "df_L2": 72,
+        "rel_entropi": 0.796733134624243,
+        "en_kucuk_sinif_yuzde": 41.287662761836,
+        "baslangic": 50,
+        "yakinsayan": 50,
+        "en_iyi_tekrar_yuzde": 76,
+        "sure_sn": 0.82803201675415,
+        "model": "ortak",
+        "BLRT_istatistik": 33726.005062536,
+        "BLRT_p": 0.0099009900990099,
+        "BLRT_null_en_buyuk": 32.3001268423395,
+        "delta_BIC": -33594.4075978289,
+        "delta_aBIC": -33632.5438292853
+      },
+      {
+        "K": 3,
+        "LL": -201716.488258373,
+        "npar": 35,
+        "AIC": 403502.976516745,
+        "BIC": 403816.802455474,
+        "aBIC": 403705.571780393,
+        "CAIC": 403851.802455474,
+        "L2": 8043.10472123886,
+        "df_L2": 60,
+        "rel_entropi": 0.789923688257693,
+        "en_kucuk_sinif_yuzde": 26.1004955264365,
+        "baslangic": 50,
+        "yakinsayan": 50,
+        "en_iyi_tekrar_yuzde": 72,
+        "sure_sn": 0.535578012466431,
+        "model": "ortak",
+        "BLRT_istatistik": 16065.6843351795,
+        "BLRT_p": 0.0099009900990099,
+        "BLRT_null_en_buyuk": 33.4261834789068,
+        "delta_BIC": -15934.0868704724,
+        "delta_aBIC": -15972.2231019289
+      },
+      {
+        "K": 4,
+        "LL": -197812.03764985,
+        "npar": 47,
+        "AIC": 395718.0752997,
+        "BIC": 396139.498703136,
+        "aBIC": 395990.131796599,
+        "CAIC": 396186.498703136,
+        "L2": 234.203504194,
+        "df_L2": 48,
+        "rel_entropi": 0.811027396937993,
+        "en_kucuk_sinif_yuzde": 6.57086555231182,
+        "baslangic": 50,
+        "yakinsayan": 50,
+        "en_iyi_tekrar_yuzde": 100,
+        "sure_sn": 0.45566201210022,
+        "model": "ortak",
+        "BLRT_istatistik": 7808.90121704491,
+        "BLRT_p": 0.0099009900990099,
+        "BLRT_null_en_buyuk": 31.9367484392133,
+        "delta_BIC": -7677.30375233787,
+        "delta_aBIC": -7715.43998379423
+      },
+      {
+        "K": 5,
+        "LL": -197768.548498362,
+        "npar": 59,
+        "AIC": 395655.096996724,
+        "BIC": 396184.117864867,
+        "aBIC": 395996.614726873,
+        "CAIC": 396243.117864867,
+        "L2": 147.225201218293,
+        "df_L2": 36,
+        "rel_entropi": 0.756158860837911,
+        "en_kucuk_sinif_yuzde": 6.47817548966755,
+        "baslangic": 200,
+        "yakinsayan": 193,
+        "en_iyi_tekrar_yuzde": 2,
+        "sure_sn": 34.5085172653198,
+        "model": "ortak",
+        "BLRT_istatistik": 86.9783029757673,
+        "BLRT_p": 0.0099009900990099,
+        "BLRT_null_en_buyuk": 33.1899239787599,
+        "delta_BIC": 44.6191617312725,
+        "delta_aBIC": 6.48293027485488
+      },
+      {
+        "K": 6,
+        "LL": -197735.730648844,
+        "npar": 71,
+        "AIC": 395613.461297688,
+        "BIC": 396250.079630538,
+        "aBIC": 396024.440261087,
+        "CAIC": 396321.079630538,
+        "L2": 81.5895021816462,
+        "df_L2": 24,
+        "rel_entropi": 0.692833428423896,
+        "en_kucuk_sinif_yuzde": 5.59850680200418,
+        "baslangic": 200,
+        "yakinsayan": 150,
+        "en_iyi_tekrar_yuzde": 2,
+        "sure_sn": 54.0555922985077,
+        "model": "ortak",
+        "BLRT_istatistik": 65.6356990365312,
+        "BLRT_p": 0.0099009900990099,
+        "BLRT_null_en_buyuk": 49.7370072752237,
+        "delta_BIC": 65.9617656705668,
+        "delta_aBIC": 27.8255342141492
+      }
+    ],
+    "uzak": [
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "unadjusted",
+        "sinif": 1,
+        "sinif_ad": "Daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 6.50389283749676,
+        "alt": 5.85115407230196,
+        "ust": 7.10072053838648
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "unadjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 6.93118996982853,
+        "alt": 6.02057370400903,
+        "ust": 7.85535222389157
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "unadjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 9.63920167147593,
+        "alt": 8.68976467295824,
+        "ust": 10.7167483993886
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "unadjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "prevalence",
+        "tahmin": 12.8180525655085,
+        "alt": 10.984192110514,
+        "ust": 14.8600242802589
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "unadjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 0.427297132331765,
+        "alt": -0.646798418164031,
+        "ust": 1.47716028619238
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "unadjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.06569867354952,
+        "alt": 0.903545268562817,
+        "ust": 1.24052328058378
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "unadjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 3.13530883397917,
+        "alt": 1.96683607169622,
+        "ust": 4.27347558739945
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "unadjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.48206649653008,
+        "alt": 1.28941445728616,
+        "ust": 1.69160588023011
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "unadjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PD vs reference",
+        "tahmin": 6.31415972801176,
+        "alt": 4.4311088682609,
+        "ust": 8.45219439285558
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "unadjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PR vs reference",
+        "tahmin": 1.97082776204566,
+        "alt": 1.64941251150737,
+        "ust": 2.38326481351488
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted",
+        "sinif": 1,
+        "sinif_ad": "Daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 6.75790075141592,
+        "alt": 6.0724473670701,
+        "ust": 7.39950808043167
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 6.85249495020464,
+        "alt": 5.93361581373393,
+        "ust": 7.77263028120592
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 9.32639803269162,
+        "alt": 8.38052185577108,
+        "ust": 10.2965239353362
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "prevalence",
+        "tahmin": 12.4348127596894,
+        "alt": 10.6547190028439,
+        "ust": 14.3948512639265
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 0.0945941987887196,
+        "alt": -1.01524329207205,
+        "ust": 1.14022854749567
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.01399757147497,
+        "alt": 0.855379812657868,
+        "ust": 1.17576114417561
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 2.56849728127571,
+        "alt": 1.41567699523437,
+        "ust": 3.63916586009565
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.38007324696764,
+        "alt": 1.19614496530022,
+        "ust": 1.58350957570762
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PD vs reference",
+        "tahmin": 5.67691200827344,
+        "alt": 3.74694529453615,
+        "ust": 7.66665842581925
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PR vs reference",
+        "tahmin": 1.8400407489092,
+        "alt": 1.52778327077794,
+        "ust": 2.19878753701209
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": 1,
+        "sinif_ad": "Daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 7.16564262607689,
+        "alt": 6.43332835189351,
+        "ust": 7.87154828630291
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 7.16066617125578,
+        "alt": 6.25258050214484,
+        "ust": 8.07561034334382
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 8.63317774561217,
+        "alt": 7.77155777936552,
+        "ust": 9.55910712472024
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "prevalence",
+        "tahmin": 11.3062459969046,
+        "alt": 9.67692200305167,
+        "ust": 12.9928153931329
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": -0.00497645482111242,
+        "alt": -1.15196188640756,
+        "ust": 1.12166061859885
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 0.999305511720191,
+        "alt": 0.845635987112117,
+        "ust": 1.16085161075383
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 1.46753511953527,
+        "alt": 0.352317127706679,
+        "ust": 2.56831053861707
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.20480160623622,
+        "alt": 1.04737576657047,
+        "ust": 1.37760955152672
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PD vs reference",
+        "tahmin": 4.14060337082771,
+        "alt": 2.34626153530155,
+        "ust": 5.97701979702751
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PR vs reference",
+        "tahmin": 1.57784117725316,
+        "alt": 1.31511056278692,
+        "ust": 1.89079981041579
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 0 (standardized over class and covariates)",
+        "olcu": "prevalence by A",
+        "tahmin": 5.78856626959143,
+        "alt": 5.26342940140075,
+        "ust": 6.27925976825658
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 1 (standardized over class and covariates)",
+        "olcu": "prevalence by A",
+        "tahmin": 12.4162544096217,
+        "alt": 11.2495686104555,
+        "ust": 13.6302628977804
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 1 vs A = 0, net of class",
+        "olcu": "PD A1 vs A0",
+        "tahmin": 6.62768814003028,
+        "alt": 5.26365272575759,
+        "ust": 8.02500110563849
+      },
+      {
+        "sonuc": "Y_saglik_yuk",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 1 vs A = 0, net of class",
+        "olcu": "PR A1 vs A0",
+        "tahmin": 2.14496195281497,
+        "alt": 1.86528818425474,
+        "ust": 2.47135915434146
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "unadjusted",
+        "sinif": 1,
+        "sinif_ad": "Daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 0.232547010611946,
+        "alt": 0.148994218908142,
+        "ust": 0.332597445695563
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "unadjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 0.251599386071745,
+        "alt": 0.130069592861267,
+        "ust": 0.395937629128424
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "unadjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 0.804554556522394,
+        "alt": 0.611924660273135,
+        "ust": 1.01320033197474
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "unadjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "prevalence",
+        "tahmin": 1.65959037995885,
+        "alt": 1.14295674450536,
+        "ust": 2.2618818305841
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "unadjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 0.0190523754597993,
+        "alt": -0.130229521016288,
+        "ust": 0.188036204435884
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "unadjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.08192913514417,
+        "alt": 0.542143522850824,
+        "ust": 2.21175880183047
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "unadjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 0.572007545910448,
+        "alt": 0.353326006445639,
+        "ust": 0.796951649405218
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "unadjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 3.45975015720569,
+        "alt": 2.14733240876754,
+        "ust": 5.67978344672546
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "unadjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PD vs reference",
+        "tahmin": 1.42704336934691,
+        "alt": 0.899492846449368,
+        "ust": 2.03807823286269
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "unadjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PR vs reference",
+        "tahmin": 7.13658015036036,
+        "alt": 4.22876661409811,
+        "ust": 12.2110439623325
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted",
+        "sinif": 1,
+        "sinif_ad": "Daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 0.282014052269598,
+        "alt": 0.178693913290338,
+        "ust": 0.416208282344986
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 0.270981574217784,
+        "alt": 0.138859611330917,
+        "ust": 0.420538251399444
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 0.670696088470686,
+        "alt": 0.516762694441314,
+        "ust": 0.845046181321274
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "prevalence",
+        "tahmin": 1.10174814892875,
+        "alt": 0.740432390609222,
+        "ust": 1.4923648207343
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": -0.0110324780518141,
+        "alt": -0.178264830406329,
+        "ust": 0.182179643054704
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 0.960879686799198,
+        "alt": 0.486555158004933,
+        "ust": 1.93479480996649
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 0.388682036201089,
+        "alt": 0.176489550606253,
+        "ust": 0.596509178612158
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 2.37823641436675,
+        "alt": 1.43116436481621,
+        "ust": 3.91608792911147
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PD vs reference",
+        "tahmin": 0.819734096659157,
+        "alt": 0.448384857782993,
+        "ust": 1.23008408091643
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PR vs reference",
+        "tahmin": 3.90671365508948,
+        "alt": 2.30738771397093,
+        "ust": 6.94095758258156
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": 1,
+        "sinif_ad": "Daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 0.331979899112047,
+        "alt": 0.219175351303192,
+        "ust": 0.476827053630762
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 0.317419979755608,
+        "alt": 0.183353624889121,
+        "ust": 0.472081368583707
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 0.601412048320449,
+        "alt": 0.455000860907875,
+        "ust": 0.772250859678859
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "prevalence",
+        "tahmin": 0.927135161892976,
+        "alt": 0.618116109023022,
+        "ust": 1.25588563187755
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": -0.0145599193564386,
+        "alt": -0.194281506251686,
+        "ust": 0.183677657781897
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 0.956142165849853,
+        "alt": 0.527105816327871,
+        "ust": 1.79845971649293
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 0.269432149208402,
+        "alt": 0.0527160031173407,
+        "ust": 0.47882001649953
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.81159175579322,
+        "alt": 1.122667824255,
+        "ust": 2.96158048671341
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PD vs reference",
+        "tahmin": 0.595155262780929,
+        "alt": 0.25394069140308,
+        "ust": 0.955108561588289
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PR vs reference",
+        "tahmin": 2.79274487513492,
+        "alt": 1.6701033624895,
+        "ust": 4.83208074338752
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 0 (standardized over class and covariates)",
+        "olcu": "prevalence by A",
+        "tahmin": 0.156273579768257,
+        "alt": 0.106304256969551,
+        "ust": 0.216635554508834
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 1 (standardized over class and covariates)",
+        "olcu": "prevalence by A",
+        "tahmin": 0.838825040941448,
+        "alt": 0.68703534979462,
+        "ust": 1.00671245939032
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 1 vs A = 0, net of class",
+        "olcu": "PD A1 vs A0",
+        "tahmin": 0.682551461173191,
+        "alt": 0.514359762371258,
+        "ust": 0.866109107633496
+      },
+      {
+        "sonuc": "odeme_tibbi",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 1 vs A = 0, net of class",
+        "olcu": "PR A1 vs A0",
+        "tahmin": 5.36767022413748,
+        "alt": 3.72517420230724,
+        "ust": 8.42525536679115
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "unadjusted",
+        "sinif": 1,
+        "sinif_ad": "Daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 5.77341722111419,
+        "alt": 5.35599952310246,
+        "ust": 6.17835298220301
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "unadjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 6.74989775081291,
+        "alt": 6.15609627228673,
+        "ust": 7.35878422898526
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "unadjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 8.68465047122548,
+        "alt": 8.09471116078801,
+        "ust": 9.34267757516963
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "unadjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "prevalence",
+        "tahmin": 17.4673373933176,
+        "alt": 15.7440204055652,
+        "ust": 19.459044705541
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "unadjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 0.976480529698719,
+        "alt": 0.221717434452899,
+        "ust": 1.75526685300965
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "unadjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.1691338928577,
+        "alt": 1.03741541946739,
+        "ust": 1.31265499455964
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "unadjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 2.91123325011129,
+        "alt": 2.18791583366888,
+        "ust": 3.74751444793122
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "unadjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.50424785505965,
+        "alt": 1.35984485557318,
+        "ust": 1.66909287816272
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "unadjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PD vs reference",
+        "tahmin": 11.6939201722034,
+        "alt": 9.89382700273898,
+        "ust": 13.6396561362472
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "unadjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PR vs reference",
+        "tahmin": 3.02547637289006,
+        "alt": 2.67565052409184,
+        "ust": 3.42611562657957
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted",
+        "sinif": 1,
+        "sinif_ad": "Daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 6.41963583155644,
+        "alt": 5.97773524425994,
+        "ust": 6.87058698490222
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 7.01268482989546,
+        "alt": 6.39384491959803,
+        "ust": 7.60332027556488
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 7.94873984228419,
+        "alt": 7.43425052279361,
+        "ust": 8.53819292888626
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "prevalence",
+        "tahmin": 13.3853025220442,
+        "alt": 12.0244117487587,
+        "ust": 14.7928965153188
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 0.593048998339023,
+        "alt": -0.127361871436882,
+        "ust": 1.30441801012858
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.09238047358136,
+        "alt": 0.980416813164456,
+        "ust": 1.21083168178123
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 1.52910401072775,
+        "alt": 0.86117972490613,
+        "ust": 2.28242651353264
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.23819170601723,
+        "alt": 1.12837521167712,
+        "ust": 1.36814415508874
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PD vs reference",
+        "tahmin": 6.96566669048776,
+        "alt": 5.39718663907544,
+        "ust": 8.46923896660157
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PR vs reference",
+        "tahmin": 2.08505636040089,
+        "alt": 1.81141005021878,
+        "ust": 2.35474689840777
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": 1,
+        "sinif_ad": "Daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 6.55488815130889,
+        "alt": 6.11016492086972,
+        "ust": 6.99258447168347
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 7.09585538352415,
+        "alt": 6.48478072642514,
+        "ust": 7.70431757833002
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "prevalence",
+        "tahmin": 7.79152765956198,
+        "alt": 7.27400704555914,
+        "ust": 8.36236445237187
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "prevalence",
+        "tahmin": 13.0970159680597,
+        "alt": 11.7744175056032,
+        "ust": 14.4647745670909
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 0.540967232215259,
+        "alt": -0.158521179608282,
+        "ust": 1.27302251464136
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": 2,
+        "sinif_ad": "Near-daily fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.08252882730077,
+        "alt": 0.97618270661226,
+        "ust": 1.19910867082451
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PD vs reference",
+        "tahmin": 1.23663950825308,
+        "alt": 0.570349651680742,
+        "ust": 1.97431790733704
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": 3,
+        "sinif_ad": "Weekly (1–3 times) fruit and vegetables",
+        "olcu": "PR vs reference",
+        "tahmin": 1.18865913188864,
+        "alt": 1.08303709626667,
+        "ust": 1.31065591803787
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PD vs reference",
+        "tahmin": 6.54212781675083,
+        "alt": 5.03320305517664,
+        "ust": 8.02784168012075
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": 4,
+        "sinif_ad": "Very infrequent fruit, vegetables and meat",
+        "olcu": "PR vs reference",
+        "tahmin": 1.99805331010026,
+        "alt": 1.73027601675405,
+        "ust": 2.26398990923838
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 0 (standardized over class and covariates)",
+        "olcu": "prevalence by A",
+        "tahmin": 6.82572493042542,
+        "alt": 6.48333823422556,
+        "ust": 7.20407725343651
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 1 (standardized over class and covariates)",
+        "olcu": "prevalence by A",
+        "tahmin": 8.50536777433816,
+        "alt": 8.0357014891157,
+        "ust": 8.95150113584684
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 1 vs A = 0, net of class",
+        "olcu": "PD A1 vs A0",
+        "tahmin": 1.67964284391274,
+        "alt": 1.13805980066427,
+        "ust": 2.27995360594365
+      },
+      {
+        "sonuc": "saglik_kotu",
+        "ayar": "adjusted + A",
+        "sinif": null,
+        "sinif_ad": "A = 1 vs A = 0, net of class",
+        "olcu": "PR A1 vs A0",
+        "tahmin": 1.24607537822478,
+        "alt": 1.16020309230597,
+        "ust": 1.34633132959605
+      }
+    ]
+  },
+  "simulasyon": [
+    {
+      "sid": "S01",
+      "duzey": "hane",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 2000,
+      "gercek_Delta": 0,
+      "yanlilik": 0.5517,
+      "ampirik_se": 1.1399,
+      "ort_model_se": 1.1399,
+      "kapsama": 0.922,
+      "red_iki_yonlu": 0.078,
+      "red_carpim": 0.4115
+    },
+    {
+      "sid": "S01",
+      "duzey": "hane",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 2000,
+      "gercek_Delta": 0,
+      "yanlilik": 0.8382,
+      "ampirik_se": 1.4637,
+      "ort_model_se": 1.4371,
+      "kapsama": 0.9005,
+      "red_iki_yonlu": 0.0995,
+      "red_carpim": 0.189
+    },
+    {
+      "sid": "S01",
+      "duzey": "hane",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 2000,
+      "gercek_Delta": 0,
+      "yanlilik": 0.7422,
+      "ampirik_se": 1.0047,
+      "ort_model_se": 1.0066,
+      "kapsama": 0.887,
+      "red_iki_yonlu": 0.113,
+      "red_carpim": 0.113
+    },
+    {
+      "sid": "S02",
+      "duzey": "hane",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 2000,
+      "gercek_Delta": 0,
+      "yanlilik": -0.2407,
+      "ampirik_se": 1.0905,
+      "ort_model_se": 1.0895,
+      "kapsama": 0.9505,
+      "red_iki_yonlu": 0.0495,
+      "red_carpim": 0.5765
+    },
+    {
+      "sid": "S02",
+      "duzey": "hane",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 2000,
+      "gercek_Delta": 0,
+      "yanlilik": 0.116,
+      "ampirik_se": 1.3598,
+      "ort_model_se": 1.3816,
+      "kapsama": 0.957,
+      "red_iki_yonlu": 0.043,
+      "red_carpim": 0.27
+    },
+    {
+      "sid": "S02",
+      "duzey": "hane",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 2000,
+      "gercek_Delta": 0,
+      "yanlilik": -0.1101,
+      "ampirik_se": 0.9734,
+      "ort_model_se": 0.9727,
+      "kapsama": 0.952,
+      "red_iki_yonlu": 0.048,
+      "red_carpim": 0.048
+    },
+    {
+      "sid": "S03",
+      "duzey": "hane",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 2000,
+      "gercek_Delta": 0,
+      "yanlilik": -0.1444,
+      "ampirik_se": 1.0025,
+      "ort_model_se": 1.0168,
+      "kapsama": 0.949,
+      "red_iki_yonlu": 0.051,
+      "red_carpim": 0.415
+    },
+    {
+      "sid": "S03",
+      "duzey": "hane",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 2000,
+      "gercek_Delta": 0,
+      "yanlilik": 0.0889,
+      "ampirik_se": 1.3345,
+      "ort_model_se": 1.3113,
+      "kapsama": 0.939,
+      "red_iki_yonlu": 0.061,
+      "red_carpim": 0.2105
+    },
+    {
+      "sid": "S03",
+      "duzey": "hane",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 2000,
+      "gercek_Delta": 0,
+      "yanlilik": -0.0695,
+      "ampirik_se": 0.9116,
+      "ort_model_se": 0.9219,
+      "kapsama": 0.9545,
+      "red_iki_yonlu": 0.0455,
+      "red_carpim": 0.0455
+    },
+    {
+      "sid": "S04",
+      "duzey": "hane",
+      "Delta_nominal": 1,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 1,
+      "yanlilik": 0.9352,
+      "ampirik_se": 1.1405,
+      "ort_model_se": 1.1505,
+      "kapsama": 0.868,
+      "red_iki_yonlu": 0.392,
+      "red_carpim": 0.153
+    },
+    {
+      "sid": "S04",
+      "duzey": "hane",
+      "Delta_nominal": 1,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 1,
+      "yanlilik": 1.2178,
+      "ampirik_se": 1.4272,
+      "ort_model_se": 1.4404,
+      "kapsama": 0.87,
+      "red_iki_yonlu": 0.341,
+      "red_carpim": 0.071
+    },
+    {
+      "sid": "S04",
+      "duzey": "hane",
+      "Delta_nominal": 1,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 1,
+      "yanlilik": 1.0436,
+      "ampirik_se": 1.0089,
+      "ort_model_se": 1.0152,
+      "kapsama": 0.816,
+      "red_iki_yonlu": 0.506,
+      "red_carpim": 0.506
+    },
+    {
+      "sid": "S05",
+      "duzey": "hane",
+      "Delta_nominal": 1,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 1,
+      "yanlilik": -0.2389,
+      "ampirik_se": 1.1128,
+      "ort_model_se": 1.0995,
+      "kapsama": 0.943,
+      "red_iki_yonlu": 0.11,
+      "red_carpim": 0.327
+    },
+    {
+      "sid": "S05",
+      "duzey": "hane",
+      "Delta_nominal": 1,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 1,
+      "yanlilik": 0.1543,
+      "ampirik_se": 1.3829,
+      "ort_model_se": 1.3825,
+      "kapsama": 0.946,
+      "red_iki_yonlu": 0.135,
+      "red_carpim": 0.128
+    },
+    {
+      "sid": "S05",
+      "duzey": "hane",
+      "Delta_nominal": 1,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 1,
+      "yanlilik": -0.1439,
+      "ampirik_se": 0.9933,
+      "ort_model_se": 0.98,
+      "kapsama": 0.945,
+      "red_iki_yonlu": 0.149,
+      "red_carpim": 0.149
+    },
+    {
+      "sid": "S06",
+      "duzey": "hane",
+      "Delta_nominal": 1,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 1,
+      "yanlilik": -0.1679,
+      "ampirik_se": 1.0222,
+      "ort_model_se": 1.0297,
+      "kapsama": 0.952,
+      "red_iki_yonlu": 0.126,
+      "red_carpim": 0.202
+    },
+    {
+      "sid": "S06",
+      "duzey": "hane",
+      "Delta_nominal": 1,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 1,
+      "yanlilik": 0.129,
+      "ampirik_se": 1.3391,
+      "ort_model_se": 1.3196,
+      "kapsama": 0.941,
+      "red_iki_yonlu": 0.147,
+      "red_carpim": 0.094
+    },
+    {
+      "sid": "S06",
+      "duzey": "hane",
+      "Delta_nominal": 1,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 1,
+      "yanlilik": -0.1309,
+      "ampirik_se": 0.9339,
+      "ort_model_se": 0.9309,
+      "kapsama": 0.947,
+      "red_iki_yonlu": 0.16,
+      "red_carpim": 0.16
+    },
+    {
+      "sid": "S07",
+      "duzey": "hane",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": 1.3118,
+      "ampirik_se": 1.1972,
+      "ort_model_se": 1.163,
+      "kapsama": 0.772,
+      "red_iki_yonlu": 0.805,
+      "red_carpim": 0.049
+    },
+    {
+      "sid": "S07",
+      "duzey": "hane",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": 1.5875,
+      "ampirik_se": 1.4924,
+      "ort_model_se": 1.4443,
+      "kapsama": 0.798,
+      "red_iki_yonlu": 0.699,
+      "red_carpim": 0.064
+    },
+    {
+      "sid": "S07",
+      "duzey": "hane",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": 1.3894,
+      "ampirik_se": 1.0465,
+      "ort_model_se": 1.0225,
+      "kapsama": 0.715,
+      "red_iki_yonlu": 0.903,
+      "red_carpim": 0.903
+    },
+    {
+      "sid": "S08",
+      "duzey": "hane",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": -0.2182,
+      "ampirik_se": 1.1517,
+      "ort_model_se": 1.1094,
+      "kapsama": 0.944,
+      "red_iki_yonlu": 0.381,
+      "red_carpim": 0.14
+    },
+    {
+      "sid": "S08",
+      "duzey": "hane",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": 0.1023,
+      "ampirik_se": 1.4551,
+      "ort_model_se": 1.3936,
+      "kapsama": 0.934,
+      "red_iki_yonlu": 0.352,
+      "red_carpim": 0.079
+    },
+    {
+      "sid": "S08",
+      "duzey": "hane",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": -0.1486,
+      "ampirik_se": 1.0394,
+      "ort_model_se": 0.9879,
+      "kapsama": 0.938,
+      "red_iki_yonlu": 0.476,
+      "red_carpim": 0.476
+    },
+    {
+      "sid": "S09",
+      "duzey": "hane",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": -0.0554,
+      "ampirik_se": 1.0188,
+      "ort_model_se": 1.0402,
+      "kapsama": 0.959,
+      "red_iki_yonlu": 0.478,
+      "red_carpim": 0.053
+    },
+    {
+      "sid": "S09",
+      "duzey": "hane",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": 0.192,
+      "ampirik_se": 1.3296,
+      "ort_model_se": 1.3255,
+      "kapsama": 0.94,
+      "red_iki_yonlu": 0.397,
+      "red_carpim": 0.051
+    },
+    {
+      "sid": "S09",
+      "duzey": "hane",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": -0.0783,
+      "ampirik_se": 0.9116,
+      "ort_model_se": 0.939,
+      "kapsama": 0.961,
+      "red_iki_yonlu": 0.549,
+      "red_carpim": 0.549
+    },
+    {
+      "sid": "S10",
+      "duzey": "hane",
+      "Delta_nominal": 3,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 3,
+      "yanlilik": 1.5924,
+      "ampirik_se": 1.2018,
+      "ort_model_se": 1.1761,
+      "kapsama": 0.708,
+      "red_iki_yonlu": 0.967,
+      "red_carpim": 0.077
+    },
+    {
+      "sid": "S10",
+      "duzey": "hane",
+      "Delta_nominal": 3,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 3,
+      "yanlilik": 1.8694,
+      "ampirik_se": 1.4676,
+      "ort_model_se": 1.4561,
+      "kapsama": 0.736,
+      "red_iki_yonlu": 0.909,
+      "red_carpim": 0.1
+    },
+    {
+      "sid": "S10",
+      "duzey": "hane",
+      "Delta_nominal": 3,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 3,
+      "yanlilik": 1.6319,
+      "ampirik_se": 1.0566,
+      "ort_model_se": 1.0331,
+      "kapsama": 0.63,
+      "red_iki_yonlu": 0.991,
+      "red_carpim": 0.991
+    },
+    {
+      "sid": "S11",
+      "duzey": "hane",
+      "Delta_nominal": 3,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 3,
+      "yanlilik": -0.2073,
+      "ampirik_se": 1.0973,
+      "ort_model_se": 1.1225,
+      "kapsama": 0.951,
+      "red_iki_yonlu": 0.7,
+      "red_carpim": 0.043
+    },
+    {
+      "sid": "S11",
+      "duzey": "hane",
+      "Delta_nominal": 3,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 3,
+      "yanlilik": 0.1081,
+      "ampirik_se": 1.3782,
+      "ort_model_se": 1.4004,
+      "kapsama": 0.949,
+      "red_iki_yonlu": 0.598,
+      "red_carpim": 0.052
+    },
+    {
+      "sid": "S11",
+      "duzey": "hane",
+      "Delta_nominal": 3,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 3,
+      "yanlilik": -0.1985,
+      "ampirik_se": 0.9711,
+      "ort_model_se": 0.9955,
+      "kapsama": 0.951,
+      "red_iki_yonlu": 0.8,
+      "red_carpim": 0.8
+    },
+    {
+      "sid": "S12",
+      "duzey": "hane",
+      "Delta_nominal": 3,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 3,
+      "yanlilik": -0.0241,
+      "ampirik_se": 1.0417,
+      "ort_model_se": 1.0532,
+      "kapsama": 0.957,
+      "red_iki_yonlu": 0.782,
+      "red_carpim": 0.062
+    },
+    {
+      "sid": "S12",
+      "duzey": "hane",
+      "Delta_nominal": 3,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 3,
+      "yanlilik": 0.1856,
+      "ampirik_se": 1.335,
+      "ort_model_se": 1.3374,
+      "kapsama": 0.954,
+      "red_iki_yonlu": 0.663,
+      "red_carpim": 0.073
+    },
+    {
+      "sid": "S12",
+      "duzey": "hane",
+      "Delta_nominal": 3,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 3,
+      "yanlilik": -0.068,
+      "ampirik_se": 0.9403,
+      "ort_model_se": 0.9465,
+      "kapsama": 0.961,
+      "red_iki_yonlu": 0.869,
+      "red_carpim": 0.869
+    },
+    {
+      "sid": "S13",
+      "duzey": "hane",
+      "Delta_nominal": 4,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 4,
+      "yanlilik": 2.012,
+      "ampirik_se": 1.2026,
+      "ort_model_se": 1.187,
+      "kapsama": 0.591,
+      "red_iki_yonlu": 0.997,
+      "red_carpim": 0.282
+    },
+    {
+      "sid": "S13",
+      "duzey": "hane",
+      "Delta_nominal": 4,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 4,
+      "yanlilik": 2.3458,
+      "ampirik_se": 1.4582,
+      "ort_model_se": 1.4668,
+      "kapsama": 0.636,
+      "red_iki_yonlu": 0.988,
+      "red_carpim": 0.237
+    },
+    {
+      "sid": "S13",
+      "duzey": "hane",
+      "Delta_nominal": 4,
+      "yanlilik_turu": "carpimsal",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 4,
+      "yanlilik": 2.0094,
+      "ampirik_se": 1.0475,
+      "ort_model_se": 1.0395,
+      "kapsama": 0.527,
+      "red_iki_yonlu": 1,
+      "red_carpim": 1
+    },
+    {
+      "sid": "S14",
+      "duzey": "hane",
+      "Delta_nominal": 4,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 4,
+      "yanlilik": -0.2262,
+      "ampirik_se": 1.101,
+      "ort_model_se": 1.1306,
+      "kapsama": 0.946,
+      "red_iki_yonlu": 0.91,
+      "red_carpim": 0.053
+    },
+    {
+      "sid": "S14",
+      "duzey": "hane",
+      "Delta_nominal": 4,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 4,
+      "yanlilik": 0.0746,
+      "ampirik_se": 1.4156,
+      "ort_model_se": 1.406,
+      "kapsama": 0.951,
+      "red_iki_yonlu": 0.825,
+      "red_carpim": 0.084
+    },
+    {
+      "sid": "S14",
+      "duzey": "hane",
+      "Delta_nominal": 4,
+      "yanlilik_turu": "toplamsal",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 4,
+      "yanlilik": -0.2485,
+      "ampirik_se": 0.9822,
+      "ort_model_se": 1.0019,
+      "kapsama": 0.946,
+      "red_iki_yonlu": 0.958,
+      "red_carpim": 0.958
+    },
+    {
+      "sid": "S15",
+      "duzey": "hane",
+      "Delta_nominal": 4,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "lojistik_ana_etki",
+      "R": 1000,
+      "gercek_Delta": 4,
+      "yanlilik": 0.0086,
+      "ampirik_se": 1.0776,
+      "ort_model_se": 1.0643,
+      "kapsama": 0.95,
+      "red_iki_yonlu": 0.953,
+      "red_carpim": 0.164
+    },
+    {
+      "sid": "S15",
+      "duzey": "hane",
+      "Delta_nominal": 4,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "lojistik_esnek",
+      "R": 1000,
+      "gercek_Delta": 4,
+      "yanlilik": 0.259,
+      "ampirik_se": 1.3547,
+      "ort_model_se": 1.3474,
+      "kapsama": 0.939,
+      "red_iki_yonlu": 0.884,
+      "red_carpim": 0.157
+    },
+    {
+      "sid": "S15",
+      "duzey": "hane",
+      "Delta_nominal": 4,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "dogrusal_olasilik",
+      "R": 1000,
+      "gercek_Delta": 4,
+      "yanlilik": -0.0588,
+      "ampirik_se": 0.9595,
+      "ort_model_se": 0.9532,
+      "kapsama": 0.949,
+      "red_iki_yonlu": 0.983,
+      "red_carpim": 0.983
+    },
+    {
+      "sid": "S16",
+      "duzey": "yetiskin",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "yok",
+      "rho": 0.3,
+      "tahminci": "kumeli_se",
+      "R": 2000,
+      "gercek_Delta": -0,
+      "yanlilik": -0.0404,
+      "ampirik_se": 0.7186,
+      "ort_model_se": 0.7253,
+      "kapsama": 0.96,
+      "red_iki_yonlu": 0.04,
+      "red_carpim": 0.588
+    },
+    {
+      "sid": "S16",
+      "duzey": "yetiskin",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "yok",
+      "rho": 0.3,
+      "tahminci": "kumesiz_se",
+      "R": 2000,
+      "gercek_Delta": -0,
+      "yanlilik": -0.0404,
+      "ampirik_se": 0.7186,
+      "ort_model_se": 0.7154,
+      "kapsama": 0.9575,
+      "red_iki_yonlu": 0.0425,
+      "red_carpim": null
+    },
+    {
+      "sid": "S17",
+      "duzey": "yetiskin",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "yok",
+      "rho": 0.6,
+      "tahminci": "kumeli_se",
+      "R": 2000,
+      "gercek_Delta": -0,
+      "yanlilik": -0.0617,
+      "ampirik_se": 0.7436,
+      "ort_model_se": 0.7397,
+      "kapsama": 0.947,
+      "red_iki_yonlu": 0.053,
+      "red_carpim": 0.582
+    },
+    {
+      "sid": "S17",
+      "duzey": "yetiskin",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "yok",
+      "rho": 0.6,
+      "tahminci": "kumesiz_se",
+      "R": 2000,
+      "gercek_Delta": -0,
+      "yanlilik": -0.0617,
+      "ampirik_se": 0.7436,
+      "ort_model_se": 0.7155,
+      "kapsama": 0.9395,
+      "red_iki_yonlu": 0.0605,
+      "red_carpim": null
+    },
+    {
+      "sid": "S18",
+      "duzey": "yetiskin",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "yok",
+      "rho": 0.3,
+      "tahminci": "kumeli_se",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": 0.0868,
+      "ampirik_se": 0.7446,
+      "ort_model_se": 0.7546,
+      "kapsama": 0.955,
+      "red_iki_yonlu": 0.789,
+      "red_carpim": 0.05
+    },
+    {
+      "sid": "S18",
+      "duzey": "yetiskin",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "yok",
+      "rho": 0.3,
+      "tahminci": "kumesiz_se",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": 0.0868,
+      "ampirik_se": 0.7446,
+      "ort_model_se": 0.7438,
+      "kapsama": 0.948,
+      "red_iki_yonlu": 0.801,
+      "red_carpim": null
+    },
+    {
+      "sid": "S19",
+      "duzey": "yetiskin",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "yok",
+      "rho": 0.6,
+      "tahminci": "kumeli_se",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": 0.0967,
+      "ampirik_se": 0.7614,
+      "ort_model_se": 0.7702,
+      "kapsama": 0.958,
+      "red_iki_yonlu": 0.778,
+      "red_carpim": 0.044
+    },
+    {
+      "sid": "S19",
+      "duzey": "yetiskin",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "yok",
+      "rho": 0.6,
+      "tahminci": "kumesiz_se",
+      "R": 1000,
+      "gercek_Delta": 2,
+      "yanlilik": 0.0967,
+      "ampirik_se": 0.7614,
+      "ort_model_se": 0.743,
+      "kapsama": 0.949,
+      "red_iki_yonlu": 0.793,
+      "red_carpim": null
+    },
+    {
+      "sid": "S20",
+      "duzey": "hane_bootstrap",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "ana_delta_yontemi",
+      "R": 200,
+      "gercek_Delta": 0,
+      "yanlilik": -0.1731,
+      "ampirik_se": 1.0522,
+      "ort_model_se": 1.017,
+      "kapsama": 0.955,
+      "red_iki_yonlu": 0.045,
+      "red_carpim": null
+    },
+    {
+      "sid": "S20",
+      "duzey": "hane_bootstrap",
+      "Delta_nominal": 0,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "ana_bootstrap_yuzdelik",
+      "R": 200,
+      "gercek_Delta": 0,
+      "yanlilik": -0.1731,
+      "ampirik_se": 1.0522,
+      "ort_model_se": 1.018,
+      "kapsama": 0.945,
+      "red_iki_yonlu": 0.055,
+      "red_carpim": null
+    },
+    {
+      "sid": "S21",
+      "duzey": "hane_bootstrap",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "ana_delta_yontemi",
+      "R": 200,
+      "gercek_Delta": 2,
+      "yanlilik": -0.1478,
+      "ampirik_se": 0.9812,
+      "ort_model_se": 1.0407,
+      "kapsama": 0.965,
+      "red_iki_yonlu": 0.44,
+      "red_carpim": null
+    },
+    {
+      "sid": "S21",
+      "duzey": "hane_bootstrap",
+      "Delta_nominal": 2,
+      "yanlilik_turu": "yok",
+      "rho": null,
+      "tahminci": "ana_bootstrap_yuzdelik",
+      "R": 200,
+      "gercek_Delta": 2,
+      "yanlilik": -0.1478,
+      "ampirik_se": 0.9812,
+      "ort_model_se": 1.0368,
+      "kapsama": 0.965,
+      "red_iki_yonlu": 0.485,
+      "red_carpim": null
+    }
+  ]
+}

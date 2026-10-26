@@ -1,0 +1,17 @@
+model,tabakalama,tabaka,seyrek_tabaka,seyrek_nufus_payi
+H2 et_haftada_az,gelir x bolge,60,5,2.55084173953368
+H2 et_haftada_az,gelir x egitim (3),15,0,0
+H2 et_haftada_az,gelir x bolge x egitim (3),180,50,18.9415841603011
+H2 et_haftada_az,gelir x bolge x egitim (5),300,109,22.3129950641009
+H2 meyve_gunluk_degil,gelir x bolge,60,5,2.54533904414778
+H2 meyve_gunluk_degil,gelir x egitim (3),15,0,0
+H2 meyve_gunluk_degil,gelir x bolge x egitim (3),180,49,18.8293726603334
+H2 meyve_gunluk_degil,gelir x bolge x egitim (5),300,108,22.20406236747
+H2 sebze_gunluk_degil,gelir x bolge,60,5,2.54533904414778
+H2 sebze_gunluk_degil,gelir x egitim (3),15,0,0
+H2 sebze_gunluk_degil,gelir x bolge x egitim (3),180,49,18.8293726603334
+H2 sebze_gunluk_degil,gelir x bolge x egitim (5),300,108,22.20406236747
+H1 hane (dort A x C hucresi),gelir x bolge,60,21,29.6324897394418
+H1 hane (dort A x C hucresi),gelir x egitim (3),15,1,1.82028243614017
+H1 hane (dort A x C hucresi),gelir x bolge x egitim (3),180,147,69.4330927494686
+H1 hane (dort A x C hucresi),gelir x bolge x egitim (5),299,275,81.7088945375526

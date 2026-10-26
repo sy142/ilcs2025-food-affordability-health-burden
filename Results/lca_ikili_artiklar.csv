@@ -1,0 +1,406 @@
+model,K,duzey,cift,X2,df,BVR,max_abs_z,hucre_z_gt3,kategori_1,kategori_2,gozlenen,beklenen,z
+ortak,3,cift,ortak x meyve,726.9961881829245,15.0,48.4664125455283,15.419827679683182,8.0,,,,,
+ortak,3,cift,ortak x sebze,818.0624493135041,15.0,54.53749662090027,17.64614820581587,8.0,,,,,
+ortak,3,cift,meyve x sebze,7486.681306770171,9.0,831.8534785300191,67.57128680417405,4.0,,,,,
+ortak,3,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,Never or <1/week,1301.3186673760094,1128.576544604928,5.142007931350218
+ortak,3,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,1–3 times/week,3629.9833553183967,3895.1892693122168,-4.249314956263171
+ortak,3,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,4–6 times/week,1925.284874740652,1828.9229512863888,2.253241571824157
+ortak,3,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,Daily,2267.254123423213,2271.1522556547584,-0.08179625913878469
+ortak,3,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",Never or <1/week,1225.325555955318,1842.6159698119045,-14.380438108038184
+ortak,3,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",1–3 times/week,7195.835304150271,6476.81915446517,8.934242981755936
+ortak,3,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",4–6 times/week,6090.608066207942,6198.2099586707245,-1.3667427155460672
+ortak,3,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",Daily,11931.904664471895,11926.028507837636,0.053807825582542095
+ortak,3,hucre,ortak x meyve,,,,,,Can afford; Daily,Never or <1/week,198.97533854927175,166.54265075250163,2.5131603838400127
+ortak,3,hucre,ortak x meyve,,,,,,Can afford; Daily,1–3 times/week,469.97606120949445,538.580756948004,-2.9561633364803885
+ortak,3,hucre,ortak x meyve,,,,,,Can afford; Daily,4–6 times/week,337.0972420923114,314.6141971235958,1.2675525429468222
+ortak,3,hucre,ortak x meyve,,,,,,Can afford; Daily,Daily,1873.8716257031292,1860.1826627301075,0.31738964429612976
+ortak,3,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,Never or <1/week,2131.263591632218,1528.4243736835615,15.419827679683182
+ortak,3,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,1–3 times/week,4701.600115454838,5260.014535566115,-7.699511155337333
+ortak,3,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,4–6 times/week,2006.4042444425288,2026.8409906177571,-0.45394361473829953
+ortak,3,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,Daily,1855.6144299754076,1879.6024816375264,-0.5533016567391534
+ortak,3,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",Never or <1/week,530.7389505689355,723.7182783368846,-7.173416023419578
+ortak,3,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",1–3 times/week,2730.899564098395,2534.641682509511,3.898242216682246
+ortak,3,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",4–6 times/week,1936.8335669844455,1938.0658066695628,-0.027990517745053466
+ortak,3,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",Daily,3081.6216620051205,3083.6679761409396,-0.03685008542884176
+ortak,3,hucre,ortak x meyve,,,,,,Cannot afford; Daily,Never or <1/week,30.57738463976452,28.321671531735365,0.423861940871102
+ortak,3,hucre,ortak x meyve,,,,,,Cannot afford; Daily,1–3 times/week,70.30467158662243,93.353673016986,-2.3855383893651787
+ortak,3,hucre,ortak x meyve,,,,,,Cannot afford; Daily,4–6 times/week,74.26210918340729,63.83619928325113,1.3049096912860338
+ortak,3,hucre,ortak x meyve,,,,,,Cannot afford; Daily,Daily,301.44483023042085,291.0774518082427,0.6076656242958868
+ortak,3,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,Never or <1/week,900.5198009826,673.9315700336684,8.72829564283809
+ortak,3,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,1–3 times/week,3113.2860191897726,3275.3128943731695,-2.831135522225751
+ortak,3,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,4–6 times/week,2053.661917829474,2136.9567765195843,-1.8018570228091888
+ortak,3,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,Daily,3056.373282856439,3037.6397799318693,0.33989975902672587
+ortak,3,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",Never or <1/week,353.3208093758013,875.4287957239951,-17.64614820581587
+ortak,3,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",1–3 times/week,5109.919279006239,4606.470833012219,7.41772693481641
+ortak,3,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",4–6 times/week,6804.740718553908,6734.683014968576,0.8536843459905167
+ortak,3,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",Daily,14175.692783849443,14227.090947080645,-0.4309129495072397
+ortak,3,hucre,ortak x sebze,,,,,,Can afford; Daily,Never or <1/week,88.11595105576484,67.7943051851704,2.4680972717344405
+ortak,3,hucre,ortak x sebze,,,,,,Can afford; Daily,1–3 times/week,338.3957316552234,353.0739597555824,-0.781161423668612
+ortak,3,hucre,ortak x sebze,,,,,,Can afford; Daily,4–6 times/week,314.1067612834357,330.62165851402347,-0.9082600779236635
+ortak,3,hucre,ortak x sebze,,,,,,Can afford; Daily,Daily,2139.3018235597874,2128.4303440994327,0.23564537958494364
+ortak,3,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,Never or <1/week,1371.9735010235524,945.1169934126219,13.884783771295787
+ortak,3,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,1–3 times/week,4048.2962454283224,4543.380458122836,-7.344961519624856
+ortak,3,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,4–6 times/week,2452.5605385431545,2440.2583365389455,0.24903761664376917
+ortak,3,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,Daily,2822.052096509919,2766.1265934305575,1.0633442170109413
+ortak,3,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",Never or <1/week,219.4689495826301,385.2769059423873,-8.447318664957947
+ortak,3,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",1–3 times/week,2130.546340928297,1951.8979616996144,4.043621762144894
+ortak,3,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",4–6 times/week,2174.8816920354902,2150.599860886018,0.5236023994949341
+ortak,3,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",Daily,3755.1967611104924,3792.319015128878,-0.6028120239503161
+ortak,3,hucre,ortak x sebze,,,,,,Cannot afford; Daily,Never or <1/week,26.00034398600791,11.850785708513772,4.110260142487598
+ortak,3,hucre,ortak x sebze,,,,,,Cannot afford; Daily,1–3 times/week,51.74651009229484,62.05401933672743,-1.3084850790137605
+ortak,3,hucre,ortak x sebze,,,,,,Cannot afford; Daily,4–6 times/week,60.93070317141687,67.76268398975037,-0.82994887121268
+ortak,3,hucre,ortak x sebze,,,,,,Cannot afford; Daily,Daily,337.91143839049556,334.9215066052236,0.16337656547084858
+ortak,3,hucre,meyve x sebze,,,,,,Never or <1/week,Never or <1/week,2314.5284475852472,625.1047379071734,67.57128680417405
+ortak,3,hucre,meyve x sebze,,,,,,Never or <1/week,1–3 times/week,1099.096065767398,2934.961343300783,-33.88750660108797
+ortak,3,hucre,meyve x sebze,,,,,,Never or <1/week,4–6 times/week,686.9141219500319,635.6489197076784,2.033358794277537
+ortak,3,hucre,meyve x sebze,,,,,,Never or <1/week,Daily,1317.660853418838,1222.4844878058805,2.7221210777962317
+ortak,3,hucre,meyve x sebze,,,,,,1–3 times/week,Never or <1/week,383.2379696600149,2091.444811505229,-37.35229169723724
+ortak,3,hucre,meyve x sebze,,,,,,1–3 times/week,1–3 times/week,11756.224332710048,9876.53964393974,18.913965746056146
+ortak,3,hucre,meyve x sebze,,,,,,1–3 times/week,4–6 times/week,2951.5477235338476,3023.8368155502058,-1.314599899336237
+ortak,3,hucre,meyve x sebze,,,,,,1–3 times/week,Daily,3707.5890459141056,3806.7778008228256,-1.6076210148993244
+ortak,3,hucre,meyve x sebze,,,,,,4–6 times/week,Never or <1/week,113.89644887840494,100.13633864469988,1.3750739640521052
+ortak,3,hucre,meyve x sebze,,,,,,4–6 times/week,1–3 times/week,1031.925672264965,1072.1015488871462,-1.2270080159637855
+ortak,3,hucre,meyve x sebze,,,,,,4–6 times/week,4–6 times/week,8944.781244545724,8923.222706777531,0.22822248762137373
+ortak,3,hucre,meyve x sebze,,,,,,4–6 times/week,Daily,2279.8867379621493,2275.0295093419018,0.10183452176920163
+ortak,3,hucre,meyve x sebze,,,,,,Daily,Never or <1/week,147.7364898826906,142.71346794925407,0.42046765688123466
+ortak,3,hucre,meyve x sebze,,,,,,Daily,1–3 times/week,904.9440555577571,908.587590172477,-0.12087583841269978
+ortak,3,hucre,meyve x sebze,,,,,,Daily,4–6 times/week,1277.6392413872522,1278.1738893814806,-0.014954536983519891
+ortak,3,hucre,meyve x sebze,,,,,,Daily,Daily,18981.391548981454,18982.236388305995,-0.006131975796096017
+ortak,4,cift,ortak x meyve,23.21173008312089,15.0,1.5474486722080594,1.9679852653972054,0.0,,,,,
+ortak,4,cift,ortak x sebze,14.061739607857643,15.0,0.9374493071905096,1.8931842840967932,0.0,,,,,
+ortak,4,cift,meyve x sebze,0.03154386961646459,9.0,0.003504874401829399,0.14148324352685296,0.0,,,,,
+ortak,4,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,Never or <1/week,1301.3186673760094,1360.6049136821941,-1.607266661287202
+ortak,4,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,1–3 times/week,3629.9833553183967,3658.6135541383883,-0.47333224867346185
+ortak,4,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,4–6 times/week,1925.284874740652,1841.1368143100499,1.961106048571774
+ortak,4,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,Daily,2267.254123423213,2263.4857387276606,0.07920750803503193
+ortak,4,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",Never or <1/week,1225.325555955318,1227.3682962444898,-0.0583076722770175
+ortak,4,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",1–3 times/week,7195.835304150271,7113.394723080151,0.9774680932854195
+ortak,4,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",4–6 times/week,6090.608066207942,6169.090265224012,-0.9992188096501631
+ortak,4,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",Daily,11931.904664471895,11933.820306236774,-0.017535758261485568
+ortak,4,hucre,ortak x meyve,,,,,,Can afford; Daily,Never or <1/week,198.97533854927175,193.29914969972486,0.408264731475326
+ortak,4,hucre,ortak x meyve,,,,,,Can afford; Daily,1–3 times/week,469.97606120949445,514.6202867718017,-1.9679852653972054
+ortak,4,hucre,ortak x meyve,,,,,,Can afford; Daily,4–6 times/week,337.0972420923114,314.0930606154788,1.2980087326757068
+ortak,4,hucre,ortak x meyve,,,,,,Can afford; Daily,Daily,1873.8716257031292,1857.9077704672027,0.37036138992358847
+ortak,4,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,Never or <1/week,2131.263591632218,2085.370682650958,1.0049719842644467
+ortak,4,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,1–3 times/week,4701.600115454838,4682.714234286795,0.27598687246216375
+ortak,4,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,4–6 times/week,2006.4042444425288,2051.324950400148,-0.991811961424522
+ortak,4,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,Daily,1855.6144299754076,1875.4725141670622,-0.4585450353785842
+ortak,4,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",Never or <1/week,530.7389505689355,513.2467752117583,0.7721127210380215
+ortak,4,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",1–3 times/week,2730.899564098395,2745.474337576224,-0.2781590019007464
+ortak,4,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",4–6 times/week,1936.8335669844455,1930.640657005537,0.1409431726324854
+ortak,4,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",Daily,3081.6216620051205,3090.7319738633764,-0.16387117631840215
+ortak,4,hucre,ortak x meyve,,,,,,Cannot afford; Daily,Never or <1/week,30.57738463976452,38.30967123239187,-1.2492625759460314
+ortak,4,hucre,ortak x meyve,,,,,,Cannot afford; Daily,1–3 times/week,70.30467158662243,83.78193596464672,-1.4724025201113566
+ortak,4,hucre,ortak x meyve,,,,,,Cannot afford; Daily,4–6 times/week,74.26210918340729,64.20435609605396,1.2552167393983626
+ortak,4,hucre,ortak x meyve,,,,,,Cannot afford; Daily,Daily,301.44483023042085,290.2930323471224,0.6545255188551331
+ortak,4,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,Never or <1/week,900.5198009826,864.0289658697171,1.2414226116702074
+ortak,4,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,1–3 times/week,3113.2860191897726,3085.4479673885,0.5011638364977812
+ortak,4,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,4–6 times/week,2053.661917829474,2141.266794329341,-1.8931842840967932
+ortak,4,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,Daily,3056.373282856439,3033.0972932707346,0.4226345364801887
+ortak,4,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",Never or <1/week,353.3208093758013,371.18263223255514,-0.9271114705526918
+ortak,4,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",1–3 times/week,5109.919279006239,5123.551637779049,-0.1904519608498944
+ortak,4,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",4–6 times/week,6804.740718553908,6725.808573176642,0.9624577099722234
+ortak,4,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",Daily,14175.692783849443,14223.13074759718,-0.39776671409964975
+ortak,4,hucre,ortak x sebze,,,,,,Can afford; Daily,Never or <1/week,88.11595105576484,89.70626028936411,-0.16790754219408668
+ortak,4,hucre,ortak x sebze,,,,,,Can afford; Daily,1–3 times/week,338.3957316552234,327.9102460795706,0.579043317005082
+ortak,4,hucre,ortak x sebze,,,,,,Can afford; Daily,4–6 times/week,314.1067612834357,331.65071107287764,-0.9633562278662149
+ortak,4,hucre,ortak x sebze,,,,,,Can afford; Daily,Daily,2139.3018235597874,2130.653050112396,0.18736917862176736
+ortak,4,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,Never or <1/week,1371.9735010235524,1400.4748826608147,-0.7616023077360236
+ortak,4,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,1–3 times/week,4048.2962454283224,4070.285164289656,-0.34466045599004375
+ortak,4,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,4–6 times/week,2452.5605385431545,2450.0753872445243,0.05020686572385416
+ortak,4,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,Daily,2822.052096509919,2774.0469473099674,0.9114459520468129
+ortak,4,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",Never or <1/week,219.4689495826301,214.06433704693197,0.36939618350594017
+ortak,4,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",1–3 times/week,2130.546340928297,2132.043445981237,-0.032423078740795634
+ortak,4,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",4–6 times/week,2174.8816920354902,2143.5085648194895,0.6776340164513824
+ortak,4,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",Daily,3755.1967611104924,3790.4773958092374,-0.5730459321009629
+ortak,4,hucre,ortak x sebze,,,,,,Cannot afford; Daily,Never or <1/week,26.00034398600791,19.942277906974876,1.3565837924038993
+ortak,4,hucre,ortak x sebze,,,,,,Cannot afford; Daily,1–3 times/week,51.74651009229484,52.95166478213733,-0.16561626486301434
+ortak,4,hucre,ortak x sebze,,,,,,Cannot afford; Daily,4–6 times/week,60.93070317141687,68.57230077402086,-0.9228047128397666
+ortak,4,hucre,ortak x sebze,,,,,,Cannot afford; Daily,Daily,337.91143839049556,335.1227521770819,0.15233429697831247
+ortak,4,hucre,meyve x sebze,,,,,,Never or <1/week,Never or <1/week,2314.5284475852472,2313.772124745397,0.015723416669908306
+ortak,4,hucre,meyve x sebze,,,,,,Never or <1/week,1–3 times/week,1099.096065767398,1098.3480116708233,0.02257163514216006
+ortak,4,hucre,meyve x sebze,,,,,,Never or <1/week,4–6 times/week,686.9141219500319,687.575394695739,-0.02521857021328169
+ortak,4,hucre,meyve x sebze,,,,,,Never or <1/week,Daily,1317.660853418838,1318.5039576095567,-0.023218840551226354
+ortak,4,hucre,meyve x sebze,,,,,,1–3 times/week,Never or <1/week,383.2379696600149,382.5505066327324,0.035148351058077724
+ortak,4,hucre,meyve x sebze,,,,,,1–3 times/week,1–3 times/week,11756.224332710048,11754.3888521277,0.01692971969587792
+ortak,4,hucre,meyve x sebze,,,,,,1–3 times/week,4–6 times/week,2951.5477235338476,2953.4639115292503,-0.035259185910264994
+ortak,4,hucre,meyve x sebze,,,,,,1–3 times/week,Daily,3707.5890459141056,3708.195801528322,-0.00996397145189539
+ortak,4,hucre,meyve x sebze,,,,,,4–6 times/week,Never or <1/week,113.89644887840494,115.41643222646458,-0.14148324352685296
+ortak,4,hucre,meyve x sebze,,,,,,4–6 times/week,1–3 times/week,1031.925672264965,1034.2313474891032,-0.07169506854574825
+ortak,4,hucre,meyve x sebze,,,,,,4–6 times/week,4–6 times/week,8944.781244545724,8941.782126932809,0.03171622246530458
+ortak,4,hucre,meyve x sebze,,,,,,4–6 times/week,Daily,2279.8867379621493,2279.0601970028983,0.017313564201264058
+ortak,4,hucre,meyve x sebze,,,,,,Daily,Never or <1/week,147.7364898826906,147.6602924017635,0.006270595000246258
+ortak,4,hucre,meyve x sebze,,,,,,Daily,1–3 times/week,904.9440555577571,905.2219150125219,-0.009235228587566468
+ortak,4,hucre,meyve x sebze,,,,,,Daily,4–6 times/week,1277.6392413872522,1278.060898259095,-0.01179460520462169
+ortak,4,hucre,meyve x sebze,,,,,,Daily,Daily,18981.391548981454,18980.76823013582,0.004524320522261428
+ortak,5,cift,ortak x meyve,9.708219436058457,15.0,0.6472146290705638,1.4966609543532183,0.0,,,,,
+ortak,5,cift,ortak x sebze,6.113820465450249,15.0,0.40758803103001656,1.0815372797489449,0.0,,,,,
+ortak,5,cift,meyve x sebze,0.005016864848396812,9.0,0.0005574294275996458,0.03969131403012488,0.0,,,,,
+ortak,5,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,Never or <1/week,1301.3186673760094,1356.4405200566691,-1.4966609543532183
+ortak,5,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,1–3 times/week,3629.9833553183967,3633.9223661914134,-0.06534304324029801
+ortak,5,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,4–6 times/week,1925.284874740652,1869.0867648494261,1.2998911234217645
+ortak,5,hucre,ortak x meyve,,,,,,Can afford; <1/week or never,Daily,2267.254123423213,2264.3913697607827,0.06016005622244701
+ortak,5,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",Never or <1/week,1225.325555955318,1229.6192023409053,-0.12244497186680652
+ortak,5,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",1–3 times/week,7195.835304150271,7159.122797847098,0.4338944831274612
+ortak,5,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",4–6 times/week,6090.608066207942,6124.723253534854,-0.4359177220424002
+ortak,5,hucre,ortak x meyve,,,,,,"Can afford; Weekly, not daily",Daily,11931.904664471895,11930.20833706257,0.015530508140528039
+ortak,5,hucre,ortak x meyve,,,,,,Can afford; Daily,Never or <1/week,198.97533854927175,190.66364297630508,0.6019434385931192
+ortak,5,hucre,ortak x meyve,,,,,,Can afford; Daily,1–3 times/week,469.97606120949445,482.622168325704,-0.5756429933228593
+ortak,5,hucre,ortak x meyve,,,,,,Can afford; Daily,4–6 times/week,337.0972420923114,331.4003837348729,0.3129384434977115
+ortak,5,hucre,ortak x meyve,,,,,,Can afford; Daily,Daily,1873.8716257031292,1875.2340725173276,-0.03146239759661883
+ortak,5,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,Never or <1/week,2131.263591632218,2090.23438243858,0.897419811366546
+ortak,5,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,1–3 times/week,4701.600115454838,4687.85530836605,0.20074814897346832
+ortak,5,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,4–6 times/week,2006.4042444425288,2056.447306630163,-1.1035323877117846
+ortak,5,hucre,ortak x meyve,,,,,,Cannot afford; <1/week or never,Daily,1855.6144299754076,1860.345384070168,-0.10968618802863916
+ortak,5,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",Never or <1/week,530.7389505689355,514.2714344666657,0.726159286746288
+ortak,5,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",1–3 times/week,2730.899564098395,2767.3464446499547,-0.6928330515324396
+ortak,5,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",4–6 times/week,1936.8335669844455,1914.8123427906926,0.5032437029201123
+ortak,5,hucre,ortak x meyve,,,,,,"Cannot afford; Weekly, not daily",Daily,3081.6216620051205,3083.6635217495814,-0.03676989717489521
+ortak,5,hucre,ortak x meyve,,,,,,Cannot afford; Daily,Never or <1/week,30.57738463976452,36.97030644239009,-1.0514118489846802
+ortak,5,hucre,ortak x meyve,,,,,,Cannot afford; Daily,1–3 times/week,70.30467158662243,67.72998643778014,0.31284818059160346
+ortak,5,hucre,ortak x meyve,,,,,,Cannot afford; Daily,4–6 times/week,74.26210918340729,74.02005211126517,0.02813475143618861
+ortak,5,hucre,ortak x meyve,,,,,,Cannot afford; Daily,Daily,301.44483023042085,297.8686506487798,0.20720819147730055
+ortak,5,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,Never or <1/week,900.5198009826,868.643906354546,1.0815372797489449
+ortak,5,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,1–3 times/week,3113.2860191897726,3099.5294827707603,0.24709344043997322
+ortak,5,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,4–6 times/week,2053.661917829474,2099.390929271431,-0.9980335821163567
+ortak,5,hucre,ortak x sebze,,,,,,Can afford; <1/week or never,Daily,3056.373282856439,3056.276702461553,0.0017469989393646755
+ortak,5,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",Never or <1/week,353.3208093758013,365.84549398476196,-0.6548139807009238
+ortak,5,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",1–3 times/week,5109.919279006239,5117.236927381247,-0.10229485109096373
+ortak,5,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",4–6 times/week,6804.740718553908,6802.124804284134,0.03171766508137017
+ortak,5,hucre,ortak x sebze,,,,,,"Can afford; Weekly, not daily",Daily,14175.692783849443,14158.46636513528,0.14477277281701711
+ortak,5,hucre,ortak x sebze,,,,,,Can afford; Daily,Never or <1/week,88.11595105576484,94.39220129100522,-0.6459995173731513
+ortak,5,hucre,ortak x sebze,,,,,,Can afford; Daily,1–3 times/week,338.3957316552234,328.724641029764,0.5334077521130105
+ortak,5,hucre,ortak x sebze,,,,,,Can afford; Daily,4–6 times/week,314.1067612834357,319.5754178442686,-0.3059102065260424
+ortak,5,hucre,ortak x sebze,,,,,,Can afford; Daily,Daily,2139.3018235597874,2137.2280073891716,0.04485850835014934
+ortak,5,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,Never or <1/week,1371.9735010235524,1397.506725808863,-0.6830125996714107
+ortak,5,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,1–3 times/week,4048.2962454283224,4073.8389738226847,-0.4001891926147945
+ortak,5,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,4–6 times/week,2452.5605385431545,2409.3043741955353,0.881256172862784
+ortak,5,hucre,ortak x sebze,,,,,,Cannot afford; <1/week or never,Daily,2822.052096509919,2814.232307677876,0.14740596327351407
+ortak,5,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",Never or <1/week,219.4689495826301,210.38843695925362,0.6260361802478516
+ortak,5,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",1–3 times/week,2130.546340928297,2119.594521335987,0.23788107200595768
+ortak,5,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",4–6 times/week,2174.8816920354902,2168.886775011894,0.12872554405757672
+ortak,5,hucre,ortak x sebze,,,,,,"Cannot afford; Weekly, not daily",Daily,3755.1967611104924,3781.2240103497593,-0.423264716914913
+ortak,5,hucre,ortak x sebze,,,,,,Cannot afford; Daily,Never or <1/week,26.00034398600791,22.622591607926754,0.7101606929723077
+ortak,5,hucre,ortak x sebze,,,,,,Cannot afford; Daily,1–3 times/week,51.74651009229484,53.26557995969859,-0.20813945787643764
+ortak,5,hucre,ortak x sebze,,,,,,Cannot afford; Daily,4–6 times/week,60.93070317141687,61.60003080962642,-0.08528021641455347
+ortak,5,hucre,ortak x sebze,,,,,,Cannot afford; Daily,Daily,337.91143839049556,339.1007932629635,-0.06458728862416717
+ortak,5,hucre,meyve x sebze,,,,,,Never or <1/week,Never or <1/week,2314.5284475852472,2314.195309738472,0.006925066845109343
+ortak,5,hucre,meyve x sebze,,,,,,Never or <1/week,1–3 times/week,1099.096065767398,1098.4212978854514,0.020359632288710714
+ortak,5,hucre,meyve x sebze,,,,,,Never or <1/week,4–6 times/week,686.9141219500319,687.7158471149629,-0.03057179928887213
+ortak,5,hucre,meyve x sebze,,,,,,Never or <1/week,Daily,1317.660853418838,1317.8670339826285,-0.005679523824356728
+ortak,5,hucre,meyve x sebze,,,,,,1–3 times/week,Never or <1/week,383.2379696600149,383.61321484196026,-0.01915880181564154
+ortak,5,hucre,meyve x sebze,,,,,,1–3 times/week,1–3 times/week,11756.224332710048,11756.07174549119,0.001407301152963581
+ortak,5,hucre,meyve x sebze,,,,,,1–3 times/week,4–6 times/week,2951.5477235338476,2950.5268159113825,0.018794754764824236
+ortak,5,hucre,meyve x sebze,,,,,,1–3 times/week,Daily,3707.5890459141056,3708.387295573466,-0.013108294790272108
+ortak,5,hucre,meyve x sebze,,,,,,4–6 times/week,Never or <1/week,113.89644887840494,113.67657325553056,0.020622513474303314
+ortak,5,hucre,meyve x sebze,,,,,,4–6 times/week,1–3 times/week,1031.925672264965,1031.5582338631614,0.011440306725343566
+ortak,5,hucre,meyve x sebze,,,,,,4–6 times/week,4–6 times/week,8944.781244545724,8944.756865368874,0.00025777142222896095
+ortak,5,hucre,meyve x sebze,,,,,,4–6 times/week,Daily,2279.8867379621493,2280.4984311637086,-0.012809104383763373
+ortak,5,hucre,meyve x sebze,,,,,,Daily,Never or <1/week,147.7364898826906,147.91425817039325,-0.014616697844716024
+ortak,5,hucre,meyve x sebze,,,,,,Daily,1–3 times/week,904.9440555577571,906.1388490603413,-0.03969131403012488
+ortak,5,hucre,meyve x sebze,,,,,,Daily,4–6 times/week,1277.6392413872522,1277.882803021671,-0.006813391852865212
+ortak,5,hucre,meyve x sebze,,,,,,Daily,Daily,18981.391548981454,18979.775425556807,0.011730836732748325
+dort,4,cift,he090 x meyve,11.768361938037113,3.0,3.922787312679038,2.0108900172599546,0.0,,,,,
+dort,4,cift,he090 x sebze,26.32740906130705,3.0,8.775803020435683,2.748028792707279,0.0,,,,,
+dort,4,cift,he090 x et,2732.2382751078057,2.0,1366.1191375539029,31.752879739023623,6.0,,,,,
+dort,4,cift,meyve x sebze,3.158341399043316,9.0,0.35092682211592396,0.9138922638679731,0.0,,,,,
+dort,4,cift,meyve x et,19.29734272742286,6.0,3.2162237879038096,2.0541312404349434,0.0,,,,,
+dort,4,cift,sebze x et,14.243062752273293,6.0,2.3738437920455486,2.062783530954058,0.0,,,,,
+dort,4,hucre,he090 x meyve,,,,,,Can afford,Never or <1/week,2725.6195618805955,2667.5812895175554,1.1237136203905036
+dort,4,hucre,he090 x meyve,,,,,,Can afford,1–3 times/week,11295.79472067819,11171.491165700618,1.1760559299455782
+dort,4,hucre,he090 x meyve,,,,,,Can afford,4–6 times/week,8352.990183040934,8391.794136556764,-0.4235927954729848
+dort,4,hucre,he090 x meyve,,,,,,Can afford,Daily,16073.030413598215,16216.568287422986,-1.1271637968095172
+dort,4,hucre,he090 x meyve,,,,,,Cannot afford,Never or <1/week,2692.579926840914,2750.6181992039596,-1.1066220516833578
+dort,4,hucre,he090 x meyve,,,,,,Cannot afford,1–3 times/week,7502.804351139809,7627.1079061173805,-1.423323447646051
+dort,4,hucre,he090 x meyve,,,,,,Cannot afford,4–6 times/week,4017.4999206103835,3978.695967094508,0.615184803457053
+dort,4,hucre,he090 x meyve,,,,,,Cannot afford,Daily,5238.680922210965,5095.143048386216,2.0108900172599546
+dort,4,hucre,he090 x sebze,,,,,,Can afford,Never or <1/week,1341.9565614141677,1244.9938219660587,2.748028792707279
+dort,4,hucre,he090 x sebze,,,,,,Can afford,1–3 times/week,8561.601029851243,8417.51207942137,1.5705031208338585
+dort,4,hucre,he090 x sebze,,,,,,Can afford,4–6 times/week,9172.509397666763,9237.07680207067,-0.6718093608426893
+dort,4,hucre,he090 x sebze,,,,,,Can afford,Daily,19371.367890265537,19547.852175739827,-1.2622823738336615
+dort,4,hucre,he090 x sebze,,,,,,Cannot afford,Never or <1/week,1617.4427945921911,1714.4055340402979,-2.3417908080052188
+dort,4,hucre,he090 x sebze,,,,,,Cannot afford,1–3 times/week,6230.589096448878,6374.678046878776,-1.8046855878208692
+dort,4,hucre,he090 x sebze,,,,,,Cannot afford,4–6 times/week,4688.372933750071,4623.805529346219,0.9495406205288316
+dort,4,hucre,he090 x sebze,,,,,,Cannot afford,Daily,6915.160296010899,6738.676010536773,2.1499024408615752
+dort,4,hucre,he090 x et,,,,,,Can afford,<1/week or never,9123.841020858283,11941.947307337145,-25.788126591839514
+dort,4,hucre,he090 x et,,,,,,Can afford,"Weekly, not daily",26443.673590785776,24070.88561758281,15.293711655450021
+dort,4,hucre,he090 x et,,,,,,Can afford,Daily,2879.9202675542083,2434.6019542779645,9.025194546125066
+dort,4,hucre,he090 x et,,,,,,Cannot afford,<1/week or never,10694.882381504996,7876.776095026102,31.752879739023623
+dort,4,hucre,he090 x et,,,,,,Cannot afford,"Weekly, not daily",8280.093743656846,10652.881716859503,-22.989280535676524
+dort,4,hucre,he090 x et,,,,,,Cannot afford,Daily,476.58899564021533,921.9073089164592,-14.66651485277535
+dort,4,hucre,meyve x sebze,,,,,,Never or <1/week,Never or <1/week,2314.5284475852472,2287.573094166337,0.5635825534855846
+dort,4,hucre,meyve x sebze,,,,,,Never or <1/week,1–3 times/week,1099.096065767398,1090.6720994450047,0.2550759543215227
+dort,4,hucre,meyve x sebze,,,,,,Never or <1/week,4–6 times/week,686.9141219500319,695.8153506922415,-0.3374449699134727
+dort,4,hucre,meyve x sebze,,,,,,Never or <1/week,Daily,1317.660853418838,1344.138944417932,-0.7222118137923018
+dort,4,hucre,meyve x sebze,,,,,,1–3 times/week,Never or <1/week,383.2379696600149,391.20660488215674,-0.40288477659508076
+dort,4,hucre,meyve x sebze,,,,,,1–3 times/week,1–3 times/week,11756.224332710048,11738.002141589388,0.1681912913934261
+dort,4,hucre,meyve x sebze,,,,,,1–3 times/week,4–6 times/week,2951.5477235338476,2946.3734114723798,0.0953254192462293
+dort,4,hucre,meyve x sebze,,,,,,1–3 times/week,Daily,3707.5890459141056,3723.016913874076,-0.2528473513668815
+dort,4,hucre,meyve x sebze,,,,,,4–6 times/week,Never or <1/week,113.89644887840494,124.07625090802334,-0.9138922638679731
+dort,4,hucre,meyve x sebze,,,,,,4–6 times/week,1–3 times/week,1031.925672264965,1040.679319148714,-0.271350459540037
+dort,4,hucre,meyve x sebze,,,,,,4–6 times/week,4–6 times/week,8944.781244545724,8938.534023257245,0.06607752093656734
+dort,4,hucre,meyve x sebze,,,,,,4–6 times/week,Daily,2279.8867379621493,2267.200510337288,0.2664327050975928
+dort,4,hucre,meyve x sebze,,,,,,Daily,Never or <1/week,147.7364898826906,156.5434060498397,-0.7038927189100224
+dort,4,hucre,meyve x sebze,,,,,,Daily,1–3 times/week,904.9440555577571,922.8365661170405,-0.5889913068744933
+dort,4,hucre,meyve x sebze,,,,,,Daily,4–6 times/week,1277.6392413872522,1280.1595459950197,-0.07044026544965246
+dort,4,hucre,meyve x sebze,,,,,,Daily,Daily,18981.391548981454,18952.171817647304,0.21224952447899123
+dort,4,hucre,meyve x et,,,,,,Never or <1/week,<1/week or never,3432.5822590082325,3506.7320178152136,-1.2521560418190074
+dort,4,hucre,meyve x et,,,,,,Never or <1/week,"Weekly, not daily",1756.0645065242556,1691.1844283591765,1.5776689519230722
+dort,4,hucre,meyve x et,,,,,,Never or <1/week,Daily,229.55272318903627,220.28304254712546,0.6245601044288828
+dort,4,hucre,meyve x et,,,,,,1–3 times/week,<1/week or never,8331.583470773205,8419.15059425761,-0.9543483890705277
+dort,4,hucre,meyve x et,,,,,,1–3 times/week,"Weekly, not daily",9926.734868248683,9789.265326612025,1.389413245479021
+dort,4,hucre,meyve x et,,,,,,1–3 times/week,Daily,540.2807327961164,590.1831509483665,-2.0541312404349434
+dort,4,hucre,meyve x et,,,,,,4–6 times/week,<1/week or never,3931.689119183178,3839.7202136129995,1.4841959028547795
+dort,4,hucre,meyve x et,,,,,,4–6 times/week,"Weekly, not daily",8027.441633192389,8147.734504483321,-1.332666426398724
+dort,4,hucre,meyve x et,,,,,,4–6 times/week,Daily,411.3593512757185,383.03538555495174,1.447220186754392
+dort,4,hucre,meyve x et,,,,,,Daily,<1/week or never,4122.868553398633,4053.120576677424,1.0955617272068507
+dort,4,hucre,meyve x et,,,,,,Daily,"Weekly, not daily",15013.52632647699,15095.583074987797,-0.6678660354459917
+dort,4,hucre,meyve x et,,,,,,Daily,Daily,2175.3164559335487,2163.0076841439795,0.264658403634592
+dort,4,hucre,sebze x et,,,,,,Never or <1/week,<1/week or never,2272.493302006156,2293.3018848127076,-0.4345221193200177
+dort,4,hucre,sebze x et,,,,,,Never or <1/week,"Weekly, not daily",572.7897589584309,566.7547941511095,0.2534995195840735
+dort,4,hucre,sebze x et,,,,,,Never or <1/week,Daily,114.11629504177269,99.34267704254013,1.4822413882725276
+dort,4,hucre,sebze x et,,,,,,1–3 times/week,<1/week or never,7161.582264618063,7225.9358410115055,-0.7570518705631449
+dort,4,hucre,sebze x et,,,,,,1–3 times/week,"Weekly, not daily",7240.4656199344945,7194.865221530477,0.5375975806617712
+dort,4,hucre,sebze x et,,,,,,1–3 times/week,Daily,390.1422417475184,371.38906375816345,0.9731063803728889
+dort,4,hucre,sebze x et,,,,,,4–6 times/week,<1/week or never,4506.222456372646,4577.102517881164,-1.0476802712172877
+dort,4,hucre,sebze x et,,,,,,4–6 times/week,"Weekly, not daily",8979.622410589374,8878.900843033185,1.0689142657716766
+dort,4,hucre,sebze x et,,,,,,4–6 times/week,Daily,375.0374644548522,404.8789705025374,-1.4830579709846348
+dort,4,hucre,sebze x et,,,,,,Daily,<1/week or never,5878.425379366406,5722.383158657871,2.062783530954058
+dort,4,hucre,sebze x et,,,,,,Daily,"Weekly, not daily",17930.889544959875,18083.246475727545,-1.1329846196133455
+dort,4,hucre,sebze x et,,,,,,Daily,Daily,2477.2132619502804,2480.8985518911823,-0.07398900022066429
+dort,5,cift,he090 x meyve,1.7806901142027072,3.0,0.5935633714009024,0.625084008019058,0.0,,,,,
+dort,5,cift,he090 x sebze,9.776643235099156,3.0,3.2588810783663855,1.7530737869449136,0.0,,,,,
+dort,5,cift,he090 x et,681.3887226315376,2.0,340.6943613157688,14.029329863204214,6.0,,,,,
+dort,5,cift,meyve x sebze,10.564570820287035,9.0,1.173841202254115,1.7450465682484573,0.0,,,,,
+dort,5,cift,meyve x et,4.893608052407019,6.0,0.8156013420678364,1.2992607055197907,0.0,,,,,
+dort,5,cift,sebze x et,17.9332655787661,6.0,2.9888775964610166,2.5504634485992166,0.0,,,,,
+dort,5,hucre,he090 x meyve,,,,,,Can afford,Never or <1/week,2725.6195618805955,2757.8604415420828,-0.613932663250906
+dort,5,hucre,he090 x meyve,,,,,,Can afford,1–3 times/week,11295.79472067819,11255.223324833873,0.38242202019940064
+dort,5,hucre,he090 x meyve,,,,,,Can afford,4–6 times/week,8352.990183040934,8324.357110163386,0.31382866342095517
+dort,5,hucre,he090 x meyve,,,,,,Can afford,Daily,16073.030413598215,16109.994002658585,-0.2912235180816863
+dort,5,hucre,he090 x meyve,,,,,,Cannot afford,Never or <1/week,2692.579926840914,2660.339047179433,0.625084008019058
+dort,5,hucre,he090 x meyve,,,,,,Cannot afford,1–3 times/week,7502.804351139809,7543.375746984128,-0.46712926829134926
+dort,5,hucre,he090 x meyve,,,,,,Cannot afford,4–6 times/week,4017.4999206103835,4046.1329934878904,-0.4501402852771652
+dort,5,hucre,he090 x meyve,,,,,,Cannot afford,Daily,5238.680922210965,5201.71733315062,0.5125081300716309
+dort,5,hucre,he090 x sebze,,,,,,Can afford,Never or <1/week,1341.9565614141677,1279.2549434063355,1.7530737869449136
+dort,5,hucre,he090 x sebze,,,,,,Can afford,1–3 times/week,8561.601029851243,8480.638997347392,0.8791583677450352
+dort,5,hucre,he090 x sebze,,,,,,Can afford,4–6 times/week,9172.509397666763,9221.53989778952,-0.5105809397947584
+dort,5,hucre,he090 x sebze,,,,,,Can afford,Daily,19371.367890265537,19466.001040654675,-0.6782736210365817
+dort,5,hucre,he090 x sebze,,,,,,Cannot afford,Never or <1/week,1617.4427945921911,1680.1444126000208,-1.5296970948185347
+dort,5,hucre,he090 x sebze,,,,,,Cannot afford,1–3 times/week,6230.589096448878,6311.551128952753,-1.0190919006021988
+dort,5,hucre,he090 x sebze,,,,,,Cannot afford,4–6 times/week,4688.372933750071,4639.342433627372,0.7198435349252024
+dort,5,hucre,he090 x sebze,,,,,,Cannot afford,Daily,6915.160296010899,6820.527145621925,1.1458673035875526
+dort,5,hucre,he090 x et,,,,,,Can afford,<1/week or never,9123.841020858283,10479.621811992389,-13.243923741274925
+dort,5,hucre,he090 x et,,,,,,Can afford,"Weekly, not daily",26443.673590785776,25379.14299637506,6.682203093926431
+dort,5,hucre,he090 x et,,,,,,Can afford,Daily,2879.9202675542083,2588.670070830482,5.724372360070834
+dort,5,hucre,he090 x et,,,,,,Cannot afford,<1/week or never,10694.882381504996,9339.101590370861,14.029329863204214
+dort,5,hucre,he090 x et,,,,,,Cannot afford,"Weekly, not daily",8280.093743656846,9344.624338067266,-11.012279459038725
+dort,5,hucre,he090 x et,,,,,,Cannot afford,Daily,476.58899564021533,767.8391923639427,-10.510686664868727
+dort,5,hucre,meyve x sebze,,,,,,Never or <1/week,Never or <1/week,2314.5284475852472,2305.42902057733,0.1895126339596435
+dort,5,hucre,meyve x sebze,,,,,,Never or <1/week,1–3 times/week,1099.096065767398,1116.7962152162993,-0.5296512072857369
+dort,5,hucre,meyve x sebze,,,,,,Never or <1/week,4–6 times/week,686.9141219500319,674.8829192292144,0.4631213752722688
+dort,5,hucre,meyve x sebze,,,,,,Never or <1/week,Daily,1317.660853418838,1321.091333698672,-0.09438185424165457
+dort,5,hucre,meyve x sebze,,,,,,1–3 times/week,Never or <1/week,383.2379696600149,382.0414017788796,0.061218421348126786
+dort,5,hucre,meyve x sebze,,,,,,1–3 times/week,1–3 times/week,11756.224332710048,11635.066379353042,1.1232269000933117
+dort,5,hucre,meyve x sebze,,,,,,1–3 times/week,4–6 times/week,2951.5477235338476,3014.4777508502143,-1.1461775001801369
+dort,5,hucre,meyve x sebze,,,,,,1–3 times/week,Daily,3707.5890459141056,3767.013539835863,-0.9682040639583089
+dort,5,hucre,meyve x sebze,,,,,,4–6 times/week,Never or <1/week,113.89644887840494,119.51565314930988,-0.5139991790685144
+dort,5,hucre,meyve x sebze,,,,,,4–6 times/week,1–3 times/week,1031.925672264965,1089.5261179483587,-1.7450465682484573
+dort,5,hucre,meyve x sebze,,,,,,4–6 times/week,4–6 times/week,8944.781244545724,8911.891369902089,0.3483993019345551
+dort,5,hucre,meyve x sebze,,,,,,4–6 times/week,Daily,2279.8867379621493,2249.5569626515185,0.6394707667694748
+dort,5,hucre,meyve x sebze,,,,,,Daily,Never or <1/week,147.7364898826906,152.41328050083692,-0.3788231590538495
+dort,5,hucre,meyve x sebze,,,,,,Daily,1–3 times/week,904.9440555577571,950.8014137824451,-1.4871820078363631
+dort,5,hucre,meyve x sebze,,,,,,Daily,4–6 times/week,1277.6392413872522,1259.6302914353744,0.5074191379627927
+dort,5,hucre,meyve x sebze,,,,,,Daily,Daily,18981.391548981454,18948.866350090546,0.23628075212436492
+dort,5,hucre,meyve x et,,,,,,Never or <1/week,<1/week or never,3432.5822590082325,3441.180621307644,-0.14657570990529034
+dort,5,hucre,meyve x et,,,,,,Never or <1/week,"Weekly, not daily",1756.0645065242556,1757.712267358267,-0.03930250973360218
+dort,5,hucre,meyve x et,,,,,,Never or <1/week,Daily,229.55272318903627,219.30660005560466,0.6918846885177977
+dort,5,hucre,meyve x et,,,,,,1–3 times/week,<1/week or never,8331.583470773205,8356.524607765012,-0.27283708419071295
+dort,5,hucre,meyve x et,,,,,,1–3 times/week,"Weekly, not daily",9926.734868248683,9871.460874592725,0.5563269899955771
+dort,5,hucre,meyve x et,,,,,,1–3 times/week,Daily,540.2807327961164,570.6135894602652,-1.26982027672198
+dort,5,hucre,meyve x et,,,,,,4–6 times/week,<1/week or never,3931.689119183178,3899.0266598776043,0.5230832088932039
+dort,5,hucre,meyve x et,,,,,,4–6 times/week,"Weekly, not daily",8027.441633192389,8085.625167186028,-0.647058123554151
+dort,5,hucre,meyve x et,,,,,,4–6 times/week,Daily,411.3593512757185,385.8382765876432,1.2992607055197907
+dort,5,hucre,meyve x et,,,,,,Daily,<1/week or never,4122.868553398633,4121.991513412991,0.013660476463024363
+dort,5,hucre,meyve x et,,,,,,Daily,"Weekly, not daily",15013.52632647699,15008.969025305298,0.037199088592502684
+dort,5,hucre,meyve x et,,,,,,Daily,Daily,2175.3164559335487,2180.7507970909114,-0.1163707622816421
+dort,5,hucre,sebze x et,,,,,,Never or <1/week,<1/week or never,2272.493302006156,2283.946641063609,-0.23965646042285285
+dort,5,hucre,sebze x et,,,,,,Never or <1/week,"Weekly, not daily",572.7897589584309,580.9959634312232,-0.3404519111671481
+dort,5,hucre,sebze x et,,,,,,Never or <1/week,Daily,114.11629504177269,94.45675151152362,2.0228185474186398
+dort,5,hucre,sebze x et,,,,,,1–3 times/week,<1/week or never,7161.582264618063,7128.780499139605,0.3884987250551593
+dort,5,hucre,sebze x et,,,,,,1–3 times/week,"Weekly, not daily",7240.4656199344945,7279.368831002593,-0.4559724330003919
+dort,5,hucre,sebze x et,,,,,,1–3 times/week,Daily,390.1422417475184,384.04079615794944,0.31134655312365134
+dort,5,hucre,sebze x et,,,,,,4–6 times/week,<1/week or never,4506.222456372646,4605.453067075408,-1.462209104520767
+dort,5,hucre,sebze x et,,,,,,4–6 times/week,"Weekly, not daily",8979.622410589374,8827.640419103147,1.6175950665499474
+dort,5,hucre,sebze x et,,,,,,4–6 times/week,Daily,375.0374644548522,427.7888452383378,-2.5504634485992166
+dort,5,hucre,sebze x et,,,,,,Daily,<1/week or never,5878.425379366406,5800.54319508463,1.0225952960214033
+dort,5,hucre,sebze x et,,,,,,Daily,"Weekly, not daily",17930.889544959875,18035.762120905358,-0.7808986755325545
+dort,5,hucre,sebze x et,,,,,,Daily,Daily,2477.2132619502804,2450.2228702866137,0.5452634562973665
+dort,6,cift,he090 x meyve,3.172320297108025,3.0,1.0574400990360082,0.9737086976994576,0.0,,,,,
+dort,6,cift,he090 x sebze,4.64439831534216,3.0,1.54813277178072,1.1678147595364596,0.0,,,,,
+dort,6,cift,he090 x et,111.84108561008496,2.0,55.92054280504248,5.545019145816057,4.0,,,,,
+dort,6,cift,meyve x sebze,2.363506899868373,9.0,0.26261187776315253,0.9318963108668197,0.0,,,,,
+dort,6,cift,meyve x et,3.3327355668690384,6.0,0.5554559278115064,0.9592821295978862,0.0,,,,,
+dort,6,cift,sebze x et,13.66402842835556,6.0,2.2773380713925935,2.910784010576843,0.0,,,,,
+dort,6,hucre,he090 x meyve,,,,,,Can afford,Never or <1/week,2725.6195618805955,2770.8884912282765,-0.8599846484300709
+dort,6,hucre,he090 x meyve,,,,,,Can afford,1–3 times/week,11295.79472067819,11283.817999635921,0.11274827287613431
+dort,6,hucre,he090 x meyve,,,,,,Can afford,4–6 times/week,8352.990183040934,8290.796998263857,0.683037669881916
+dort,6,hucre,he090 x meyve,,,,,,Can afford,Daily,16073.030413598215,16101.931390069867,-0.22775794232512
+dort,6,hucre,he090 x meyve,,,,,,Cannot afford,Never or <1/week,2692.579926840914,2647.3109974932395,0.8798279234693838
+dort,6,hucre,he090 x meyve,,,,,,Cannot afford,1–3 times/week,7502.804351139809,7514.781072182073,-0.138159186639682
+dort,6,hucre,he090 x meyve,,,,,,Cannot afford,4–6 times/week,4017.4999206103835,4079.6931053874173,-0.9737086976994576
+dort,6,hucre,he090 x meyve,,,,,,Cannot afford,Daily,5238.680922210965,5209.779945739339,0.4004080743706736
+dort,6,hucre,he090 x sebze,,,,,,Can afford,Never or <1/week,1341.9565614141677,1300.493151192867,1.1497700290276385
+dort,6,hucre,he090 x sebze,,,,,,Can afford,1–3 times/week,8561.601029851243,8533.029133074167,0.30930536872105924
+dort,6,hucre,he090 x sebze,,,,,,Can afford,4–6 times/week,9172.509397666763,9251.79266479359,-0.8242682899095776
+dort,6,hucre,he090 x sebze,,,,,,Can afford,Daily,19371.367890265537,19362.119930137298,0.06646140158333148
+dort,6,hucre,he090 x sebze,,,,,,Cannot afford,Never or <1/week,1617.4427945921911,1658.9062048134901,-1.0180148253229462
+dort,6,hucre,he090 x sebze,,,,,,Cannot afford,1–3 times/week,6230.589096448878,6259.160993225975,-0.3611445050748013
+dort,6,hucre,he090 x sebze,,,,,,Cannot afford,4–6 times/week,4688.372933750071,4609.089666623301,1.1678147595364596
+dort,6,hucre,he090 x sebze,,,,,,Cannot afford,Daily,6915.160296010899,6924.408256139302,-0.11113596270857438
+dort,6,hucre,he090 x et,,,,,,Can afford,<1/week or never,9123.841020858283,9669.091279276236,-5.545019145816057
+dort,6,hucre,he090 x et,,,,,,Can afford,"Weekly, not daily",26443.673590785776,26000.4102885141,2.7489806126986087
+dort,6,hucre,he090 x et,,,,,,Can afford,Daily,2879.9202675542083,2777.933311407586,1.9350122663578295
+dort,6,hucre,he090 x et,,,,,,Cannot afford,<1/week or never,10694.882381504996,10149.632123087009,5.412161273649133
+dort,6,hucre,he090 x et,,,,,,Cannot afford,"Weekly, not daily",8280.093743656846,8723.35704592822,-4.745914974658481
+dort,6,hucre,he090 x et,,,,,,Cannot afford,Daily,476.58899564021533,578.5759517868375,-4.2399861796938945
+dort,6,hucre,meyve x sebze,,,,,,Never or <1/week,Never or <1/week,2314.5284475852472,2311.370202727552,0.06569178193646259
+dort,6,hucre,meyve x sebze,,,,,,Never or <1/week,1–3 times/week,1099.096065767398,1111.5150483719342,-0.37250177398307516
+dort,6,hucre,meyve x sebze,,,,,,Never or <1/week,4–6 times/week,686.9141219500319,674.9797929840221,0.45935941189151547
+dort,6,hucre,meyve x sebze,,,,,,Never or <1/week,Daily,1317.660853418838,1320.3344446380074,-0.07357885573449599
+dort,6,hucre,meyve x sebze,,,,,,1–3 times/week,Never or <1/week,383.2379696600149,383.21796265773054,0.001022019289932611
+dort,6,hucre,meyve x sebze,,,,,,1–3 times/week,1–3 times/week,11756.224332710048,11710.100893575469,0.4262273991129198
+dort,6,hucre,meyve x sebze,,,,,,1–3 times/week,4–6 times/week,2951.5477235338476,2995.826466058136,-0.8089784489656491
+dort,6,hucre,meyve x sebze,,,,,,1–3 times/week,Daily,3707.5890459141056,3709.4537495266595,-0.030616449958218724
+dort,6,hucre,meyve x sebze,,,,,,4–6 times/week,Never or <1/week,113.89644887840494,115.78312070509911,-0.1753370675232289
+dort,6,hucre,meyve x sebze,,,,,,4–6 times/week,1–3 times/week,1031.925672264965,1062.2989008455554,-0.9318963108668197
+dort,6,hucre,meyve x sebze,,,,,,4–6 times/week,4–6 times/week,8944.781244545724,8905.314705902558,0.41821961997697926
+dort,6,hucre,meyve x sebze,,,,,,4–6 times/week,Daily,2279.8867379621493,2287.093376198064,-0.1506922000704355
+dort,6,hucre,meyve x sebze,,,,,,Daily,Never or <1/week,147.7364898826906,149.02806991597532,-0.10580039378729916
+dort,6,hucre,meyve x sebze,,,,,,Daily,1–3 times/week,904.9440555577571,908.2752835071849,-0.1105339279854438
+dort,6,hucre,meyve x sebze,,,,,,Daily,4–6 times/week,1277.6392413872522,1284.761366472176,-0.19870022667122014
+dort,6,hucre,meyve x sebze,,,,,,Daily,Daily,18981.391548981454,18969.64661591387,0.08527484248711266
+dort,6,hucre,meyve x et,,,,,,Never or <1/week,<1/week or never,3432.5822590082325,3434.05335078681,-0.025103614052445412
+dort,6,hucre,meyve x et,,,,,,Never or <1/week,"Weekly, not daily",1756.0645065242556,1767.7818132901464,-0.27868492014565444
+dort,6,hucre,meyve x et,,,,,,Never or <1/week,Daily,229.55272318903627,216.3643246445599,0.8966010353528185
+dort,6,hucre,meyve x et,,,,,,1–3 times/week,<1/week or never,8331.583470773205,8356.344578564198,-0.2708706193234855
+dort,6,hucre,meyve x et,,,,,,1–3 times/week,"Weekly, not daily",9926.734868248683,9890.312609160836,0.36623670662388574
+dort,6,hucre,meyve x et,,,,,,1–3 times/week,Daily,540.2807327961164,551.9418840929649,-0.49635768944256997
+dort,6,hucre,meyve x et,,,,,,4–6 times/week,<1/week or never,3931.689119183178,3871.99742790515,0.9592821295978862
+dort,6,hucre,meyve x et,,,,,,4–6 times/week,"Weekly, not daily",8027.441633192389,8073.354120566389,-0.5109799044535348
+dort,6,hucre,meyve x et,,,,,,4–6 times/week,Daily,411.3593512757185,425.1385551797355,-0.6682806413328485
+dort,6,hucre,meyve x et,,,,,,Daily,<1/week or never,4122.868553398633,4156.3280451070905,-0.5189965015574327
+dort,6,hucre,meyve x et,,,,,,Daily,"Weekly, not daily",15013.52632647699,14992.31879142495,0.17320315126206565
+dort,6,hucre,meyve x et,,,,,,Daily,Daily,2175.3164559335487,2163.064499277162,0.26343332708796807
+dort,6,hucre,sebze x et,,,,,,Never or <1/week,<1/week or never,2272.493302006156,2279.5025072673193,-0.1468076683680771
+dort,6,hucre,sebze x et,,,,,,Never or <1/week,"Weekly, not daily",572.7897589584309,581.0240109990242,-0.3416072789507877
+dort,6,hucre,sebze x et,,,,,,Never or <1/week,Daily,114.11629504177269,98.87283774001399,1.5330099692816639
+dort,6,hucre,sebze x et,,,,,,1–3 times/week,<1/week or never,7161.582264618063,7148.755383320924,0.1517070828298366
+dort,6,hucre,sebze x et,,,,,,1–3 times/week,"Weekly, not daily",7240.4656199344945,7277.744930570438,-0.43698794619760345
+dort,6,hucre,sebze x et,,,,,,1–3 times/week,Daily,390.1422417475184,365.68981240878526,1.2786909214096267
+dort,6,hucre,sebze x et,,,,,,4–6 times/week,<1/week or never,4506.222456372646,4518.186736966695,-0.17799364700938636
+dort,6,hucre,sebze x et,,,,,,4–6 times/week,"Weekly, not daily",8979.622410589374,8906.892931571578,0.7706325711510399
+dort,6,hucre,sebze x et,,,,,,4–6 times/week,Daily,375.0374644548522,435.8026628786175,-2.910784010576843
+dort,6,hucre,sebze x et,,,,,,Daily,<1/week or never,5878.425379366406,5872.278774808309,0.08021063256749103
+dort,6,hucre,sebze x et,,,,,,Daily,"Weekly, not daily",17930.889544959875,17958.10546130128,-0.2030919466973668
+dort,6,hucre,sebze x et,,,,,,Daily,Daily,2477.2132619502804,2456.1439501670066,0.42513165325818764

@@ -1,0 +1,4 @@
+sonuc,siklik,OR,alt,ust,n,kategori,sure_sn,po_oran,po_ortusmez,po_karar
+et_haftada_az,et_tavuk_balik_siklik,2.97918625631444,2.74373159013241,3.23484657964831,57704,3,3.7435610294342,1.27304237455036,FALSE,Orantili odds varsayimi kabul edilebilir: svyolr OR raporlanir
+meyve_gunluk_degil,meyve_siklik,1.73770678830485,1.62936882732459,1.85324822193816,57899,6,3.52301096916199,1.18259458419614,FALSE,Orantili odds varsayimi kabul edilebilir: svyolr OR raporlanir
+sebze_gunluk_degil,sebze_siklik,1.57405532674486,1.46864385396125,1.68703267641853,57899,6,3.60389995574951,1.53859072310093,FALSE,"Orantili odds bozuk: kesme noktasi bazli ikili OR'ler ana raporlama, svyolr ekte"

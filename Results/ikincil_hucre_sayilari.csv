@@ -1,0 +1,15 @@
+A,C_fert,n,olay,analiz,kucuk,B
+0,0,20715,19,odeme_tibbi_AxC,suppressed,
+0,1,13127,35,odeme_tibbi_AxC,flag,
+1,0,9237,93,odeme_tibbi_AxC,"",
+1,1,10355,182,odeme_tibbi_AxC,"",
+0,0,21229,70,odeme_herhangi_AxC,"",
+0,1,13213,81,odeme_herhangi_AxC,"",
+1,0,9494,216,odeme_herhangi_AxC,"",
+1,1,10436,332,odeme_herhangi_AxC,"",
+0,1,13355,1082,uzman_hic_kronik_A,"",
+1,1,10505,943,uzman_hic_kronik_A,"",
+0,,13051,12,eski_hipotez_AxB,suppressed,0
+0,,20791,42,eski_hipotez_AxB,flag,1
+1,,4494,35,eski_hipotez_AxB,flag,0
+1,,15098,240,eski_hipotez_AxB,"",1

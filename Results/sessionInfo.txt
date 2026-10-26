@@ -1,0 +1,38 @@
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Golden Gate 27.0.1
+
+Matrix products: default
+BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib 
+LAPACK: /Library/Frameworks/R.framework/Versions/4.6/Resources/lib/libRlapack.dylib;  LAPACK version 3.12.1
+
+locale:
+[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8
+
+time zone: Europe/Istanbul
+tzcode source: internal
+
+attached base packages:
+[1] splines   grid      stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] openxlsx_4.2.9       poLCA_1.6.0.2        MASS_7.3-66          scatterplot3d_0.3-45 logistf_1.26.1       car_3.1-5            carData_3.0-6       
+ [8] jsonlite_2.0.0       furrr_0.4.0          future_1.80.0        officer_0.7.7        flextable_0.10.3     survey_4.5           survival_3.8-6      
+[15] Matrix_1.7-5         readxl_1.5.0.1       arrow_26.0.0         data.table_1.18.6.1 
+
+loaded via a namespace (and not attached):
+ [1] Rdpack_2.6.6            DBI_1.3.0               sandwich_3.1-3          rlang_1.3.0             magrittr_2.0.5          otel_0.2.0             
+ [7] compiler_4.6.1          mgcv_1.9-4              systemfonts_1.3.2       vctrs_0.7.3             pkgconfig_2.0.3         shape_1.4.6.1          
+[13] fastmap_1.2.0           backports_1.5.1         rmarkdown_2.32          nloptr_2.2.1            ragg_1.5.2              purrr_1.2.2            
+[19] bit_4.6.0               xfun_0.62               glmnet_5.1              jomo_2.7-6              uuid_1.2-2              pan_2.0                
+[25] broom_1.0.13            parallel_4.6.1          R6_2.6.1                stringi_1.8.9           RColorBrewer_1.1-3      parallelly_1.48.0      
+[31] boot_1.3-32             rpart_4.1.27            cellranger_1.1.0        estimability_2.0.0      Rcpp_1.1.2              assertthat_0.2.1       
+[37] iterators_1.0.14        knitr_1.52              zoo_1.9-1               nnet_7.3-20             tidyselect_1.2.1        abind_1.4-8            
+[43] codetools_0.2-20        listenv_1.1.0           lattice_0.22-9          tibble_3.3.1            S7_0.2.2                askpass_1.2.1          
+[49] coda_0.19-4.1           evaluate_1.0.5          zip_3.0.2               xml2_1.6.0              pillar_1.11.1           mice_3.19.0            
+[55] foreach_1.5.2           reformulas_0.4.4        generics_0.1.4          ggplot2_4.0.3           scales_1.4.0            minqa_1.2.8            
+[61] xtable_1.8-8            globals_0.20.0          glue_1.8.1              gdtools_0.5.2           emmeans_2.0.4           tools_4.6.1            
+[67] lme4_2.0-6              mvtnorm_1.4-2           tidyr_1.3.2             mitools_2.7             rbibutils_2.4.1         nlme_3.1-169           
+[73] formula.tools_1.7.1     patchwork_1.3.2         Formula_1.2-6           cli_3.6.6               textshaping_1.0.5       fontBitstreamVera_0.1.1
+[79] dplyr_1.2.1             gtable_0.3.6            digest_0.6.39           fontquiver_0.2.1        operator.tools_1.6.3.1  farver_2.1.2           
+[85] htmltools_0.5.9         lifecycle_1.0.5         mitml_0.4-5             fontLiberation_0.1.0    openssl_2.4.2           bit64_4.8.6            

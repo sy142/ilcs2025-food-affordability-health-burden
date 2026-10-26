@@ -1,0 +1,496 @@
+model,K,sinif,sinif_ad,sinif_payi,gosterge,gosterge_ad,kategori_kod,kategori,olasilik,turetilmis
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.10169512386884993,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.5679503795952371,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.09275363756832505,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.07912205886002054,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.14405665189997438,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.014422148207593122,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,meyve,Fruit,0,Never or <1/week,0.03326265260611315,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,meyve,Fruit,1,1–3 times/week,0.09026951522438911,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,meyve,Fruit,2,4–6 times/week,0.021674272331451604,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,meyve,Fruit,3,Daily,0.8547935598380462,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,sebze,Vegetables or salad,0,Never or <1/week,0.004519694385929615,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,sebze,Vegetables or salad,1,1–3 times/week,0.02996874294696171,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,sebze,Vegetables or salad,2,4–6 times/week,0.011959085583564717,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,sebze,Vegetables or salad,3,Daily,0.953552477083544,False
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.762399141032412,True
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.23760085896758804,True
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.18081718272887048,True
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.13338829806541788,True
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.3330040943615185,True
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.7120070314952115,True
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.7449514946018174,True
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.6062968481087253,True
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,et,"Meat, chicken or fish (from joint item)",2,Daily,0.10717578577591817,True
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.12166020733276482,True
+ortak,3,1,Daily fruit and vegetables,39.72298239948303,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.06069905752975623,True
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.14478227725214457,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.5111058089781979,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.022741674188307928,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.15766390655459392,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.1588654023336915,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.004840930693064223,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,meyve,Fruit,0,Never or <1/week,0.022846656070148425,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,meyve,Fruit,1,1–3 times/week,0.151805739526208,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,meyve,Fruit,2,4–6 times/week,0.7407186908032093,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,meyve,Fruit,3,Daily,0.08462891360043426,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,sebze,Vegetables or salad,0,Never or <1/week,6.092651168096659e-08,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,sebze,Vegetables or salad,1,1–3 times/week,0.05374136281943414,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,sebze,Vegetables or salad,2,4–6 times/week,0.7916652157619277,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,sebze,Vegetables or salad,3,Daily,0.15459336049212652,False
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.6786297604186503,True
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.3213702395813497,True
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.3024461838067385,True
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.2133450162321611,True
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.4905989638616921,True
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.6699712113118894,True
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.7531438183066035,True
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.4943376292112366,True
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,et,"Meat, chicken or fish (from joint item)",2,Daily,0.027582604881372152,True
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.03351116546123539,True
+ortak,3,2,Near-daily fruit and vegetables,26.100495526436486,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.015063406927071166,True
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.23231382567719275,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.2859060744241941,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.020365483211001966,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.3281067691038195,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.12968263575628078,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.0036252118275110195,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,meyve,Fruit,0,Never or <1/week,0.21770554337213263,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,meyve,Fruit,1,1–3 times/week,0.7291536928331039,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,meyve,Fruit,2,4–6 times/week,0.03427924218521275,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,meyve,Fruit,3,Daily,0.018861521609550628,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,sebze,Vegetables or salad,0,Never or <1/week,0.1443030416248681,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,sebze,Vegetables or salad,1,1–3 times/week,0.6716640506078995,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,sebze,Vegetables or salad,2,4–6 times/week,0.08198190018808187,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,sebze,Vegetables or salad,3,Daily,0.10205100757915063,False
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.5385853833123888,True
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.46141461668761125,True
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.5604205947810122,True
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.43134075464214133,True
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.7110888065471832,True
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.41558871018047483,True
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.5308463305591857,True
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.2810544596251467,True
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,et,"Meat, chicken or fish (from joint item)",2,Daily,0.023990695038512984,True
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.03781291479867294,True
+ortak,3,3,Weekly (1–3 times) fruit and vegetables,34.17652207408049,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.007856733827670168,True
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.10120530643738973,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.5685389398666055,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.0926921888117665,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.07877943717278738,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.14439298879498794,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.014391138916462832,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,meyve,Fruit,0,Never or <1/week,0.033957142218716825,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,meyve,Fruit,1,1–3 times/week,0.09113674669874937,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,meyve,Fruit,2,4–6 times/week,0.02151918741695041,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,meyve,Fruit,3,Daily,0.8533869236655833,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,sebze,Vegetables or salad,0,Never or <1/week,0.005292203392652675,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,sebze,Vegetables or salad,1,1–3 times/week,0.02829094481302438,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,sebze,Vegetables or salad,2,4–6 times/week,0.012395820916662704,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,sebze,Vegetables or salad,3,Daily,0.9540210308776603,False
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.7624364351157619,True
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.23756356488423813,True
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.1799847436101771,True
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.13273933639074265,True
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.33161413961427816,True
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.7129319286615935,True
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.745687002458485,True
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.6078078044726636,True
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,et,"Meat, chicken or fish (from joint item)",2,Daily,0.10708332772822933,True
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.12157366115077241,True
+ortak,4,1,Daily fruit and vegetables,39.76675652981568,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.06057805591305831,True
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.14547220608458186,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.509475071113956,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.022773968763516717,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.15925346866579923,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.1581221048704259,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.004903180501720566,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,meyve,Fruit,0,Never or <1/week,0.028916620154231673,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,meyve,Fruit,1,1–3 times/week,0.14661439313956656,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,meyve,Fruit,2,4–6 times/week,0.7408523512165833,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,meyve,Fruit,3,Daily,0.08361663548961851,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,sebze,Vegetables or salad,0,Never or <1/week,0.0026367768578649925,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,sebze,Vegetables or salad,1,1–3 times/week,0.04198288479140546,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,sebze,Vegetables or salad,2,4–6 times/week,0.7994890673876847,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,sebze,Vegetables or salad,3,Daily,0.15589127096304478,False
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.6777212459620543,True
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.3222787540379457,True
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.3047256747503811,True
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.21464902709089162,True
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.49414820763223016,True
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.6675971759843818,True
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.7517472325819359,True
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.49063769450904704,True
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,et,"Meat, chicken or fish (from joint item)",2,Daily,0.02767714926523728,True
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.033603740327172546,True
+ortak,4,2,Near-daily fruit and vegetables,25.873953246810117,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.015214097858722814,True
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.21373052601853423,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.3359519120542037,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.01842885064417336,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.28292343144777043,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.1460875008500263,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.002877778985291931,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,meyve,Fruit,0,Never or <1/week,0.0524048377446842,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,meyve,Fruit,1,1–3 times/week,0.8839638587595092,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,meyve,Fruit,2,4–6 times/week,0.04140799774387839,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,meyve,Fruit,3,Daily,0.02222330575192824,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,sebze,Vegetables or salad,0,Never or <1/week,0.012170136640955311,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,sebze,Vegetables or salad,1,1–3 times/week,0.8136271552906983,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,sebze,Vegetables or salad,2,4–6 times/week,0.0808159605506521,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,sebze,Vegetables or salad,3,Daily,0.0933867475176943,False
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.5681112887169113,True
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.4318887112830887,True
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.4966539574663047,True
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.37621242574011887,True
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.655084108605755,True
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.48203941290423,True
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.5913487704371385,True
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.33825264942910443,True
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,et,"Meat, chicken or fish (from joint item)",2,Daily,0.021306629629465293,True
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.03243880382274259,True
+ortak,4,3,Weekly (1–3 times) fruit and vegetables,27.78842467106239,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.006663241965140512,True
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.30900326734007283,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.08300503206347586,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.028399976750405367,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.5107854492997479,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.06210760815080966,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.006698666395488464,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,meyve,Fruit,0,Never or <1/week,0.883174141981575,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,meyve,Fruit,1,1–3 times/week,0.0740004179243596,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,meyve,Fruit,2,4–6 times/week,0.028983469335744225,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,meyve,Fruit,3,Daily,0.01384197075832119,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,sebze,Vegetables or salad,0,Never or <1/week,0.683996172524818,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,sebze,Vegetables or salad,1,1–3 times/week,0.11072301919461301,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,sebze,Vegetables or salad,2,4–6 times/week,0.07839585373421275,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,sebze,Vegetables or salad,3,Daily,0.12688495454635623,False
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.42040827615395404,True
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.579591723846046,True
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.8197887166398208,True
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.7350075744629619,True
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.8812849257237242,True
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.14511264021428552,True
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.19743910092074235,True
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.10715751380761088,True
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,et,"Meat, chicken or fish (from joint item)",2,Daily,0.03509864314589383,True
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.06755332461629575,True
+ortak,4,4,"Very infrequent fruit, vegetables and meat",6.570865552311815,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.011557560468665002,True
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.019592160813635347,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.711977095736449,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.08036038387373484,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.0051246579622586785,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.18165972894744878,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.0012859726664733436,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,meyve,Fruit,0,Never or <1/week,0.03451213163206148,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,meyve,Fruit,1,1–3 times/week,0.09605884053169837,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,meyve,Fruit,2,4–6 times/week,0.013143322740389252,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,meyve,Fruit,3,Daily,0.856285705095851,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,sebze,Vegetables or salad,0,Never or <1/week,0.003867243784836559,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,sebze,Vegetables or salad,1,1–3 times/week,0.028022285474148288,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,sebze,Vegetables or salad,2,4–6 times/week,0.0132418053970504,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,sebze,Vegetables or salad,3,Daily,0.9548686653439648,False
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.8119296404238192,True
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.1880703595761808,True
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.024716818775894024,True
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.024130367753797528,True
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.027248621068238332,True
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.8936368246838977,True
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.8768950661350459,True
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.9659136578290249,True
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,et,"Meat, chicken or fish (from joint item)",2,Daily,0.08164635654020819,True
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.09897456611115653,True
+ortak,5,1,Daily fruit and vegetables (1),28.372049679440074,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.0068377211027367685,True
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.3090934008860387,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.20188501446671475,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.12760323898281223,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.2646954113622955,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.04761775619956692,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.04910517810257194,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,meyve,Fruit,0,Never or <1/week,0.029788411040462884,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,meyve,Fruit,1,1–3 times/week,0.029837007237885693,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,meyve,Fruit,2,4–6 times/week,0.07109667015326551,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,meyve,Fruit,3,Daily,0.8692779115683859,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,sebze,Vegetables or salad,0,Never or <1/week,0.015262976491395613,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,sebze,Vegetables or salad,1,1–3 times/week,0.020797640857279198,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,sebze,Vegetables or salad,2,4–6 times/week,0.006408681881815759,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,sebze,Vegetables or salad,3,Daily,0.9575307007695094,False
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.6385816543355656,True
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.36141834566443437,True
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.5737888122483342,True
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.48403113178634233,True
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.7323795666090978,True
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.24950277066628168,True
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.3161459667625012,True
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.13175246019132222,True
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,et,"Meat, chicken or fish (from joint item)",2,Daily,0.17670841708538418,True
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.1998229014511565,True
+ortak,5,2,Daily fruit and vegetables (2),11.03989027013161,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.1358679731995801,True
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.14177896819373045,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.5165329175559707,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.022007383976474504,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.1550553062692737,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.16017035591708112,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.004455068087469527,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,meyve,Fruit,0,Never or <1/week,0.028302880968490176,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,meyve,Fruit,1,1–3 times/week,0.13945457647655304,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,meyve,Fruit,2,4–6 times/week,0.7465057492331428,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,meyve,Fruit,3,Daily,0.085736793321814,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,sebze,Vegetables or salad,0,Never or <1/week,0.0027846991232682245,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,sebze,Vegetables or salad,1,1–3 times/week,0.04388548417506529,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,sebze,Vegetables or salad,2,4–6 times/week,0.8116072363771121,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,sebze,Vegetables or salad,3,Daily,0.14172258032455448,False
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.6803192697261756,True
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.3196807302738244,True
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.29683427446300414,True
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.20840063555864824,True
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.4850317569546972,True
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.6767032734730518,True
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.7592507526118907,True
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.5010322510834052,True
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,et,"Meat, chicken or fish (from joint item)",2,Daily,0.02646245206394403,True
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.032348611829461096,True
+ortak,5,3,Near-daily fruit and vegetables,25.298519399022627,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.013935991961897461,True
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.21540275743971843,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.3344708430233108,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.018943790340160582,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.28346152256309104,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.1446359768389722,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.00308510979474696,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,meyve,Fruit,0,Never or <1/week,0.05251467885409314,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,meyve,Fruit,1,1–3 times/week,0.8815534659309059,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,meyve,Fruit,2,4–6 times/week,0.03996640487575108,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,meyve,Fruit,3,Daily,0.025965450339249956,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,sebze,Vegetables or salad,0,Never or <1/week,0.012032653459377965,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,sebze,Vegetables or salad,1,1–3 times/week,0.7879512387387022,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,sebze,Vegetables or salad,2,4–6 times/week,0.08487591255703042,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,sebze,Vegetables or salad,3,Daily,0.11514019524488928,False
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.5688173908031898,True
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.4311826091968102,True
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.49886428000280947,True
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.3786852528112094,True
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.657404812988891,True
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.479106819862283,True
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.5880109301001265,True
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.3354401911255056,True
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,et,"Meat, chicken or fish (from joint item)",2,Daily,0.02202890013490754,True
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.03330381708866407,True
+ortak,5,4,Weekly (1–3 times) fruit and vegetables,28.811365161738134,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.007154995885603503,True
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",0,Can afford; <1/week or never,0.3082857082583243,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",1,"Can afford; Weekly, not daily",0.08319557113994476,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",2,Can afford; Daily,0.028214149699309143,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",3,Cannot afford; <1/week or never,0.5116301689032522,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",4,"Cannot afford; Weekly, not daily",0.062045336176062435,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,ortak,"Affordability of a protein meal x meat, chicken or fish frequency",5,Cannot afford; Daily,0.006629065823107175,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,meyve,Fruit,0,Never or <1/week,0.8985458717681359,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,meyve,Fruit,1,1–3 times/week,0.07507979101942826,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,meyve,Fruit,2,4–6 times/week,0.026374337212434682,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,meyve,Fruit,3,Daily,9.999999999999999e-16,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,sebze,Vegetables or salad,0,Never or <1/week,0.6816678969762866,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,sebze,Vegetables or salad,1,1–3 times/week,0.10981846838556805,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,sebze,Vegetables or salad,2,4–6 times/week,0.07956878623351626,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,sebze,Vegetables or salad,3,Daily,0.12894484840462916,False
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,he090,Can afford a protein meal every second day (household; marginal of joint item),0,Can afford,0.4196954290975782,True
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,he090,Can afford a protein meal every second day (household; marginal of joint item),1,Cannot afford,0.5803045709024218,True
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,et,"Meat, chicken or fish (from joint item)",0,<1/week or never,0.8199158771615764,True
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,et_a0,"Meat, chicken or fish | can afford (from joint item)",0,<1/week or never,0.7345462611332101,True
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",0,<1/week or never,0.8816580026375198,True
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,et,"Meat, chicken or fish (from joint item)",1,"Weekly, not daily",0.1452409073160072,True
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,et_a0,"Meat, chicken or fish | can afford (from joint item)",1,"Weekly, not daily",0.198228442274986,True
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",1,"Weekly, not daily",0.10691857222419734,True
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,et,"Meat, chicken or fish (from joint item)",2,Daily,0.034843215522416315,True
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,et_a0,"Meat, chicken or fish | can afford (from joint item)",2,Daily,0.06722529659180401,True
+ortak,5,5,"Very infrequent fruit, vegetables and meat",6.478175489667547,et_a1,"Meat, chicken or fish | cannot afford (from joint item)",2,Daily,0.011423425138282862,True
+dort,4,1,Daily fruit and vegetables,40.196370024584446,he090,Can afford a protein meal every second day (household),0,Can afford,0.7704197311665704,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.22958026883342966,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,meyve,Fruit,0,Never or <1/week,0.03434141029607988,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,meyve,Fruit,1,1–3 times/week,0.09234884379747021,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,meyve,Fruit,2,4–6 times/week,0.024864881688813994,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,meyve,Fruit,3,Daily,0.8484448642176359,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,sebze,Vegetables or salad,0,Never or <1/week,0.005183241587736344,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,sebze,Vegetables or salad,1,1–3 times/week,0.02864021891074882,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,sebze,Vegetables or salad,2,4–6 times/week,0.017091918124773654,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,sebze,Vegetables or salad,3,Daily,0.9490846213767412,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,et,"Meat, chicken or fish",0,<1/week or never,0.1757818241965727,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,et,"Meat, chicken or fish",1,"Weekly, not daily",0.7167430679280916,False
+dort,4,1,Daily fruit and vegetables,40.196370024584446,et,"Meat, chicken or fish",2,Daily,0.1074751078753357,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,he090,Can afford a protein meal every second day (household),0,Can afford,0.6833038468742875,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.31669615312571253,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,meyve,Fruit,0,Never or <1/week,0.028186662472737965,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,meyve,Fruit,1,1–3 times/week,0.13952079100537407,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,meyve,Fruit,2,4–6 times/week,0.755206982675327,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,meyve,Fruit,3,Daily,0.07708556384656083,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,sebze,Vegetables or salad,0,Never or <1/week,0.0031536068754421296,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,sebze,Vegetables or salad,1,1–3 times/week,0.04623017788539516,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,sebze,Vegetables or salad,2,4–6 times/week,0.8018655537657661,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,sebze,Vegetables or salad,3,Daily,0.14875066147339655,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,et,"Meat, chicken or fish",0,<1/week or never,0.30115846517412237,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,et,"Meat, chicken or fish",1,"Weekly, not daily",0.6713021486467785,False
+dort,4,2,Near-daily fruit and vegetables,25.283644868436983,et,"Meat, chicken or fish",2,Daily,0.027539386179099068,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,he090,Can afford a protein meal every second day (household),0,Can afford,0.5597976484579562,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.44020235154204385,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,meyve,Fruit,0,Never or <1/week,0.04649806072783501,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,meyve,Fruit,1,1–3 times/week,0.8921644747893988,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,meyve,Fruit,2,4–6 times/week,0.03845491672129832,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,meyve,Fruit,3,Daily,0.022882547761468024,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,sebze,Vegetables or salad,0,Never or <1/week,0.010688330153867305,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,sebze,Vegetables or salad,1,1–3 times/week,0.8085723332648042,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,sebze,Vegetables or salad,2,4–6 times/week,0.08717612716709881,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,sebze,Vegetables or salad,3,Daily,0.09356320941422984,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,et,"Meat, chicken or fish",0,<1/week or never,0.5008512584533449,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,et,"Meat, chicken or fish",1,"Weekly, not daily",0.4786540173708961,False
+dort,4,3,Weekly (1–3 times) fruit and vegetables,27.625855897566982,et,"Meat, chicken or fish",2,Daily,0.020494724175759062,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,he090,Can afford a protein meal every second day (household),0,Can afford,0.3909033742048291,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.6090966257951709,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,meyve,Fruit,0,Never or <1/week,0.8674639843609077,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,meyve,Fruit,1,1–3 times/week,0.0843365427419275,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,meyve,Fruit,2,4–6 times/week,0.030377116509109754,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,meyve,Fruit,3,Daily,0.01782235638805504,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,sebze,Vegetables or salad,0,Never or <1/week,0.6567844667497955,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,sebze,Vegetables or salad,1,1–3 times/week,0.12919141418292243,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,sebze,Vegetables or salad,2,4–6 times/week,0.0827267790989642,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,sebze,Vegetables or salad,3,Daily,0.1312973399683179,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,et,"Meat, chicken or fish",0,<1/week or never,0.8287051294696681,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,et,"Meat, chicken or fish",1,"Weekly, not daily",0.14016831951813244,False
+dort,4,4,"Very infrequent fruit, vegetables and meat",6.89412920941157,et,"Meat, chicken or fish",2,Daily,0.03112655101219954,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,he090,Can afford a protein meal every second day (household),0,Can afford,0.7629871246197611,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.2370128753802389,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,meyve,Fruit,0,Never or <1/week,0.030309814762519666,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,meyve,Fruit,1,1–3 times/week,0.019570241977704426,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,meyve,Fruit,2,4–6 times/week,0.019516911768397226,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,meyve,Fruit,3,Daily,0.9306030314913787,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,sebze,Vegetables or salad,0,Never or <1/week,0.005000127014867524,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,sebze,Vegetables or salad,1,1–3 times/week,0.0025391458941199973,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,sebze,Vegetables or salad,2,4–6 times/week,0.006399369787471614,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,sebze,Vegetables or salad,3,Daily,0.9860613573035408,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,et,"Meat, chicken or fish",0,<1/week or never,0.18022307255614115,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,et,"Meat, chicken or fish",1,"Weekly, not daily",0.7088689706484739,False
+dort,5,1,Daily fruit and vegetables,34.72126065944175,et,"Meat, chicken or fish",2,Daily,0.11090795679538507,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,he090,Can afford a protein meal every second day (household),0,Can afford,0.6738357591542894,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.3261642408457106,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,meyve,Fruit,0,Never or <1/week,0.018375844672997865,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,meyve,Fruit,1,1–3 times/week,1.1699421022822304e-06,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,meyve,Fruit,2,4–6 times/week,0.8931588480164878,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,meyve,Fruit,3,Daily,0.08846413736841205,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,sebze,Vegetables or salad,0,Never or <1/week,0.0024304951409398366,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,sebze,Vegetables or salad,1,1–3 times/week,6.066981535820229e-11,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,sebze,Vegetables or salad,2,4–6 times/week,0.8501459722222211,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,sebze,Vegetables or salad,3,Daily,0.14742353257616925,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,et,"Meat, chicken or fish",0,<1/week or never,0.30811216692704463,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,et,"Meat, chicken or fish",1,"Weekly, not daily",0.6651132667587685,False
+dort,5,2,Near-daily fruit and vegetables,19.54832872205639,et,"Meat, chicken or fish",2,Daily,0.02677456631418696,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,he090,Can afford a protein meal every second day (household),0,Can afford,0.9230555709161865,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.07694442908381349,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,meyve,Fruit,0,Never or <1/week,0.0642615190991482,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,meyve,Fruit,1,1–3 times/week,0.7252712025990001,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,meyve,Fruit,2,4–6 times/week,0.09799943889659192,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,meyve,Fruit,3,Daily,0.1124678394052597,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,sebze,Vegetables or salad,0,Never or <1/week,0.009184138810366612,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,sebze,Vegetables or salad,1,1–3 times/week,0.5038021165887621,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,sebze,Vegetables or salad,2,4–6 times/week,0.20939649299903934,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,sebze,Vegetables or salad,3,Daily,0.2776172516018319,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,et,"Meat, chicken or fish",0,<1/week or never,1.9261311232891186e-09,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,et,"Meat, chicken or fish",1,"Weekly, not daily",0.9212454527640792,False
+dort,5,3,"Affording, infrequent fruit and vegetables",14.779102563746077,et,"Meat, chicken or fish",2,Daily,0.07875454530978968,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,he090,Can afford a protein meal every second day (household),0,Can afford,0.4290439755862114,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.5709560244137887,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,meyve,Fruit,0,Never or <1/week,0.04253223244179805,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,meyve,Fruit,1,1–3 times/week,0.8506948938749032,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,meyve,Fruit,2,4–6 times/week,0.06550824219328603,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,meyve,Fruit,3,Daily,0.041264631490012825,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,sebze,Vegetables or salad,0,Never or <1/week,0.011626519214244858,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,sebze,Vegetables or salad,1,1–3 times/week,0.7108656187301637,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,sebze,Vegetables or salad,2,4–6 times/week,0.1416592057002138,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,sebze,Vegetables or salad,3,Daily,0.13584865635537763,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,et,"Meat, chicken or fish",0,<1/week or never,0.6757016166382936,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,et,"Meat, chicken or fish",1,"Weekly, not daily",0.32177716781690713,False
+dort,5,4,"Constrained, infrequent fruit, vegetables and meat",24.202321699031177,et,"Meat, chicken or fish",2,Daily,0.0025212155447993092,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,he090,Can afford a protein meal every second day (household),0,Can afford,0.40217667541353674,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.5978233245864633,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,meyve,Fruit,0,Never or <1/week,0.8841773294306121,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,meyve,Fruit,1,1–3 times/week,0.07123163697684097,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,meyve,Fruit,2,4–6 times/week,0.028808331802605433,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,meyve,Fruit,3,Daily,0.01578270178994149,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,sebze,Vegetables or salad,0,Never or <1/week,0.6627763434909609,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,sebze,Vegetables or salad,1,1–3 times/week,0.11998267116606959,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,sebze,Vegetables or salad,2,4–6 times/week,0.08526616176336485,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,sebze,Vegetables or salad,3,Daily,0.13197482357960463,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,et,"Meat, chicken or fish",0,<1/week or never,0.8291055040777682,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,et,"Meat, chicken or fish",1,"Weekly, not daily",0.1415601422161625,False
+dort,5,5,"Very infrequent fruit, vegetables and meat",6.748986355724599,et,"Meat, chicken or fish",2,Daily,0.02933435370606918,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,he090,Can afford a protein meal every second day (household),0,Can afford,0.8473703043289661,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.15262969567103393,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,meyve,Fruit,0,Never or <1/week,0.031293254350045034,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,meyve,Fruit,1,1–3 times/week,0.051194607889713736,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,meyve,Fruit,2,4–6 times/week,0.061845839877290074,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,meyve,Fruit,3,Daily,0.8556662978829511,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,sebze,Vegetables or salad,0,Never or <1/week,0.0055627519857615396,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,sebze,Vegetables or salad,1,1–3 times/week,0.015139976764560926,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,sebze,Vegetables or salad,2,4–6 times/week,0.033697628767443186,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,sebze,Vegetables or salad,3,Daily,0.9455996424822344,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,et,"Meat, chicken or fish",0,<1/week or never,0.07271076179336641,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,et,"Meat, chicken or fish",1,"Weekly, not daily",0.7941585102737636,False
+dort,6,1,Daily fruit and vegetables,32.16493139745376,et,"Meat, chicken or fish",2,Daily,0.1331307279328699,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,he090,Can afford a protein meal every second day (household),0,Can afford,0.4264271160249052,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.5735728839750948,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,meyve,Fruit,0,Never or <1/week,0.045241301319918416,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,meyve,Fruit,1,1–3 times/week,0.24334585656658958,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,meyve,Fruit,2,4–6 times/week,0.15312587199335762,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,meyve,Fruit,3,Daily,0.5582869701201345,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,sebze,Vegetables or salad,0,Never or <1/week,5.6566015934095365e-05,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,sebze,Vegetables or salad,1,1–3 times/week,0.07571267865628797,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,sebze,Vegetables or salad,2,4–6 times/week,0.0915844551806401,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,sebze,Vegetables or salad,3,Daily,0.8326463001471379,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,et,"Meat, chicken or fish",0,<1/week or never,0.6251652320014993,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,et,"Meat, chicken or fish",1,"Weekly, not daily",0.3748347679984997,False
+dort,6,2,"Constrained, infrequent fruit, vegetables and meat (1)",14.083422635412346,et,"Meat, chicken or fish",2,Daily,9.999999999999999e-16,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,he090,Can afford a protein meal every second day (household),0,Can afford,0.6805305050628764,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.3194694949371236,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,meyve,Fruit,0,Never or <1/week,0.018380833802078857,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,meyve,Fruit,1,1–3 times/week,9.999999999999999e-16,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,meyve,Fruit,2,4–6 times/week,0.95833768614012,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,meyve,Fruit,3,Daily,0.02328148005780006,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,sebze,Vegetables or salad,0,Never or <1/week,0.002685644804586466,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,sebze,Vegetables or salad,1,1–3 times/week,1.0000000000000003e-15,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,sebze,Vegetables or salad,2,4–6 times/week,0.9973136286419299,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,sebze,Vegetables or salad,3,Daily,7.265534827389085e-07,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,et,"Meat, chicken or fish",0,<1/week or never,0.29263642440454857,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,et,"Meat, chicken or fish",1,"Weekly, not daily",0.681828268982598,False
+dort,6,3,Near-daily fruit and vegetables,15.33384101381236,et,"Meat, chicken or fish",2,Daily,0.025535306612853532,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,he090,Can afford a protein meal every second day (household),0,Can afford,0.9356732378878381,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.06432676211216189,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,meyve,Fruit,0,Never or <1/week,0.062091443632514356,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,meyve,Fruit,1,1–3 times/week,0.7682510303340514,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,meyve,Fruit,2,4–6 times/week,0.10015230229298416,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,meyve,Fruit,3,Daily,0.06950522374044991,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,sebze,Vegetables or salad,0,Never or <1/week,0.008751999955630039,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,sebze,Vegetables or salad,1,1–3 times/week,0.562910790743078,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,sebze,Vegetables or salad,2,4–6 times/week,0.22456971067290726,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,sebze,Vegetables or salad,3,Daily,0.2037674986283846,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,et,"Meat, chicken or fish",0,<1/week or never,9.999999999999999e-16,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,et,"Meat, chicken or fish",1,"Weekly, not daily",0.932615662894933,False
+dort,6,4,"Affording, infrequent fruit and vegetables",12.435396405711112,et,"Meat, chicken or fish",2,Daily,0.06738433710506604,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,he090,Can afford a protein meal every second day (household),0,Can afford,0.43175396540352357,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.5682460345964764,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,meyve,Fruit,0,Never or <1/week,0.046241938997197675,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,meyve,Fruit,1,1–3 times/week,0.8937720212353915,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,meyve,Fruit,2,4–6 times/week,0.0566454018562341,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,meyve,Fruit,3,Daily,0.0033406379111767326,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,sebze,Vegetables or salad,0,Never or <1/week,0.015563119767348324,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,sebze,Vegetables or salad,1,1–3 times/week,0.8336793329639215,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,sebze,Vegetables or salad,2,4–6 times/week,0.15068685201888085,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,sebze,Vegetables or salad,3,Daily,7.069524984930403e-05,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,et,"Meat, chicken or fish",0,<1/week or never,0.6785592322579397,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,et,"Meat, chicken or fish",1,"Weekly, not daily",0.31701506952395603,False
+dort,6,5,"Constrained, infrequent fruit, vegetables and meat (2)",19.47668683014466,et,"Meat, chicken or fish",2,Daily,0.004425698218104378,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,he090,Can afford a protein meal every second day (household),0,Can afford,0.40939408073613304,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,he090,Can afford a protein meal every second day (household),1,Cannot afford,0.590605919263867,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,meyve,Fruit,0,Never or <1/week,0.8853285397884136,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,meyve,Fruit,1,1–3 times/week,0.06653823133292362,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,meyve,Fruit,2,4–6 times/week,0.02707420962802724,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,meyve,Fruit,3,Daily,0.021059019250635542,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,sebze,Vegetables or salad,0,Never or <1/week,0.6883874817480222,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,sebze,Vegetables or salad,1,1–3 times/week,0.11646136403154726,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,sebze,Vegetables or salad,2,4–6 times/week,0.08391291318733171,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,sebze,Vegetables or salad,3,Daily,0.1112382410330987,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,et,"Meat, chicken or fish",0,<1/week or never,0.827470215196058,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,et,"Meat, chicken or fish",1,"Weekly, not daily",0.1418896667319096,False
+dort,6,6,"Very infrequent fruit, vegetables and meat",6.505721717465737,et,"Meat, chicken or fish",2,Daily,0.030640118072032447,False
