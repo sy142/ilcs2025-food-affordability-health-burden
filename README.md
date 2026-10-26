@@ -1,5 +1,7 @@
 # Food affordability and the household burden of health spending in Türkiye
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23653714.svg)](https://doi.org/10.5281/zenodo.23653714)
+
 Analysis code, written analysis plan and aggregated outputs for the manuscript
 
 > Yılmaz S, Günal AM. *Food affordability and the household burden of health spending in Türkiye.* Submitted to **Foods** (MDPI), Special Issue "Food Security, Nutrition, and Sustainability in Low- and Middle-Income Countries", 2026.
