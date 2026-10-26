@@ -1,6 +1,6 @@
 # Food affordability and the household burden of health spending in Türkiye
 
-Analysis code, written analysis plan, decision log and aggregated outputs for the manuscript
+Analysis code, written analysis plan and aggregated outputs for the manuscript
 
 > Yılmaz S, Günal AM. *Food affordability and the household burden of health spending in Türkiye.* Submitted to **Foods** (MDPI), Special Issue "Food Security, Nutrition, and Sustainability in Low- and Middle-Income Countries", 2026.
 
@@ -12,9 +12,9 @@ The study uses the 2023, 2024 and 2025 cross-sections of the Income and Living C
 
 | Folder | Content |
 |---|---|
-| `Codes/` | `analiz.R` (data preparation, validation checks, all models, bootstrap, tables), `simulasyon.R` (plasmode simulation), `lca.py` (latent class analysis with StepMix, BCH three-step), `figurler.py` and `figur_stili.py` (all figures), `xlsx_simge.py` (table export helper), `README_kodlar.md` (how to run) |
-| `AnalysisPlan/` | `TALIMAT_VSCode_Foods1.md`: the written analysis plan (hypotheses, estimands, covariate tiers, model-building protocol) fixed before model fitting, in Turkish; `Rapor.md`: the decision log kept during the analysis, in Turkish (numbered decisions K1 to K41, including the two departures from the plan and the core model added during manuscript revision) |
-| `Results/` | Aggregated outputs: main tables (`Table1` to `Table3`), machine-readable results (`*.csv`, `sayilar.json`, `tablolar_tumu.xlsx`), covariate selection and protocol records, validation checks against published TurkStat and Eurostat figures, `sessionInfo.txt`, `python_ortam.txt`, `paket_atiflari.txt` |
+| `Codes/` | `analiz.R` (data preparation, validation checks, all models, bootstrap, tables), `simulasyon.R` (plasmode simulation), `lca.py` (latent class analysis with StepMix, BCH three-step), `figurler.py` and `figur_stili.py` (all figures), `xlsx_simge.py` (table export helper) |
+| `AnalysisPlan/` | `analysis_plan.md`: the analysis plan written before model fitting (hypotheses, estimands, variable definitions, covariate tiers and selection rule, twelve-step model-building protocol, analysis stages, pre-specified sensitivity analyses, simulation design), translated into English for deposit, with the departures from the plan listed in its last section |
+| `Results/` | Aggregated outputs: main tables (`Table1` to `Table3`), machine-readable results (`*.csv`, `sayilar.json`, `tablolar_tumu.xlsx`), covariate selection and protocol records, validation checks against published TurkStat and Eurostat figures, the data behind every figure (`figur_verileri/`), `sessionInfo.txt`, `python_ortam.txt`, `paket_atiflari.txt` |
 | `Results/Supplementary/` | Supplementary tables as exported by the pipeline (`TableS1` to `TableS17`; numbering of the pipeline files differs from the numbering in the published Supplementary Material, see the mapping below) |
 | `Figures/` | Main figures (`Figure1` to `Figure5`) and `Figures/Supplementary/` (`FigureS1` to `FigureS5`) with captions (`figur_altyazilari.md`) |
 
@@ -26,7 +26,7 @@ The ILCS microdata are owned by TurkStat and are released to researchers under a
 
 1. Obtain the 2023, 2024 and 2025 ILCS cross-sectional microdata sets from TurkStat and place the workbook as described in `Codes/README_kodlar.md`.
 2. R 4.6.1 with the packages listed in `Results/sessionInfo.txt`; Python 3.13 with the packages in `Results/python_ortam.txt` (StepMix 3.0.0, NumPy, SciPy, pandas, Matplotlib, pyarrow, python-docx, Pillow).
-3. Run `Codes/analiz.R` from the project root. It builds the analytic data sets, runs the validation checks, fits all models, calls `lca.py` and `simulasyon.R`, and then `figurler.py` draws the figures. A clean run on an 18-core machine with 16 workers took about 51 minutes; all random seeds are fixed.
+3. Run `Rscript Codes/analiz.R` from the project root. The script reads the source workbook once (then a Parquet copy), runs the validation checks, builds the analytic data sets, fits all models with the household bootstrap (replicates are cached in `R_Data ve Python Data/onbellek/`, which is not part of this repository), calls `Codes/lca.py` and `Codes/simulasyon.R` when their outputs are absent, writes all tables and `Results/sayilar.json`, and calls `Codes/xlsx_simge.py` for the workbook. Then run `python Codes/figurler.py`; the figures are drawn from `R_Data ve Python Data/figur_verileri/*.csv` (a copy is in `Results/figur_verileri/`) and recompute nothing. Parallel processing uses `future::plan(multisession, workers = 16)`. Seeds: bootstrap multiplier matrices 20251025, 20251026 (NUTS-2 pseudo-strata) and 20251027 (additional 2,000 replicates); simulation scenario seeds 20251101 + 1000 × scenario index. A clean run on an 18-core machine took about 51 minutes (latent class analysis 16 minutes, simulation 12 minutes).
 
 ## Mapping between pipeline file names and the published Supplementary Material
 
